@@ -1,0 +1,1727 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pakistan Tehsil Risk Dashboard</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+  <style>
+    :root {
+      --bg: #f4f7fb;
+      --surface: #ffffff;
+      --surface-soft: #f8fafc;
+      --ink: #0f172a;
+      --muted: #64748b;
+      --line: #d9e2ef;
+      --accent: #2563eb;
+      --accent-soft: #dbeafe;
+      --critical: #dc2626;
+      --high: #f97316;
+      --medium: #eab308;
+      --low: #16a34a;
+      --nodata: #6b7280;
+      --shadow: 0 16px 34px rgba(15, 23, 42, 0.10);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      height: 100%;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Inter", "Segoe UI", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+    }
+
+    button,
+    input,
+    select {
+      font: inherit;
+    }
+
+    .app-shell {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .app-header {
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+      align-items: center;
+      padding: 18px 22px;
+      color: #ffffff;
+      background: #111827;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+    }
+
+    .eyebrow {
+      margin: 0 0 5px;
+      color: #93c5fd;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    h1,
+    h2,
+    h3,
+    p {
+      margin-top: 0;
+    }
+
+    h1 {
+      margin-bottom: 5px;
+      font-size: 28px;
+      line-height: 1.15;
+      font-weight: 800;
+    }
+
+    .header-copy {
+      max-width: 760px;
+      margin: 0;
+      color: #cbd5e1;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    .header-metrics {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(130px, 1fr));
+      gap: 10px;
+      min-width: 290px;
+    }
+
+    .metric-pill {
+      padding: 11px 13px;
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.06);
+    }
+
+    .metric-pill span {
+      display: block;
+      color: #a7b5c8;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    .metric-pill strong {
+      display: block;
+      margin-top: 4px;
+      color: #ffffff;
+      font-size: 21px;
+      line-height: 1;
+    }
+
+    .dashboard-grid {
+      display: grid;
+      grid-template-columns: 310px minmax(430px, 1fr) 390px;
+      gap: 14px;
+      min-height: calc(100vh - 98px);
+      padding: 14px;
+    }
+
+    .panel {
+      min-width: 0;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface);
+      box-shadow: var(--shadow);
+    }
+
+    .sidebar,
+    .analytics-panel {
+      max-height: calc(100vh - 126px);
+      overflow: auto;
+    }
+
+    .panel-section {
+      padding: 16px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .panel-section:last-child {
+      border-bottom: 0;
+    }
+
+    .section-title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 13px;
+    }
+
+    .section-title h2,
+    .section-title h3 {
+      margin: 0;
+      font-size: 14px;
+      line-height: 1.25;
+      font-weight: 800;
+      color: #1f2937;
+    }
+
+    .section-title span {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 600;
+    }
+
+    .control-stack {
+      display: grid;
+      gap: 12px;
+    }
+
+    .control-group label {
+      display: block;
+      margin-bottom: 6px;
+      color: #334155;
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .control-group select,
+    .control-group input {
+      width: 100%;
+      height: 40px;
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      background: #ffffff;
+      color: var(--ink);
+      padding: 0 11px;
+      outline: none;
+      transition: border-color 0.18s ease, box-shadow 0.18s ease;
+    }
+
+    .control-group select:focus,
+    .control-group input:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.14);
+    }
+
+    .button-row {
+      display: flex;
+      gap: 8px;
+    }
+
+    .reset-button {
+      width: 100%;
+      height: 38px;
+      border: 1px solid #bfdbfe;
+      border-radius: 8px;
+      background: var(--accent-soft);
+      color: #1d4ed8;
+      cursor: pointer;
+      font-size: 13px;
+      font-weight: 800;
+      transition: background 0.18s ease, border-color 0.18s ease;
+    }
+
+    .reset-button:hover {
+      border-color: #93c5fd;
+      background: #cfe3ff;
+    }
+
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .kpi-card {
+      min-height: 83px;
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface-soft);
+    }
+
+    .kpi-card span {
+      display: block;
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    .kpi-card strong {
+      display: block;
+      margin-top: 8px;
+      color: #111827;
+      font-size: 24px;
+      line-height: 1;
+      font-weight: 800;
+    }
+
+    .kpi-card small {
+      display: block;
+      margin-top: 7px;
+      color: #64748b;
+      font-size: 11px;
+      line-height: 1.25;
+    }
+
+    .legend-list {
+      display: grid;
+      gap: 9px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .legend-list li {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      color: #334155;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .legend-key {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+    }
+
+    .legend-swatch {
+      width: 14px;
+      height: 14px;
+      border-radius: 4px;
+      box-shadow: inset 0 0 0 1px rgba(15, 23, 42, 0.12);
+    }
+
+    .map-panel {
+      display: grid;
+      grid-template-rows: auto minmax(520px, 1fr);
+      overflow: hidden;
+    }
+
+    .map-toolbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 14px 16px;
+      border-bottom: 1px solid var(--line);
+      background: #ffffff;
+    }
+
+    .map-toolbar h2 {
+      margin: 0;
+      font-size: 15px;
+      font-weight: 800;
+    }
+
+    .map-toolbar p {
+      margin: 4px 0 0;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 600;
+    }
+
+    .status-chip {
+      flex: 0 0 auto;
+      border: 1px solid #cbd5e1;
+      border-radius: 999px;
+      background: #f8fafc;
+      color: #334155;
+      padding: 7px 11px;
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .map-stage {
+      position: relative;
+      min-height: 0;
+    }
+
+    #map {
+      width: 100%;
+      height: 100%;
+      min-height: 520px;
+      background: #dbeafe;
+    }
+
+    .data-status {
+      position: absolute;
+      left: 16px;
+      right: 16px;
+      top: 16px;
+      z-index: 500;
+      padding: 12px 14px;
+      border: 1px solid #bfdbfe;
+      border-radius: 8px;
+      background: rgba(239, 246, 255, 0.96);
+      color: #1e3a8a;
+      font-size: 13px;
+      font-weight: 700;
+      box-shadow: 0 12px 26px rgba(15, 23, 42, 0.14);
+    }
+
+    .data-status[hidden] {
+      display: none;
+    }
+
+    .analytics-panel {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .chart-frame {
+      height: 195px;
+      margin-bottom: 12px;
+    }
+
+    .chart-frame.compact {
+      height: 170px;
+    }
+
+    .mini-bar-list {
+      display: grid;
+      gap: 9px;
+    }
+
+    .mini-bar-row {
+      display: grid;
+      grid-template-columns: 90px minmax(0, 1fr) 45px;
+      align-items: center;
+      gap: 10px;
+      color: #334155;
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .mini-bar-track {
+      height: 8px;
+      overflow: hidden;
+      border-radius: 999px;
+      background: #e5edf6;
+    }
+
+    .mini-bar-fill {
+      width: var(--bar-width);
+      height: 100%;
+      border-radius: inherit;
+      background: var(--bar-color);
+    }
+
+    .rank-list {
+      display: grid;
+      gap: 10px;
+    }
+
+    .rank-item {
+      display: grid;
+      grid-template-columns: 26px minmax(0, 1fr) auto;
+      gap: 10px;
+      align-items: start;
+      padding: 10px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #ffffff;
+    }
+
+    .rank-number {
+      display: inline-grid;
+      place-items: center;
+      width: 24px;
+      height: 24px;
+      border-radius: 7px;
+      background: #eef2ff;
+      color: #3730a3;
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .rank-item h3 {
+      margin: 0 0 4px;
+      overflow: hidden;
+      color: #111827;
+      font-size: 13px;
+      font-weight: 800;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .rank-item p {
+      margin: 0;
+      overflow: hidden;
+      color: var(--muted);
+      font-size: 12px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .score-badge,
+    .risk-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 24px;
+      border-radius: 999px;
+      padding: 4px 9px;
+      font-size: 12px;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 12px;
+    }
+
+    th,
+    td {
+      padding: 10px 9px;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      white-space: nowrap;
+    }
+
+    th {
+      background: #f8fafc;
+      color: #475569;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    td {
+      color: #1f2937;
+      font-weight: 650;
+    }
+
+    tr:last-child td {
+      border-bottom: 0;
+    }
+
+    .selected-heading {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: flex-start;
+      margin-bottom: 12px;
+    }
+
+    .selected-heading h3 {
+      margin: 0 0 4px;
+      font-size: 16px;
+      line-height: 1.2;
+      font-weight: 800;
+    }
+
+    .selected-heading p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.35;
+    }
+
+    .selected-score {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 12px;
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #f8fafc;
+    }
+
+    .selected-score span {
+      color: #475569;
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    .selected-score strong {
+      color: #111827;
+      font-size: 26px;
+      line-height: 1;
+      font-weight: 800;
+    }
+
+    .detail-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 9px;
+      margin-bottom: 12px;
+    }
+
+    .detail-stat {
+      padding: 10px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #ffffff;
+    }
+
+    .detail-stat span {
+      display: block;
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    .detail-stat strong {
+      display: block;
+      margin-top: 6px;
+      color: #111827;
+      font-size: 15px;
+      font-weight: 800;
+    }
+
+    .hazard-stack {
+      display: grid;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+
+    .hazard-row {
+      display: grid;
+      grid-template-columns: 85px minmax(0, 1fr) 42px;
+      align-items: center;
+      gap: 9px;
+      color: #334155;
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .recommendation-box {
+      padding: 11px;
+      border: 1px solid #fde68a;
+      border-radius: 8px;
+      background: #fffbeb;
+    }
+
+    .recommendation-box span {
+      display: block;
+      margin-bottom: 5px;
+      color: #92400e;
+      font-size: 11px;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    .recommendation-box p {
+      margin: 0;
+      color: #78350f;
+      font-size: 12px;
+      line-height: 1.45;
+      font-weight: 650;
+    }
+
+    .empty-state {
+      padding: 12px;
+      border: 1px dashed #cbd5e1;
+      border-radius: 8px;
+      color: var(--muted);
+      background: #f8fafc;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .leaflet-container {
+      font-family: "Inter", "Segoe UI", Arial, sans-serif;
+    }
+
+    .leaflet-popup-content-wrapper {
+      border-radius: 8px;
+      box-shadow: 0 18px 36px rgba(15, 23, 42, 0.20);
+    }
+
+    .leaflet-popup-content {
+      min-width: 240px;
+      margin: 13px;
+      color: #1f2937;
+      font-size: 12px;
+      line-height: 1.5;
+    }
+
+    .popup-title {
+      margin: 0 0 3px;
+      color: #111827;
+      font-size: 15px;
+      font-weight: 800;
+    }
+
+    .popup-location {
+      margin: 0 0 10px;
+      color: var(--muted);
+      font-weight: 650;
+    }
+
+    .popup-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 7px;
+      margin-top: 10px;
+    }
+
+    .popup-stat {
+      padding: 7px;
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      background: #f8fafc;
+    }
+
+    .popup-stat span {
+      display: block;
+      color: #64748b;
+      font-size: 10px;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    .popup-stat strong {
+      display: block;
+      margin-top: 4px;
+      color: #111827;
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    @media (max-width: 1240px) {
+      .dashboard-grid {
+        grid-template-columns: 300px minmax(0, 1fr);
+      }
+
+      .analytics-panel {
+        grid-column: 1 / -1;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        max-height: none;
+      }
+
+      .analytics-panel .panel-section {
+        border-right: 1px solid var(--line);
+      }
+
+      .analytics-panel .panel-section:nth-child(2n) {
+        border-right: 0;
+      }
+    }
+
+    @media (max-width: 880px) {
+      .app-header {
+        align-items: stretch;
+        flex-direction: column;
+      }
+
+      .header-metrics {
+        min-width: 0;
+      }
+
+      .dashboard-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .sidebar,
+      .analytics-panel {
+        max-height: none;
+      }
+
+      .analytics-panel {
+        display: block;
+      }
+
+      .analytics-panel .panel-section {
+        border-right: 0;
+      }
+
+      .map-panel {
+        grid-template-rows: auto 520px;
+      }
+    }
+
+    @media (max-width: 560px) {
+      .app-header,
+      .dashboard-grid {
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+
+      h1 {
+        font-size: 23px;
+      }
+
+      .header-metrics,
+      .kpi-grid,
+      .detail-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .map-toolbar {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .status-chip {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="app-shell">
+    <header class="app-header">
+      <div>
+        <p class="eyebrow">Disaster Decision Support</p>
+        <h1>Pakistan Tehsil Risk Dashboard</h1>
+        <p class="header-copy">Tehsil-level rainfall, heatwave, earthquake, and combined risk indicators from the processed GIS dataset.</p>
+      </div>
+      <div class="header-metrics" aria-label="Dashboard totals">
+        <div class="metric-pill">
+          <span>Filtered Tehsils</span>
+          <strong id="filteredTehsilsTop">0</strong>
+        </div>
+        <div class="metric-pill">
+          <span>High Priority</span>
+          <strong id="priorityTehsilsTop">0</strong>
+        </div>
+      </div>
+    </header>
+
+    <main class="dashboard-grid">
+      <aside class="panel sidebar">
+        <section class="panel-section">
+          <div class="section-title">
+            <h2>Filters</h2>
+            <span id="filterStatus">All data</span>
+          </div>
+          <div class="control-stack">
+            <div class="control-group">
+              <label for="riskFilter">Risk Level</label>
+              <select id="riskFilter">
+                <option value="All">All</option>
+                <option value="Critical">Critical</option>
+                <option value="High">High</option>
+                <option value="Medium">Medium</option>
+                <option value="Low">Low</option>
+                <option value="No Data">No Data</option>
+              </select>
+            </div>
+
+            <div class="control-group">
+              <label for="provinceFilter">Province</label>
+              <select id="provinceFilter">
+                <option value="All">All</option>
+              </select>
+            </div>
+
+            <div class="control-group">
+              <label for="metricLayer">Map Layer</label>
+              <select id="metricLayer">
+                <option value="overall_risk_level">Risk Level</option>
+                <option value="overall_risk_score">Overall Score</option>
+                <option value="flood_score">Flood Score</option>
+                <option value="heatwave_score">Heatwave Score</option>
+                <option value="earthquake_score">Earthquake Score</option>
+              </select>
+            </div>
+
+            <div class="control-group">
+              <label for="tehsilSearch">Search</label>
+              <input id="tehsilSearch" type="search" placeholder="Tehsil, district, province" autocomplete="off" />
+            </div>
+
+            <div class="button-row">
+              <button class="reset-button" id="resetFilters" type="button">Reset Filters</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel-section">
+          <div class="section-title">
+            <h2>Summary</h2>
+            <span id="dataCoverage">0% covered</span>
+          </div>
+          <div class="kpi-grid">
+            <article class="kpi-card">
+              <span>Total Tehsils</span>
+              <strong id="totalTehsils">0</strong>
+              <small>Current filter result</small>
+            </article>
+            <article class="kpi-card">
+              <span>Critical + High</span>
+              <strong id="priorityCount">0</strong>
+              <small>Response priority</small>
+            </article>
+            <article class="kpi-card">
+              <span>Average Score</span>
+              <strong id="avgScore">0.0</strong>
+              <small>Overall risk mean</small>
+            </article>
+            <article class="kpi-card">
+              <span>Max Rainfall</span>
+              <strong id="maxRainfall">0</strong>
+              <small>Millimeters</small>
+            </article>
+            <article class="kpi-card">
+              <span>Max Temp</span>
+              <strong id="maxTemperature">0</strong>
+              <small>Degrees Celsius</small>
+            </article>
+            <article class="kpi-card">
+              <span>Earthquakes</span>
+              <strong id="earthquakeCount">0</strong>
+              <small>Events counted</small>
+            </article>
+          </div>
+        </section>
+
+        <section class="panel-section">
+          <div class="section-title">
+            <h2 id="legendTitle">Risk Legend</h2>
+            <span id="activeLayerLabel">Risk Level</span>
+          </div>
+          <ul class="legend-list" id="legendList"></ul>
+        </section>
+      </aside>
+
+      <section class="panel map-panel">
+        <div class="map-toolbar">
+          <div>
+            <h2>Spatial Risk View</h2>
+            <p id="mapSubtitle">Loading tehsil boundaries</p>
+          </div>
+          <div class="status-chip" id="highestRiskChip">Highest score 0.0</div>
+        </div>
+        <div class="map-stage">
+          <div id="map"></div>
+          <div id="dataStatus" class="data-status">Loading dashboard data...</div>
+        </div>
+      </section>
+
+      <aside class="panel analytics-panel">
+        <section class="panel-section">
+          <div class="section-title">
+            <h2>Risk Distribution</h2>
+            <span id="riskChartTotal">0 tehsils</span>
+          </div>
+          <div class="chart-frame">
+            <canvas id="riskChart" aria-label="Risk distribution chart"></canvas>
+          </div>
+          <div class="mini-bar-list" id="riskBars"></div>
+        </section>
+
+        <section class="panel-section">
+          <div class="section-title">
+            <h2>Hazard Scores</h2>
+            <span>Average values</span>
+          </div>
+          <div class="chart-frame compact">
+            <canvas id="hazardChart" aria-label="Hazard score chart"></canvas>
+          </div>
+          <div class="mini-bar-list" id="hazardBars"></div>
+        </section>
+
+        <section class="panel-section">
+          <div class="section-title">
+            <h2>Highest Risk Tehsils</h2>
+            <span>Top 7</span>
+          </div>
+          <div class="rank-list" id="topRiskList"></div>
+        </section>
+
+        <section class="panel-section">
+          <div class="section-title">
+            <h2>Province Summary</h2>
+            <span id="provinceSummaryTotal">0 provinces</span>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Province</th>
+                  <th>Tehsils</th>
+                  <th>Critical/High</th>
+                  <th>Avg Score</th>
+                </tr>
+              </thead>
+              <tbody id="provinceTable"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="panel-section">
+          <div class="section-title">
+            <h2>Tehsil Detail</h2>
+            <span id="selectedDetailLabel">Selected</span>
+          </div>
+          <div id="selectedFeature"></div>
+        </section>
+      </aside>
+    </main>
+  </div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+
+  <script>
+    const LEVELS = ["Critical", "High", "Medium", "Low", "No Data"];
+    const LEVEL_COLORS = {
+      Critical: "#dc2626",
+      High: "#f97316",
+      Medium: "#eab308",
+      Low: "#16a34a",
+      "No Data": "#6b7280"
+    };
+    const SCORE_LABELS = [
+      { label: "75-100 Critical", color: LEVEL_COLORS.Critical },
+      { label: "60-74 High", color: LEVEL_COLORS.High },
+      { label: "40-59 Medium", color: LEVEL_COLORS.Medium },
+      { label: "0-39 Low", color: LEVEL_COLORS.Low },
+      { label: "No Data", color: LEVEL_COLORS["No Data"] }
+    ];
+    const METRIC_LABELS = {
+      overall_risk_level: "Risk Level",
+      overall_risk_score: "Overall Score",
+      flood_score: "Flood Score",
+      heatwave_score: "Heatwave Score",
+      earthquake_score: "Earthquake Score"
+    };
+    const HAZARD_METRICS = [
+      { label: "Flood", key: "flood_score", color: "#2563eb" },
+      { label: "Heatwave", key: "heatwave_score", color: "#f97316" },
+      { label: "Earthquake", key: "earthquake_score", color: "#7c3aed" },
+      { label: "Overall", key: "overall_risk_score", color: "#0f766e" }
+    ];
+
+    const state = {
+      risk: "All",
+      province: "All",
+      metric: "overall_risk_level",
+      query: ""
+    };
+
+    const map = L.map("map", {
+      zoomControl: true,
+      scrollWheelZoom: true
+    }).setView([30, 70], 5);
+
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom: 18,
+      attribution: "&copy; OpenStreetMap contributors"
+    }).addTo(map);
+
+    let geojsonData;
+    let geojsonLayer;
+    let selectedFeatureId = null;
+    let selectedLayer = null;
+    const charts = {};
+
+    const els = {
+      riskFilter: document.getElementById("riskFilter"),
+      provinceFilter: document.getElementById("provinceFilter"),
+      metricLayer: document.getElementById("metricLayer"),
+      tehsilSearch: document.getElementById("tehsilSearch"),
+      resetFilters: document.getElementById("resetFilters"),
+      filterStatus: document.getElementById("filterStatus"),
+      filteredTehsilsTop: document.getElementById("filteredTehsilsTop"),
+      priorityTehsilsTop: document.getElementById("priorityTehsilsTop"),
+      totalTehsils: document.getElementById("totalTehsils"),
+      priorityCount: document.getElementById("priorityCount"),
+      avgScore: document.getElementById("avgScore"),
+      maxRainfall: document.getElementById("maxRainfall"),
+      maxTemperature: document.getElementById("maxTemperature"),
+      earthquakeCount: document.getElementById("earthquakeCount"),
+      dataCoverage: document.getElementById("dataCoverage"),
+      legendTitle: document.getElementById("legendTitle"),
+      activeLayerLabel: document.getElementById("activeLayerLabel"),
+      legendList: document.getElementById("legendList"),
+      mapSubtitle: document.getElementById("mapSubtitle"),
+      highestRiskChip: document.getElementById("highestRiskChip"),
+      dataStatus: document.getElementById("dataStatus"),
+      riskChart: document.getElementById("riskChart"),
+      hazardChart: document.getElementById("hazardChart"),
+      riskBars: document.getElementById("riskBars"),
+      hazardBars: document.getElementById("hazardBars"),
+      riskChartTotal: document.getElementById("riskChartTotal"),
+      topRiskList: document.getElementById("topRiskList"),
+      provinceTable: document.getElementById("provinceTable"),
+      provinceSummaryTotal: document.getElementById("provinceSummaryTotal"),
+      selectedFeature: document.getElementById("selectedFeature"),
+      selectedDetailLabel: document.getElementById("selectedDetailLabel")
+    };
+
+    function escapeHtml(value) {
+      return String(value ?? "").replace(/[&<>"']/g, char => ({
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#39;"
+      })[char]);
+    }
+
+    function numberValue(value, fallback = 0) {
+      const parsed = Number(value);
+      return Number.isFinite(parsed) ? parsed : fallback;
+    }
+
+    function formatNumber(value, digits = 0) {
+      const parsed = Number(value);
+      if (!Number.isFinite(parsed)) return "0";
+      return parsed.toLocaleString(undefined, {
+        maximumFractionDigits: digits,
+        minimumFractionDigits: digits
+      });
+    }
+
+    function formatScore(value) {
+      return formatNumber(value, 1);
+    }
+
+    function clamp(value, min, max) {
+      return Math.max(min, Math.min(max, value));
+    }
+
+    function prettyName(value) {
+      const raw = String(value || "N/A").trim();
+      if (!raw) return "N/A";
+      return raw
+        .replace(/_/g, " ")
+        .replace(/([a-z])([A-Z])/g, "$1 $2")
+        .replace(/\s+/g, " ")
+        .replace(/\b\w/g, char => char.toUpperCase());
+    }
+
+    function getProvince(props) {
+      return props.province || props.province_x || props.NAME_1 || "N/A";
+    }
+
+    function getDistrict(props) {
+      return props.district || props.district_x || props.NAME_2 || "N/A";
+    }
+
+    function getTehsil(props) {
+      return props.tehsil || props.tehsil_x || props.NAME_3 || props.NAME_2 || "N/A";
+    }
+
+    function normalizeLevel(level) {
+      return LEVELS.includes(level) ? level : "No Data";
+    }
+
+    function hasData(feature) {
+      const props = feature.properties || {};
+      return normalizeLevel(props.overall_risk_level) !== "No Data" && props.data_available !== "No";
+    }
+
+    function getScoreColor(score) {
+      if (!Number.isFinite(Number(score))) return LEVEL_COLORS["No Data"];
+      if (score >= 75) return LEVEL_COLORS.Critical;
+      if (score >= 60) return LEVEL_COLORS.High;
+      if (score >= 40) return LEVEL_COLORS.Medium;
+      return LEVEL_COLORS.Low;
+    }
+
+    function getFeatureColor(feature) {
+      const props = feature.properties || {};
+      if (!hasData(feature)) return LEVEL_COLORS["No Data"];
+      if (state.metric === "overall_risk_level") {
+        return LEVEL_COLORS[normalizeLevel(props.overall_risk_level)];
+      }
+      return getScoreColor(numberValue(props[state.metric], NaN));
+    }
+
+    function styleFeature(feature) {
+      const props = feature.properties || {};
+      const level = normalizeLevel(props.overall_risk_level);
+      const critical = level === "Critical";
+
+      return {
+        fillColor: getFeatureColor(feature),
+        weight: critical ? 1.4 : 0.75,
+        opacity: 1,
+        color: critical ? "#7f1d1d" : "#334155",
+        fillOpacity: hasData(feature) ? 0.76 : 0.42
+      };
+    }
+
+    function setSelectedLayerStyle(layer) {
+      layer.setStyle({
+        weight: 3,
+        color: "#0f172a",
+        fillOpacity: 0.90
+      });
+      layer.bringToFront();
+    }
+
+    function popupContent(props) {
+      const level = normalizeLevel(props.overall_risk_level);
+      const riskColor = LEVEL_COLORS[level];
+      const tehsil = prettyName(getTehsil(props));
+      const district = prettyName(getDistrict(props));
+      const province = prettyName(getProvince(props));
+
+      return `
+        <div>
+          <h3 class="popup-title">${escapeHtml(tehsil)}</h3>
+          <p class="popup-location">${escapeHtml(district)} / ${escapeHtml(province)}</p>
+          <span class="risk-badge" style="color:${riskColor};background:${riskColor}18;border:1px solid ${riskColor}55">${escapeHtml(level)}</span>
+          <div class="popup-grid">
+            <div class="popup-stat"><span>Overall</span><strong>${formatScore(props.overall_risk_score)}</strong></div>
+            <div class="popup-stat"><span>Rainfall</span><strong>${formatNumber(props.max_rainfall, 1)} mm</strong></div>
+            <div class="popup-stat"><span>Heat</span><strong>${formatNumber(props.max_temperature, 1)} C</strong></div>
+            <div class="popup-stat"><span>Magnitude</span><strong>${formatNumber(props.max_magnitude, 1)}</strong></div>
+            <div class="popup-stat"><span>Flood</span><strong>${formatScore(props.flood_score)}</strong></div>
+            <div class="popup-stat"><span>Quake</span><strong>${formatScore(props.earthquake_score)}</strong></div>
+          </div>
+        </div>
+      `;
+    }
+
+    function applyFilters() {
+      const query = state.query.trim().toLowerCase();
+
+      return geojsonData.features.filter(feature => {
+        const props = feature.properties || {};
+        const level = normalizeLevel(props.overall_risk_level);
+        const province = getProvince(props);
+        const searchable = [
+          getTehsil(props),
+          getDistrict(props),
+          getProvince(props)
+        ].join(" ").toLowerCase();
+
+        if (state.risk !== "All" && level !== state.risk) return false;
+        if (state.province !== "All" && province !== state.province) return false;
+        if (query && !searchable.includes(query)) return false;
+        return true;
+      });
+    }
+
+    function average(features, key) {
+      const values = features
+        .map(feature => numberValue((feature.properties || {})[key], NaN))
+        .filter(Number.isFinite);
+
+      if (!values.length) return 0;
+      return values.reduce((total, value) => total + value, 0) / values.length;
+    }
+
+    function sum(features, key) {
+      return features.reduce((total, feature) => total + numberValue((feature.properties || {})[key], 0), 0);
+    }
+
+    function maxValue(features, key) {
+      const values = features
+        .map(feature => numberValue((feature.properties || {})[key], NaN))
+        .filter(Number.isFinite);
+      return values.length ? Math.max(...values) : 0;
+    }
+
+    function countByLevel(features) {
+      return LEVELS.reduce((counts, level) => {
+        counts[level] = features.filter(feature => normalizeLevel((feature.properties || {}).overall_risk_level) === level).length;
+        return counts;
+      }, {});
+    }
+
+    function getHighestFeature(features) {
+      const available = features.filter(hasData);
+      if (!available.length) return null;
+      return [...available].sort((a, b) => {
+        return numberValue((b.properties || {}).overall_risk_score) - numberValue((a.properties || {}).overall_risk_score);
+      })[0];
+    }
+
+    function renderMap(features) {
+      if (geojsonLayer) {
+        map.removeLayer(geojsonLayer);
+      }
+
+      selectedLayer = null;
+      const filteredGeoJSON = {
+        type: "FeatureCollection",
+        features
+      };
+
+      geojsonLayer = L.geoJSON(filteredGeoJSON, {
+        style: styleFeature,
+        onEachFeature(feature, layer) {
+          layer.bindPopup(popupContent(feature.properties || {}));
+
+          layer.on("mouseover", () => {
+            layer.setStyle({
+              weight: 2.8,
+              color: "#0f172a",
+              fillOpacity: 0.92
+            });
+            layer.bringToFront();
+          });
+
+          layer.on("mouseout", () => {
+            if (feature._dashboardId === selectedFeatureId) {
+              setSelectedLayerStyle(layer);
+              return;
+            }
+            geojsonLayer.resetStyle(layer);
+          });
+
+          layer.on("click", () => {
+            if (selectedLayer && selectedLayer !== layer) {
+              geojsonLayer.resetStyle(selectedLayer);
+            }
+            selectedFeatureId = feature._dashboardId;
+            selectedLayer = layer;
+            setSelectedLayerStyle(layer);
+            updateSelectedFeature(feature);
+          });
+
+          if (feature._dashboardId === selectedFeatureId) {
+            selectedLayer = layer;
+          }
+        }
+      }).addTo(map);
+
+      if (selectedLayer) {
+        setSelectedLayerStyle(selectedLayer);
+      }
+
+      if (features.length > 0) {
+        const bounds = geojsonLayer.getBounds();
+        if (bounds.isValid()) {
+          map.fitBounds(bounds, {
+            padding: [24, 24],
+            animate: true,
+            duration: 0.6
+          });
+        }
+      } else {
+        map.setView([30, 70], 5);
+      }
+
+      setTimeout(() => map.invalidateSize(), 80);
+    }
+
+    function renderLegend() {
+      const isRiskLayer = state.metric === "overall_risk_level";
+      const entries = isRiskLayer
+        ? LEVELS.map(level => ({ label: level, color: LEVEL_COLORS[level] }))
+        : SCORE_LABELS;
+
+      els.legendTitle.textContent = isRiskLayer ? "Risk Legend" : "Score Legend";
+      els.activeLayerLabel.textContent = METRIC_LABELS[state.metric];
+      els.legendList.innerHTML = entries.map(item => `
+        <li>
+          <span class="legend-key">
+            <span class="legend-swatch" style="background:${item.color}"></span>
+            ${escapeHtml(item.label)}
+          </span>
+        </li>
+      `).join("");
+    }
+
+    function renderSummary(features) {
+      const counts = countByLevel(features);
+      const dataFeatures = features.filter(hasData);
+      const priorityCount = counts.Critical + counts.High;
+      const coverage = features.length ? Math.round((dataFeatures.length / features.length) * 100) : 0;
+      const highest = getHighestFeature(features);
+
+      els.filteredTehsilsTop.textContent = formatNumber(features.length);
+      els.priorityTehsilsTop.textContent = formatNumber(priorityCount);
+      els.totalTehsils.textContent = formatNumber(features.length);
+      els.priorityCount.textContent = formatNumber(priorityCount);
+      els.avgScore.textContent = formatScore(average(dataFeatures, "overall_risk_score"));
+      els.maxRainfall.textContent = formatNumber(maxValue(dataFeatures, "max_rainfall"), 1);
+      els.maxTemperature.textContent = formatNumber(maxValue(dataFeatures, "max_temperature"), 1);
+      els.earthquakeCount.textContent = formatNumber(sum(dataFeatures, "earthquake_count"), 0);
+      els.dataCoverage.textContent = `${coverage}% covered`;
+      els.riskChartTotal.textContent = `${formatNumber(features.length)} tehsils`;
+      els.mapSubtitle.textContent = `${formatNumber(features.length)} tehsils shown / ${METRIC_LABELS[state.metric]}`;
+      els.highestRiskChip.textContent = highest
+        ? `Highest score ${formatScore((highest.properties || {}).overall_risk_score)}`
+        : "Highest score 0.0";
+
+      const activeFilters = [
+        state.risk !== "All" ? state.risk : null,
+        state.province !== "All" ? prettyName(state.province) : null,
+        state.query ? `"${state.query}"` : null
+      ].filter(Boolean);
+      els.filterStatus.textContent = activeFilters.length ? activeFilters.join(" / ") : "All data";
+    }
+
+    function renderRiskBars(counts, total) {
+      els.riskBars.innerHTML = LEVELS.map(level => {
+        const count = counts[level] || 0;
+        const width = total ? (count / total) * 100 : 0;
+        return `
+          <div class="mini-bar-row">
+            <span>${escapeHtml(level)}</span>
+            <span class="mini-bar-track">
+              <span class="mini-bar-fill" style="--bar-width:${width}%;--bar-color:${LEVEL_COLORS[level]}"></span>
+            </span>
+            <strong>${formatNumber(count)}</strong>
+          </div>
+        `;
+      }).join("");
+    }
+
+    function renderHazardBars(features) {
+      const dataFeatures = features.filter(hasData);
+      els.hazardBars.innerHTML = HAZARD_METRICS.map(metric => {
+        const value = average(dataFeatures, metric.key);
+        return `
+          <div class="mini-bar-row">
+            <span>${escapeHtml(metric.label)}</span>
+            <span class="mini-bar-track">
+              <span class="mini-bar-fill" style="--bar-width:${clamp(value, 0, 100)}%;--bar-color:${metric.color}"></span>
+            </span>
+            <strong>${formatScore(value)}</strong>
+          </div>
+        `;
+      }).join("");
+    }
+
+    function updateCharts(features) {
+      const counts = countByLevel(features);
+      renderRiskBars(counts, features.length);
+      renderHazardBars(features);
+
+      if (typeof Chart === "undefined") return;
+
+      Chart.defaults.font.family = "'Inter', 'Segoe UI', Arial, sans-serif";
+      Chart.defaults.color = "#475569";
+
+      const riskData = LEVELS.map(level => counts[level] || 0);
+      if (!charts.risk) {
+        charts.risk = new Chart(els.riskChart, {
+          type: "doughnut",
+          data: {
+            labels: LEVELS,
+            datasets: [{
+              data: riskData,
+              backgroundColor: LEVELS.map(level => LEVEL_COLORS[level]),
+              borderColor: "#ffffff",
+              borderWidth: 3
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            cutout: "64%",
+            plugins: {
+              legend: {
+                position: "bottom",
+                labels: {
+                  boxWidth: 10,
+                  boxHeight: 10,
+                  usePointStyle: true,
+                  font: { size: 11, weight: 700 }
+                }
+              }
+            }
+          }
+        });
+      } else {
+        charts.risk.data.datasets[0].data = riskData;
+        charts.risk.update();
+      }
+
+      const dataFeatures = features.filter(hasData);
+      const hazardData = HAZARD_METRICS.map(metric => average(dataFeatures, metric.key));
+      if (!charts.hazard) {
+        charts.hazard = new Chart(els.hazardChart, {
+          type: "bar",
+          data: {
+            labels: HAZARD_METRICS.map(metric => metric.label),
+            datasets: [{
+              data: hazardData,
+              backgroundColor: HAZARD_METRICS.map(metric => metric.color),
+              borderRadius: 6,
+              barThickness: 18
+            }]
+          },
+          options: {
+            indexAxis: "y",
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              legend: { display: false }
+            },
+            scales: {
+              x: {
+                min: 0,
+                max: 100,
+                grid: { color: "#e2e8f0" },
+                ticks: { font: { size: 11, weight: 700 } }
+              },
+              y: {
+                grid: { display: false },
+                ticks: { font: { size: 11, weight: 800 } }
+              }
+            }
+          }
+        });
+      } else {
+        charts.hazard.data.datasets[0].data = hazardData;
+        charts.hazard.update();
+      }
+    }
+
+    function renderTopRisk(features) {
+      const topFeatures = features
+        .filter(hasData)
+        .sort((a, b) => numberValue((b.properties || {}).overall_risk_score) - numberValue((a.properties || {}).overall_risk_score))
+        .slice(0, 7);
+
+      if (!topFeatures.length) {
+        els.topRiskList.innerHTML = '<div class="empty-state">No scored tehsils in the current filter.</div>';
+        return;
+      }
+
+      els.topRiskList.innerHTML = topFeatures.map((feature, index) => {
+        const props = feature.properties || {};
+        const level = normalizeLevel(props.overall_risk_level);
+        const color = LEVEL_COLORS[level];
+        return `
+          <article class="rank-item">
+            <span class="rank-number">${index + 1}</span>
+            <div>
+              <h3>${escapeHtml(prettyName(getTehsil(props)))}</h3>
+              <p>${escapeHtml(prettyName(getDistrict(props)))} / ${escapeHtml(prettyName(getProvince(props)))}</p>
+            </div>
+            <span class="score-badge" style="color:${color};background:${color}18">${formatScore(props.overall_risk_score)}</span>
+          </article>
+        `;
+      }).join("");
+    }
+
+    function buildProvinceSummary(features) {
+      const groups = new Map();
+
+      features.forEach(feature => {
+        const props = feature.properties || {};
+        const provinceKey = getProvince(props);
+        const level = normalizeLevel(props.overall_risk_level);
+        if (!groups.has(provinceKey)) {
+          groups.set(provinceKey, {
+            province: prettyName(provinceKey),
+            count: 0,
+            priority: 0,
+            scoreTotal: 0,
+            scoreCount: 0
+          });
+        }
+
+        const group = groups.get(provinceKey);
+        group.count += 1;
+        if (level === "Critical" || level === "High") group.priority += 1;
+        if (hasData(feature)) {
+          group.scoreTotal += numberValue(props.overall_risk_score);
+          group.scoreCount += 1;
+        }
+      });
+
+      return [...groups.values()].sort((a, b) => {
+        if (b.priority !== a.priority) return b.priority - a.priority;
+        return (b.scoreTotal / Math.max(b.scoreCount, 1)) - (a.scoreTotal / Math.max(a.scoreCount, 1));
+      });
+    }
+
+    function renderProvinceTable(features) {
+      const summary = buildProvinceSummary(features);
+      els.provinceSummaryTotal.textContent = `${formatNumber(summary.length)} provinces`;
+
+      if (!summary.length) {
+        els.provinceTable.innerHTML = '<tr><td colspan="4">No province data available</td></tr>';
+        return;
+      }
+
+      els.provinceTable.innerHTML = summary.slice(0, 10).map(group => {
+        const avg = group.scoreCount ? group.scoreTotal / group.scoreCount : 0;
+        return `
+          <tr>
+            <td>${escapeHtml(group.province)}</td>
+            <td>${formatNumber(group.count)}</td>
+            <td>${formatNumber(group.priority)}</td>
+            <td>${formatScore(avg)}</td>
+          </tr>
+        `;
+      }).join("");
+    }
+
+    function renderHazardRows(props) {
+      return HAZARD_METRICS.slice(0, 3).map(metric => {
+        const value = numberValue(props[metric.key]);
+        return `
+          <div class="hazard-row">
+            <span>${escapeHtml(metric.label)}</span>
+            <span class="mini-bar-track">
+              <span class="mini-bar-fill" style="--bar-width:${clamp(value, 0, 100)}%;--bar-color:${metric.color}"></span>
+            </span>
+            <strong>${formatScore(value)}</strong>
+          </div>
+        `;
+      }).join("");
+    }
+
+    function updateSelectedFeature(feature) {
+      if (!feature) {
+        els.selectedFeature.innerHTML = '<div class="empty-state">No matching tehsil in the current filter.</div>';
+        els.selectedDetailLabel.textContent = "None";
+        return;
+      }
+
+      const props = feature.properties || {};
+      const level = normalizeLevel(props.overall_risk_level);
+      const color = LEVEL_COLORS[level];
+      const tehsil = prettyName(getTehsil(props));
+      const district = prettyName(getDistrict(props));
+      const province = prettyName(getProvince(props));
+      els.selectedDetailLabel.textContent = level;
+
+      els.selectedFeature.innerHTML = `
+        <div class="selected-heading">
+          <div>
+            <p class="eyebrow">Selected Tehsil</p>
+            <h3>${escapeHtml(tehsil)}</h3>
+            <p>${escapeHtml(district)} / ${escapeHtml(province)}</p>
+          </div>
+          <span class="risk-badge" style="color:${color};background:${color}18;border:1px solid ${color}55">${escapeHtml(level)}</span>
+        </div>
+        <div class="selected-score">
+          <span>Overall Score</span>
+          <strong>${formatScore(props.overall_risk_score)}</strong>
+        </div>
+        <div class="detail-grid">
+          <div class="detail-stat"><span>Avg Rainfall</span><strong>${formatNumber(props.avg_rainfall, 1)} mm</strong></div>
+          <div class="detail-stat"><span>Max Rainfall</span><strong>${formatNumber(props.max_rainfall, 1)} mm</strong></div>
+          <div class="detail-stat"><span>Avg Temp</span><strong>${formatNumber(props.avg_temperature, 1)} C</strong></div>
+          <div class="detail-stat"><span>Max Temp</span><strong>${formatNumber(props.max_temperature, 1)} C</strong></div>
+          <div class="detail-stat"><span>Max Magnitude</span><strong>${formatNumber(props.max_magnitude, 1)}</strong></div>
+          <div class="detail-stat"><span>Earthquakes</span><strong>${formatNumber(props.earthquake_count, 0)}</strong></div>
+        </div>
+        <div class="hazard-stack">
+          ${renderHazardRows(props)}
+        </div>
+        <div class="recommendation-box">
+          <span>Recommendation</span>
+          <p>${escapeHtml(props.recommendation || "No recommendation available.")}</p>
+        </div>
+      `;
+    }
+
+    function ensureSelectedFeature(features) {
+      const stillVisible = features.some(feature => feature._dashboardId === selectedFeatureId);
+      if (!stillVisible) {
+        const highest = getHighestFeature(features);
+        selectedFeatureId = highest ? highest._dashboardId : null;
+      }
+
+      const selected = features.find(feature => feature._dashboardId === selectedFeatureId) || null;
+      updateSelectedFeature(selected);
+    }
+
+    function renderDashboard() {
+      const features = applyFilters();
+      ensureSelectedFeature(features);
+      renderLegend();
+      renderMap(features);
+      renderSummary(features);
+      updateCharts(features);
+      renderTopRisk(features);
+      renderProvinceTable(features);
+    }
+
+    function populateProvinceOptions(features) {
+      const provinces = [...new Set(features.map(feature => getProvince(feature.properties || {})).filter(Boolean))]
+        .sort((a, b) => prettyName(a).localeCompare(prettyName(b)));
+
+      els.provinceFilter.innerHTML = '<option value="All">All</option>' + provinces.map(province => {
+        return `<option value="${escapeHtml(province)}">${escapeHtml(prettyName(province))}</option>`;
+      }).join("");
+    }
+
+    function attachEvents() {
+      els.riskFilter.addEventListener("change", event => {
+        state.risk = event.target.value;
+        renderDashboard();
+      });
+
+      els.provinceFilter.addEventListener("change", event => {
+        state.province = event.target.value;
+        renderDashboard();
+      });
+
+      els.metricLayer.addEventListener("change", event => {
+        state.metric = event.target.value;
+        renderDashboard();
+      });
+
+      els.tehsilSearch.addEventListener("input", event => {
+        state.query = event.target.value;
+        renderDashboard();
+      });
+
+      els.resetFilters.addEventListener("click", () => {
+        state.risk = "All";
+        state.province = "All";
+        state.metric = "overall_risk_level";
+        state.query = "";
+        els.riskFilter.value = state.risk;
+        els.provinceFilter.value = state.province;
+        els.metricLayer.value = state.metric;
+        els.tehsilSearch.value = "";
+        renderDashboard();
+      });
+    }
+
+    function showDataError(error) {
+      els.dataStatus.hidden = false;
+      els.dataStatus.textContent = "Could not load Data/Processed/final_tehsil_risk_map.geojson. Run this dashboard from a local web server and check the file path.";
+      console.error(error);
+    }
+
+    fetch("Data/Processed/final_tehsil_risk_map.geojson")
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(`GeoJSON request failed with status ${response.status}`);
+        }
+        return response.json();
+      })
+      .then(data => {
+        geojsonData = data;
+        geojsonData.features.forEach((feature, index) => {
+          feature._dashboardId = index;
+        });
+
+        populateProvinceOptions(geojsonData.features);
+        attachEvents();
+        els.dataStatus.hidden = true;
+        renderDashboard();
+      })
+      .catch(showDataError);
+  </script>
+</body>
+</html>
