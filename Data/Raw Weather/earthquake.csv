@@ -1,0 +1,957 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2023-12-28T07:58:08.799Z,36.162,69.9176,122.959,4.2,mb,35,80,1.768,0.65,us,us6000m053,2024-03-02T21:39:32.040Z,"45 km S of Farkhār, Afghanistan",earthquake,7.34,9.178,0.118,21,reviewed,us,us
+2023-12-27T19:56:20.252Z,34.4841,62.1198,9.976,4.3,mb,64,117,4.722,0.78,us,us6000m01w,2024-03-02T21:39:32.040Z,"16 km NNW of Herāt, Afghanistan",earthquake,7.64,3.722,0.085,39,reviewed,us,us
+2023-12-25T23:03:56.507Z,34.7111,76.7782,34.705,4.6,mb,100,79,3.096,0.4,us,us7000llf2,2024-03-02T21:39:40.040Z,"24 km S of Thang, India",earthquake,5.88,5.172,0.059,85,reviewed,us,us
+2023-12-23T08:11:48.715Z,34.7746,62.0904,9.734,4.4,mb,24,103,4.494,0.27,us,us7000ll1q,2024-02-27T22:57:05.040Z,"34 km ESE of Qarah Bāgh, Afghanistan",earthquake,7.37,5.416,0.139,15,reviewed,us,us
+2023-12-22T00:31:13.762Z,33.4702,73.0469,10,3.6,mb,24,173,0.258,1.04,us,us7000lkrz,2024-02-27T22:57:04.040Z,"14 km S of Rawalpindi, Pakistan",earthquake,5.12,1.966,0.224,5,reviewed,us,us
+2023-12-20T16:50:20.682Z,33.7267,73.1453,10,2.6,mb_lg,14,158,0.128,0.64,us,us7000lker,2025-02-15T18:10:51.628Z,"9 km E of Islamabad, Pakistan",earthquake,11.42,2.02,0.255,4,reviewed,us,us
+2023-12-18T10:31:29.554Z,33.1609,76.6962,10,4.8,mww,92,51,6.514,0.73,us,us7000lju0,2024-02-27T22:57:00.040Z,"38 km SSW of Padam, India",earthquake,7.42,1.799,0.098,10,reviewed,us,us
+2023-12-18T10:27:11.437Z,33.1492,76.6507,10,4.3,mb,34,152,2.873,0.82,us,us6000m14v,2024-02-27T22:56:56.040Z,"41 km SSW of Padam, India",earthquake,9.29,1.924,0.142,14,reviewed,us,us
+2023-12-18T10:18:52.984Z,33.1836,76.8401,10,5.1,mww,119,32,3.023,0.97,us,us7000ljty,2024-02-27T22:57:00.040Z,"31 km S of Padam, India",earthquake,2.84,1.76,0.08,15,reviewed,us,us
+2023-12-18T06:11:34.085Z,36.3708,70.5946,160.675,4.2,mb,33,78,2.222,0.49,us,us7000ljt2,2024-02-27T22:57:00.040Z,"58 km SSW of Jurm, Afghanistan",earthquake,6.35,9.961,0.159,12,reviewed,us,us
+2023-12-18T06:08:00.569Z,29.3551,70.139,10,4.3,mb,39,163,5.047,0.31,us,us7000ljt3,2024-02-27T22:57:00.040Z,"32 km SW of Dajal, Pakistan",earthquake,5.05,1.926,0.122,19,reviewed,us,us
+2023-12-18T04:18:23.690Z,34.3854,61.9731,10,4.1,mb,33,172,4.716,0.78,us,us6000m14k,2024-02-27T22:56:56.040Z,"21 km W of Herāt, Afghanistan",earthquake,9.73,1.878,0.151,12,reviewed,us,us
+2023-12-17T04:17:06.162Z,36.2885,76.3623,10,4.6,mb,32,86,3.658,1.36,us,us7000ljmh,2024-02-27T22:56:59.040Z,"128 km NNE of Skardu, Pakistan",earthquake,9.02,1.94,0.146,14,reviewed,us,us
+2023-12-15T19:55:46.896Z,36.504,70.5292,204.177,4,mb,39,76,2.304,1.27,us,us7000ljda,2024-02-17T22:43:11.040Z,"48 km SW of Jurm, Afghanistan",earthquake,7.09,7.749,0.149,14,reviewed,us,us
+2023-12-15T03:43:53.979Z,29.6224,66.8013,10,4.3,mb,50,124,5.26,0.82,us,us7000lj68,2024-02-17T22:43:10.040Z,"20 km SSW of Mastung, Pakistan",earthquake,8.78,1.919,0.098,30,reviewed,us,us
+2023-12-14T06:04:56.346Z,36.2931,70.9487,108.321,4.4,mb,29,101,2.341,0.53,us,us7000liuz,2024-02-17T22:43:09.040Z,"64 km S of Jurm, Afghanistan",earthquake,7.05,9.239,0.134,16,reviewed,us,us
+2023-12-13T00:05:16.195Z,36.7912,76.9915,115.422,4.1,mb,34,171,4.371,1.07,us,us7000lijd,2024-02-17T22:43:07.040Z,"112 km SSE of Damusi, China",earthquake,8.62,10.512,0.214,6,reviewed,us,us
+2023-12-12T08:16:29.560Z,34.6288,62.0591,10.082,4.2,mb,37,117,4.581,0.63,us,us7000lic6,2024-02-17T22:43:06.040Z,"33 km NNW of Herāt, Afghanistan",earthquake,8.87,3.409,0.166,10,reviewed,us,us
+2023-12-12T02:05:45.531Z,36.397,70.6032,152.821,4.9,mb,91,20,2.248,0.62,us,us7000liak,2024-02-17T22:43:06.040Z,"55 km SSW of Jurm, Afghanistan",earthquake,6.87,1.505,0.044,162,reviewed,us,us
+2023-12-11T02:33:56.043Z,36.5081,70.3729,194.47,4.3,mb,48,78,2.243,0.84,us,us7000li0g,2024-02-17T22:43:05.040Z,"46 km E of Farkhār, Afghanistan",earthquake,7.28,7.712,0.126,18,reviewed,us,us
+2023-12-10T03:38:19.102Z,36.3106,69.9711,144.121,4.5,mb,62,56,1.922,1.21,us,us7000lhv1,2024-02-17T22:43:05.040Z,"30 km SSE of Farkhār, Afghanistan",earthquake,4.64,6.315,0.071,58,reviewed,us,us
+2023-12-10T01:39:47.184Z,23.5846,64.748,10,4.2,mb,37,157,7.913,0.62,us,us7000lhuj,2024-02-17T22:43:05.040Z,"180 km S of Ormara, Pakistan",earthquake,11.57,1.946,0.098,30,reviewed,us,us
+2023-12-05T02:42:48.131Z,36.3089,71.0524,132.983,4.2,mb,25,102,2.409,0.33,us,us7000lgas,2024-02-10T23:47:32.040Z,"59 km SW of Ashkāsham, Afghanistan",earthquake,7.13,11.755,0.186,8,reviewed,us,us
+2023-12-04T12:19:24.169Z,27.3166,66.363,10,5.2,mww,102,90,7.56,0.82,us,us7000lg3s,2024-02-10T23:47:30.040Z,"60 km SSW of Khuzdar, Pakistan",earthquake,8.25,1.846,0.063,24,reviewed,us,us
+2023-12-03T18:22:23.057Z,32.2829,69.8057,44.594,4.5,mb,49,98,2.34,0.55,us,us7000lfxi,2024-02-10T23:47:26.040Z,"22 km E of Wana, Pakistan",earthquake,9.67,6.022,0.083,43,reviewed,us,us
+2023-11-29T14:03:20.020Z,36.8907,66.5853,10,4.5,mb,35,57,2.608,0.62,us,us7000lej5,2024-02-06T21:53:54.040Z,"24 km SW of Qarch? Gak, Afghanistan",earthquake,8.37,1.894,0.106,28,reviewed,us,us
+2023-11-28T16:45:19.829Z,36.4367,71.2484,92.344,4.3,mb,78,75,2.611,0.53,us,us7000lec7,2024-02-06T21:53:54.040Z,"37 km SW of Ashkāsham, Afghanistan",earthquake,7.14,7.034,0.075,50,reviewed,us,us
+2023-11-23T22:09:55.928Z,36.4972,70.9752,201.314,4.1,mb,32,80,2.509,0.62,us,us7000leds,2024-02-01T15:13:45.040Z,"42 km SSE of Jurm, Afghanistan",earthquake,8.3,10.464,0.261,4,reviewed,us,us
+2023-11-20T21:14:37.845Z,29.4259,61.0759,10,4.6,mb,101,80,6.223,0.51,us,us6000lpp3,2024-02-01T15:13:41.040Z,"22 km ESE of Zahedan, Iran",earthquake,5.41,1.868,0.057,93,reviewed,us,us
+2023-11-20T18:32:56.201Z,34.4573,62.3646,9.245,4.2,mb,43,110,4.879,0.82,us,us6000lpn1,2024-02-01T15:13:41.040Z,"19 km NE of Herāt, Afghanistan",earthquake,7.78,3.553,0.128,17,reviewed,us,us
+2023-11-18T02:56:49.747Z,36.4976,71.1766,221.689,4.3,mb,88,59,2.615,0.78,us,us6000lp9j,2024-01-26T16:37:51.040Z,"37 km WSW of Ashkāsham, Afghanistan",earthquake,7.41,6.832,0.063,76,reviewed,us,us
+2023-11-16T06:54:44.147Z,36.4844,71.1279,242.573,4.2,mb,37,75,2.579,0.72,us,us6000lnrx,2024-01-26T16:37:44.040Z,"42 km WSW of Ashkāsham, Afghanistan",earthquake,8.41,8.088,0.136,15,reviewed,us,us
+2023-11-16T04:04:18.591Z,33.0154,76.2091,16.68,4.2,mb,52,157,2.542,1.23,us,us6000lnrg,2024-01-26T16:37:44.040Z,"46 km E of Bhadarwāh, India",earthquake,8.31,4.993,0.121,23,reviewed,us,us
+2023-11-15T00:05:03.423Z,36.4517,71.312,119.705,4.9,mww,137,22,2.657,0.7,us,us6000lngc,2024-01-26T16:37:42.040Z,"32 km SW of Ashkāsham, Afghanistan",earthquake,6.72,5.84,0.089,12,reviewed,us,us
+2023-11-11T05:27:49.577Z,28.1676,66.391,10,4.1,mb,15,172,6.746,0.26,us,us6000lntw,2024-01-13T23:09:47.040Z,"38 km SSE of Surab, Pakistan",earthquake,12.13,1.974,0.135,15,reviewed,us,us
+2023-11-10T17:30:27.048Z,36.4111,71.013,101.666,3.8,mb,24,102,2.463,0.67,us,us7000la5p,2024-01-13T23:11:21.040Z,"52 km SSE of Jurm, Afghanistan",earthquake,3.57,15.009,0.193,8,reviewed,us,us
+2023-11-08T14:24:52.621Z,33.4935,71.0272,10,4.2,mb,12,198,1.878,1.17,us,us7000l9li,2024-01-13T23:10:39.040Z,"5 km SW of Hangu, Pakistan",earthquake,7.4,1.966,0.187,10,reviewed,us,us
+2023-11-08T08:28:25.236Z,36.6045,71.3244,221.464,4.4,mb,45,61,2.754,0.82,us,us7000l9is,2024-01-18T21:17:28.383Z,"20 km WSW of Ashk?sham, Afghanistan",earthquake,6.83,8.063,0.134,16,reviewed,us,us
+2023-11-05T23:04:47.300Z,36.783,68.4447,32.857,4.4,mb,42,75,1.925,1.14,us,us7000l9wp,2024-01-13T23:10:56.040Z,"37 km W of Kunduz, Afghanistan",earthquake,5.58,5.698,0.114,22,reviewed,us,us
+2023-11-05T07:23:21.096Z,36.7592,68.4972,51.508,4.1,mb,24,126,1.939,0.71,us,us7000l8z2,2024-01-18T21:14:52.017Z,"32 km W of Kunduz, Afghanistan",earthquake,8.23,7.152,0.175,10,reviewed,us,us
+2023-11-03T19:15:45.172Z,36.7294,68.4926,45.632,4.2,mb,29,121,1.969,0.52,us,us7000l8qc,2024-01-10T06:01:51.040Z,"32 km W of Kunduz, Afghanistan",earthquake,7.48,8.999,0.128,22,reviewed,us,us
+2023-11-03T07:33:37.465Z,36.7355,68.4069,49.83,4.4,mb,16,171,1.978,0.77,us,us7000l9mk,2024-01-10T06:01:46.040Z,"40 km W of Kunduz, Afghanistan",earthquake,9,9.11,0.239,5,reviewed,us,us
+2023-11-03T07:29:33.114Z,36.7565,68.5516,45.976,4.4,mb,27,113,1.933,0.71,us,us7000l8iv,2024-01-10T06:01:46.040Z,"27 km W of Kunduz, Afghanistan",earthquake,3.76,9.916,0.13,17,reviewed,us,us
+2023-11-01T04:46:27.713Z,35.0819,67.2022,16.517,4,mb,22,168,1.608,0.4,us,us7000l80i,2024-01-10T06:01:30.040Z,"43 km NNE of Bāzār-e Yakāwlang, Afghanistan",earthquake,3.88,6.167,0.164,10,reviewed,us,us
+2023-10-31T22:26:08.530Z,34.4712,61.9771,10,4.2,mb,41,117,4.653,0.75,us,us7000l8ns,2024-01-10T06:01:28.040Z,"24 km WNW of Herāt, Afghanistan",earthquake,9.35,1.886,0.098,29,reviewed,us,us
+2023-10-29T04:50:32.698Z,34.4655,61.84,10,4.4,mb,33,97,5.948,0.9,us,us7000l7bg,2024-01-10T06:01:07.040Z,"16 km NNE of Zindah Jān, Afghanistan",earthquake,8.83,1.893,0.11,24,reviewed,us,us
+2023-10-28T19:27:39.308Z,34.5493,62.1142,10,5,mww,160,21,4.67,0.54,us,us7000l78n,2024-01-04T04:22:41.040Z,"23 km NNW of Herāt, Afghanistan",earthquake,7.73,1.747,0.08,15,reviewed,us,us
+2023-10-28T10:53:43.791Z,36.7842,68.5758,45.946,4.3,mb,25,124,1.902,0.37,us,us7000l76b,2024-01-04T04:22:37.040Z,"25 km WNW of Kunduz, Afghanistan",earthquake,3.74,10.485,0.134,16,reviewed,us,us
+2023-10-28T05:45:07.676Z,34.5602,62.1351,9.983,4.5,mb,39,97,5.701,0.47,us,us7000l73z,2024-01-04T04:22:34.040Z,"24 km NNW of Herāt, Afghanistan",earthquake,11.01,4.984,0.096,32,reviewed,us,us
+2023-10-28T04:41:09.437Z,36.5742,70.9725,183.956,4.2,mb,32,79,2.567,0.52,us,us7000l73h,2024-01-04T04:22:33.040Z,"34 km SSE of Jurm, Afghanistan",earthquake,8.53,11.261,0.166,10,reviewed,us,us
+2023-10-27T19:13:34.846Z,36.5947,70.8742,211.79,4.4,mb,76,60,2.535,0.71,us,us7000l6ym,2024-01-04T04:22:28.040Z,"30 km S of Jurm, Afghanistan",earthquake,3.98,7.308,0.069,65,reviewed,us,us
+2023-10-27T17:12:04.864Z,36.6873,68.5074,18.499,4.7,mww,161,19,2.008,0.69,us,us7000l6xp,2024-01-04T04:22:26.040Z,"31 km W of Kunduz, Afghanistan",earthquake,6.29,3.44,0.098,10,reviewed,us,us
+2023-10-22T03:11:17.180Z,34.6558,62.0111,10,4.3,mb,39,89,4.535,0.6,us,us7000l6a7,2024-01-04T04:21:50.040Z,"38 km SE of Qarah Bāgh, Afghanistan",earthquake,8.53,1.86,0.148,13,reviewed,us,us
+2023-10-21T11:12:07.385Z,30.2218,60.5691,10,4.2,mb,18,185,8.359,0.49,us,us7000l69m,2023-12-26T21:25:01.040Z,"66 km ENE of Noşratābād, Iran",earthquake,12.8,1.974,0.159,11,reviewed,us,us
+2023-10-19T02:49:27.694Z,34.555,61.9683,10,4.1,mb,27,97,4.585,0.91,us,us6000lghy,2023-12-26T21:24:36.040Z,"31 km NE of Zindah Jān, Afghanistan",earthquake,9.95,1.927,0.145,13,reviewed,us,us
+2023-10-17T04:09:39.514Z,34.5767,62.1831,10,4.1,mb,22,164,5.661,0.88,us,us6000lgy1,2023-12-26T21:24:46.040Z,"25 km N of Herāt, Afghanistan",earthquake,11.01,1.972,0.303,5,reviewed,us,us
+2023-10-15T21:39:17.831Z,34.5299,62.2495,10,4.1,mb,22,193,5.608,0.5,us,us6000lfsn,2023-12-26T21:24:20.040Z,"20 km NNE of Herāt, Afghanistan",earthquake,9.79,1.945,0.197,7,reviewed,us,us
+2023-10-15T09:01:41.061Z,34.5816,62.1214,9.793,4.2,mb,50,162,5.712,0.51,us,us6000lguk,2023-12-26T21:24:42.040Z,"26 km NNW of Herāt, Afghanistan",earthquake,7.85,5.211,0.107,24,reviewed,us,us
+2023-10-15T08:04:45.229Z,34.7713,62.1887,10,4.3,mb,47,106,5.654,0.47,us,us6000lfpi,2023-12-26T21:24:18.040Z,"42 km ESE of Qarah Bāgh, Afghanistan",earthquake,8.32,1.722,0.094,32,reviewed,us,us
+2023-10-15T07:10:02.350Z,34.4468,62.1342,10,4.1,mb,35,137,6.947,0.71,us,us6000lguf,2023-12-26T21:24:42.040Z,"12 km NNW of Herāt, Afghanistan",earthquake,8.66,1.951,0.117,20,reviewed,us,us
+2023-10-15T06:14:22.065Z,34.5066,62.0049,10,4.3,mb,29,120,7.194,0.75,us,us6000lguj,2023-12-26T21:24:42.040Z,"25 km NW of Herāt, Afghanistan",earthquake,4.64,1.946,0.104,28,reviewed,us,us
+2023-10-15T06:09:56.068Z,34.5455,62.2415,10,4.3,mb,46,94,5.614,0.71,us,us6000lfp2,2023-12-26T21:24:18.040Z,"22 km N of Herāt, Afghanistan",earthquake,7.91,1.653,0.091,34,reviewed,us,us
+2023-10-15T05:41:40.848Z,34.686,62.0486,10,4.3,mb,53,94,5.77,0.44,us,us6000lfny,2023-12-26T21:24:18.040Z,"37 km SE of Qarah Bāgh, Afghanistan",earthquake,8.85,1.868,0.099,30,reviewed,us,us
+2023-10-15T05:20:12.574Z,34.4543,62.2433,10,4.1,mb,24,121,5.616,0.6,us,us6000lfnv,2023-12-26T21:24:18.040Z,"12 km NNE of Herāt, Afghanistan",earthquake,12.53,1.962,0.184,8,reviewed,us,us
+2023-10-15T05:10:45.290Z,36.884,69.4221,88.464,3.9,mb,20,106,1.802,0.45,us,us6000lfnt,2023-12-26T21:25:10.040Z,"19 km NNW of Taloqan, Afghanistan",earthquake,5.59,23.366,0.23,5,reviewed,us,us
+2023-10-15T03:56:28.685Z,34.5747,62.0974,10,5.4,mww,111,22,4.642,0.81,us,us6000lfng,2023-12-26T21:24:18.040Z,"26 km NNW of Herāt, Afghanistan",earthquake,7.3,1.778,0.093,11,reviewed,us,us
+2023-10-15T03:50:41.144Z,34.5704,62.2029,10,4.4,mb,27,208,4.705,0.86,us,us6000lgua,2023-12-26T21:24:42.040Z,"24 km N of Herāt, Afghanistan",earthquake,11.12,1.984,0.17,10,reviewed,us,us
+2023-10-15T03:36:00.454Z,34.6529,62.1244,9,6.3,mww,125,21,5.708,0.92,us,us6000lfn5,2025-08-07T00:19:47.986Z,"34 km NNW of Herāt, Afghanistan",earthquake,7.28,1.739,0.063,24,reviewed,us,us
+2023-10-14T22:37:45.490Z,27.8282,67.0949,10,4,mb,37,134,6.896,0.6,us,us6000lfm9,2023-12-16T22:13:09.040Z,"47 km E of Khuzdar, Pakistan",earthquake,10.56,1.928,0.111,22,reviewed,us,us
+2023-10-14T22:06:59.374Z,34.6493,62.1114,10,4,mb,35,117,5.718,0.82,us,us6000lflw,2023-12-16T22:13:09.040Z,"34 km NNW of Herāt, Afghanistan",earthquake,9.83,1.938,0.156,11,reviewed,us,us
+2023-10-13T17:45:03.516Z,34.5931,61.9961,10,4.5,mb,100,92,4.572,0.71,us,us6000lfdf,2023-12-16T22:13:08.040Z,"32 km NW of Herāt, Afghanistan",earthquake,6.4,1.547,0.06,88,reviewed,us,us
+2023-10-13T13:19:53.447Z,36.3472,70.9687,117.334,4.4,mb,35,77,2.392,0.88,us,us6000lfcd,2023-12-16T22:13:08.040Z,"58 km SSE of Jurm, Afghanistan",earthquake,5.12,8.772,0.139,15,reviewed,us,us
+2023-10-13T11:13:30.783Z,34.7766,61.8496,10,4.2,mb,47,115,5.933,0.54,us,us6000lfc3,2023-12-16T22:13:08.040Z,"19 km SSE of Qarah Bāgh, Afghanistan",earthquake,4.37,1.916,0.103,26,reviewed,us,us
+2023-10-13T10:04:46.341Z,34.4277,61.9943,10,4.5,mb,47,70,4.695,0.52,us,us6000lgk1,2023-12-16T22:13:10.040Z,"20 km WNW of Herāt, Afghanistan",earthquake,7.29,1.652,0.112,24,reviewed,us,us
+2023-10-13T07:28:16.367Z,34.5365,61.9815,10,4,mb,14,169,5.828,0.41,us,us6000lgk2,2023-12-16T22:13:10.040Z,"28 km NW of Herāt, Afghanistan",earthquake,11.47,1.929,0.173,9,reviewed,us,us
+2023-10-13T01:09:26.768Z,36.0303,68.7405,10,4.7,mb,72,46,1.507,0.94,us,us6000lf95,2023-12-16T22:13:08.040Z,"9 km NNE of Pul-e Khumrī, Afghanistan",earthquake,6.7,1.779,0.062,80,reviewed,us,us
+2023-10-13T00:03:14.558Z,36.0555,68.7756,10,4.9,mb,129,35,1.527,0.6,us,us6000lf8s,2023-12-16T22:13:08.040Z,"10 km SE of Baghlān, Afghanistan",earthquake,7,1.814,0.045,156,reviewed,us,us
+2023-10-12T09:20:34.602Z,34.4683,61.7117,10,4.1,mb,37,94,4.514,1.38,us,us6000lgdn,2023-12-16T22:13:09.040Z,"14 km NNW of Zindah Jān, Afghanistan",earthquake,8.65,1.901,0.165,10,reviewed,us,us
+2023-10-11T05:59:23.642Z,34.6105,62.0424,10,4.3,mb,50,117,4.585,1.16,us,us6000leq2,2023-12-16T22:13:07.040Z,"32 km NNW of Herāt, Afghanistan",earthquake,8.53,1.923,0.133,16,reviewed,us,us
+2023-10-11T02:38:33.614Z,34.4204,62.0239,10,4.3,mb,24,190,4.716,0.71,us,us6000lg58,2023-12-16T22:13:09.040Z,"18 km WNW of Herāt, Afghanistan",earthquake,9.64,1.977,0.217,8,reviewed,us,us
+2023-10-11T02:03:27.598Z,34.2871,62.2304,10,4,mb,16,185,4.929,0.53,us,us6000lg62,2023-12-16T22:13:09.040Z,"5 km NE of Chahār Burj, Afghanistan",earthquake,11.56,1.98,0.196,7,reviewed,us,us
+2023-10-11T01:41:04.133Z,34.5181,61.9662,10,4.2,mb,34,94,4.612,0.9,us,us6000leny,2023-12-16T22:13:07.040Z,"28 km NE of Zindah Jān, Afghanistan",earthquake,5.22,1.876,0.166,10,reviewed,us,us
+2023-10-11T01:13:12.130Z,34.4867,62.0896,10,4.1,mb,34,94,5.741,0.63,us,us6000lenq,2023-12-16T22:13:07.040Z,"18 km NNW of Herāt, Afghanistan",earthquake,6.26,1.924,0.15,12,reviewed,us,us
+2023-10-11T00:58:50.593Z,34.5482,62.0195,10,4.5,mb,56,97,4.619,0.7,us,us6000lg54,2023-12-16T22:13:09.040Z,"27 km NW of Herāt, Afghanistan",earthquake,5,1.885,0.103,28,reviewed,us,us
+2023-10-11T00:52:45.437Z,34.5654,62.1362,10,5,mb,87,59,4.671,0.73,us,us6000leng,2023-12-16T22:13:07.040Z,"24 km NNW of Herāt, Afghanistan",earthquake,7.69,1.848,0.078,52,reviewed,us,us
+2023-10-11T00:41:55.908Z,34.5364,62.0509,8,6.3,mww,423,21,4.645,0.7,us,us6000len8,2023-12-16T22:13:06.040Z,"24 km NNW of Herāt, Afghanistan",earthquake,7.87,1.746,0.044,49,reviewed,us,us
+2023-10-10T07:46:27.543Z,36.4918,70.0672,226.249,4.1,mb,37,78,2.118,1.03,us,us6000leg2,2023-12-16T22:13:06.040Z,"20 km ESE of Farkhār, Afghanistan",earthquake,4.68,7.732,0.174,9,reviewed,us,us
+2023-10-09T13:30:46.443Z,34.6202,62.0531,10,5.1,mww,120,59,4.584,0.67,us,us6000le8s,2023-12-16T22:13:06.040Z,"33 km NNW of Herāt, Afghanistan",earthquake,7.31,1.805,0.078,16,reviewed,us,us
+2023-10-09T09:46:00.407Z,34.6878,62.016,10,4.7,mb,89,93,4.514,0.8,us,us6000le7q,2023-12-16T22:13:06.040Z,"35 km SE of Qarah Bāgh, Afghanistan",earthquake,4.05,1.856,0.054,106,reviewed,us,us
+2023-10-09T06:54:06.140Z,34.5885,62.0577,10,4.9,mb,88,85,4.61,0.49,us,us6000le6y,2023-12-16T22:13:06.040Z,"29 km NNW of Herāt, Afghanistan",earthquake,8.05,1.841,0.048,136,reviewed,us,us
+2023-10-08T14:58:46.130Z,34.6199,61.9139,10.744,4,mb,36,166,5.882,0.57,us,us6000le1k,2023-12-16T22:13:05.040Z,"34 km NNE of Zindah Jān, Afghanistan",earthquake,9.88,5.193,0.13,16,reviewed,us,us
+2023-10-08T02:47:29.451Z,34.4456,62.0623,10,4.2,mb,45,164,4.718,0.66,us,us6000ldxr,2023-12-16T22:13:05.040Z,"16 km NW of Herāt, Afghanistan",earthquake,9.71,1.916,0.118,21,reviewed,us,us
+2023-10-08T01:51:24.129Z,36.3154,71.5013,103.342,4.4,mb,36,69,2.677,0.97,us,us6000ldxk,2023-12-16T22:13:05.040Z,"40 km S of Ashkāsham, Afghanistan",earthquake,7.54,7.602,0.12,20,reviewed,us,us
+2023-10-07T18:32:23.739Z,34.6739,61.9172,9.839,4.2,mb,41,120,5.878,0.55,us,us6000ldvn,2023-12-14T21:26:56.040Z,"32 km SSE of Qarah Bāgh, Afghanistan",earthquake,10.05,4.962,0.093,37,reviewed,us,us
+2023-10-07T11:27:42.456Z,34.5865,62.0108,10,4.2,mb,38,102,5.803,0.63,us,us6000ldts,2023-12-14T21:26:55.040Z,"31 km NNW of Herāt, Afghanistan",earthquake,9.69,1.922,0.128,17,reviewed,us,us
+2023-10-07T10:05:51.717Z,34.688,62.3786,10,4.1,mb,23,117,5.498,0.52,us,us6000leu1,2023-12-14T21:26:57.040Z,"29 km NW of Karukh, Afghanistan",earthquake,9.95,1.906,0.174,10,reviewed,us,us
+2023-10-07T09:40:30.568Z,34.6444,61.9701,9.364,4.9,mb,158,37,5.835,0.44,us,us6000ldt7,2023-12-14T21:26:55.040Z,"37 km SSE of Qarah Bāgh, Afghanistan",earthquake,7.47,3.57,0.042,178,reviewed,us,us
+2023-10-07T09:27:18.387Z,34.5319,61.9591,10,4.8,mb,118,59,5.847,0.48,us,us6000ldsx,2023-12-14T21:26:55.040Z,"28 km NE of Zindah Jān, Afghanistan",earthquake,8.29,1.832,0.052,119,reviewed,us,us
+2023-10-07T09:08:08.439Z,34.3833,61.8769,10,4.1,mb,17,199,5.922,0.21,us,us6000lev4,2023-12-14T21:26:57.040Z,"12 km ENE of Zindah Jān, Afghanistan",earthquake,6.91,2.003,0.213,7,reviewed,us,us
+2023-10-07T09:05:47.081Z,34.5314,61.9026,9.6,4.4,mb,19,172,8.991,0.31,us,us6000leu6,2023-12-14T21:26:57.040Z,"25 km NE of Zindah Jān, Afghanistan",earthquake,7.79,6.634,0.162,11,reviewed,us,us
+2023-10-07T08:06:36.828Z,34.639,61.9339,10,4.6,mb,31,149,5.865,0.5,us,us6000ldq8,2023-12-14T21:26:55.040Z,"36 km SSE of Qarah Bāgh, Afghanistan",earthquake,7.84,1.717,0.119,21,reviewed,us,us
+2023-10-07T07:40:30.084Z,34.6262,62.0006,12.48,5.9,mww,227,43,5.81,0.59,us,us6000ldpv,2023-12-14T21:26:55.040Z,"35 km NNW of Herāt, Afghanistan",earthquake,6.08,3.399,0.054,33,reviewed,us,us
+2023-10-07T07:28:47.979Z,34.6253,61.7599,10,4.5,mb,18,97,6.009,0.62,us,us6000lety,2023-12-14T21:26:57.040Z,"31 km N of Zindah Jān, Afghanistan",earthquake,12.15,1.917,0.191,8,reviewed,us,us
+2023-10-07T07:16:04.200Z,34.4905,61.8943,10,5.2,mb,47,89,7.263,0.78,us,us6000leu2,2023-12-14T21:26:57.040Z,"21 km NE of Zindah Jān, Afghanistan",earthquake,6.2,1.842,0.097,35,reviewed,us,us
+2023-10-07T07:12:49.702Z,34.5442,61.8891,8,6.3,mww,244,43,5.904,0.5,us,us6000ldpm,2023-12-14T21:26:55.040Z,"25 km NNE of Zindah Jān, Afghanistan",earthquake,5.86,1.446,0.051,37,reviewed,us,us
+2023-10-07T07:10:34.065Z,34.5509,61.9397,10,4.7,mb,81,96,5.862,0.67,us,us6000ldpl,2023-12-14T21:26:55.040Z,"29 km NE of Zindah Jān, Afghanistan",earthquake,9.33,1.883,0.065,71,reviewed,us,us
+2023-10-07T06:49:41.156Z,34.5167,61.9462,10.257,5.4,mb,165,54,5.858,0.47,us,us6000ldph,2023-12-14T21:26:55.040Z,"26 km NE of Zindah Jān, Afghanistan",earthquake,7.67,3.884,0.047,155,reviewed,us,us
+2023-10-07T06:41:03.327Z,34.5982,61.9263,14,6.3,mww,279,43,5.872,0.58,us,us6000ldpg,2025-08-07T00:24:31.041Z,"32 km NNE of Zindah Jān, Afghanistan",earthquake,6.63,1.812,0.048,41,reviewed,us,us
+2023-10-03T10:59:09.025Z,36.4846,70.8543,192.727,4.4,mb,124,73,2.438,0.5,us,us6000lcgx,2023-12-14T21:26:51.040Z,"42 km S of Jurm, Afghanistan",earthquake,6.52,6.577,0.055,97,reviewed,us,us
+2023-09-30T08:30:17.828Z,36.7147,71.1605,221.278,4.2,mb,49,69,2.585,1.15,us,us6000lbvx,2023-12-09T22:00:42.040Z,"33 km W of Ashkāsham, Afghanistan",earthquake,8.27,7.964,0.095,31,reviewed,us,us
+2023-09-26T06:53:25.822Z,34.9414,73.8424,10,4.5,mb,60,65,1.372,0.62,us,us7000ky4x,2023-12-09T22:00:45.040Z,"71 km NNE of Muzaffarābād, Pakistan",earthquake,6.9,1.83,0.089,37,reviewed,us,us
+2023-09-26T01:37:06.376Z,36.176,70.5223,100.952,4,mb,21,93,2.031,0.34,us,us7000ky39,2023-12-09T22:00:45.040Z,"74 km SE of Farkhār, Afghanistan",earthquake,8.51,13.436,0.299,3,reviewed,us,us
+2023-09-24T17:39:03.383Z,36.1505,70.9497,98.134,4.3,mb,63,66,2.238,0.7,us,us7000kxui,2023-12-09T22:00:44.040Z,"78 km SW of Ashkāsham, Afghanistan",earthquake,6.32,6.63,0.084,40,reviewed,us,us
+2023-09-22T13:53:51.403Z,36.6788,71.0485,215.493,4.1,mb,29,72,2.555,0.36,us,us7000kxe1,2024-01-18T20:56:42.433Z,"28 km SE of Jurm, Afghanistan",earthquake,6.59,7.121,0.158,11,reviewed,us,us
+2023-09-22T02:21:45.206Z,36.5938,70.9933,204.783,4.4,mb,76,71,2.593,0.71,us,us7000kxa5,2023-12-02T23:01:09.040Z,"33 km SSE of Jurm, Afghanistan",earthquake,4.16,6.952,0.074,53,reviewed,us,us
+2023-09-21T06:34:25.819Z,36.1509,68.4533,116.624,4.1,mb,19,121,1.677,0.6,us,us7000kx1q,2023-12-02T23:01:09.040Z,"23 km W of Baghlān, Afghanistan",earthquake,7.52,13.725,0.234,5,reviewed,us,us
+2023-09-16T06:48:25.994Z,36.4706,71.2011,107.77,4.2,mb,24,110,2.609,0.48,us,us7000kw58,2023-11-18T22:29:35.040Z,"37 km SW of Ashkāsham, Afghanistan",earthquake,8.38,6.972,0.167,12,reviewed,us,us
+2023-09-16T05:28:07.021Z,36.6365,71.3935,112.337,4.1,mb,18,122,2.767,0.56,us,us7000kw4v,2023-11-18T22:29:35.040Z,"13 km WSW of Ashkāsham, Afghanistan",earthquake,6.42,13.634,0.198,7,reviewed,us,us
+2023-09-07T18:04:00.608Z,36.5543,71.511,114.637,4.1,mb,67,72,2.843,0.45,us,us7000ku08,2023-11-17T19:47:50.040Z,"14 km S of Ashkāsham, Afghanistan",earthquake,7.02,6.18,0.083,39,reviewed,us,us
+2023-09-05T18:02:04.607Z,36.4881,70.444,203.373,4.6,mb,133,39,2.255,0.69,us,us7000kthe,2023-11-17T19:47:49.040Z,"53 km E of Farkhār, Afghanistan",earthquake,6.85,4.978,0.044,163,reviewed,us,us
+2023-09-05T12:09:35.825Z,36.097,69.6911,114.024,4.3,mb,35,85,1.641,0.61,us,us7000ktdu,2023-11-17T19:47:49.040Z,"50 km E of Nahrīn, Afghanistan",earthquake,6.5,5.537,0.201,7,reviewed,us,us
+2023-09-04T01:38:49.714Z,36.3718,70.9751,104.398,4.3,mb,39,73,2.413,0.56,us,us7000kt3g,2023-11-17T19:47:49.040Z,"56 km SSE of Jurm, Afghanistan",earthquake,7.61,8.43,0.129,17,reviewed,us,us
+2023-09-03T21:43:45.667Z,36.6512,71.4936,102.322,4.1,mb,34,70,2.812,0.45,us,us7000kt2l,2023-11-17T19:47:49.040Z,"5 km SW of Ashkāsham, Afghanistan",earthquake,7.76,10.957,0.131,16,reviewed,us,us
+2023-09-02T22:34:38.584Z,36.4444,71.0815,244.47,4,mb,40,75,2.525,0.45,us,us7000ksxa,2023-11-04T21:36:19.040Z,"48 km WSW of Ashkāsham, Afghanistan",earthquake,7.92,7.969,0.144,13,reviewed,us,us
+2023-08-31T16:53:12.225Z,34.6691,69.5179,14.895,4.6,mb,114,39,0.412,1.09,us,us7000ksg5,2023-11-04T21:36:05.040Z,"23 km SSW of Tagāb, Afghanistan",earthquake,5.87,4.247,0.057,95,reviewed,us,us
+2023-08-31T01:46:18.910Z,36.6357,71.1738,211.373,4.4,mb,85,86,2.652,0.57,us,us7000ks95,2023-11-04T21:35:59.040Z,"32 km W of Ashkāsham, Afghanistan",earthquake,7.81,6.305,0.065,68,reviewed,us,us
+2023-08-28T04:35:08.795Z,36.4901,70.3356,202.515,4.8,mb,96,41,2.212,0.79,us,us7000krez,2023-11-04T21:35:38.040Z,"43 km ESE of Farkhār, Afghanistan",earthquake,6.91,5.133,0.041,188,reviewed,us,us
+2023-08-26T11:21:36.084Z,36.5918,71.0049,210.505,4.1,mb,27,104,2.597,0.47,us,us7000kr5z,2023-10-28T19:15:38.040Z,"33 km SSE of Jurm, Afghanistan",earthquake,4.74,7.549,0.127,18,reviewed,us,us
+2023-08-25T11:34:24.696Z,36.4588,71.1784,103.804,4.2,mb,24,75,2.588,0.35,us,us7000kqxw,2023-10-28T19:15:37.040Z,"40 km SW of Ashkāsham, Afghanistan",earthquake,7.16,5.503,0.141,14,reviewed,us,us
+2023-08-21T04:40:02.617Z,36.5249,70.9438,182.685,4.5,mb,77,43,2.514,0.82,us,us7000kpsr,2023-10-28T19:15:33.040Z,"38 km SSE of Jurm, Afghanistan",earthquake,6.48,5.694,0.063,73,reviewed,us,us
+2023-08-19T03:43:26.360Z,36.2782,70.8513,101.283,4.6,mb,64,77,2.277,0.94,us,us7000kper,2023-10-27T21:39:04.040Z,"65 km S of Jurm, Afghanistan",earthquake,6.82,6.801,0.049,123,reviewed,us,us
+2023-08-13T09:21:48.450Z,36.2423,70.2011,144.421,4.2,mb,44,77,1.943,0.52,us,us6000kzny,2023-10-27T21:39:00.040Z,"47 km SE of Farkhār, Afghanistan",earthquake,7.29,9.437,0.113,22,reviewed,us,us
+2023-08-07T15:47:40.042Z,36.4929,71.3131,98.143,4.2,mb,31,84,2.687,1.04,us,us6000kyg9,2023-10-17T22:01:27.040Z,"28 km SW of Ashkāsham, Afghanistan",earthquake,5.88,9.513,0.159,11,reviewed,us,us
+2023-08-07T01:33:06.512Z,36.6988,71.272,192.596,4.1,mb,24,89,2.656,0.7,us,us6000kydf,2023-10-17T22:01:26.040Z,"23 km W of Ashkāsham, Afghanistan",earthquake,8.08,5.973,0.165,10,reviewed,us,us
+2023-08-06T13:23:14.830Z,36.5314,70.9379,85.167,5.1,mb,140,57,2.516,0.73,us,us6000ky9w,2023-10-17T22:01:26.040Z,"38 km SSE of Jurm, Afghanistan",earthquake,6.7,6.155,0.037,245,reviewed,us,us
+2023-08-06T00:32:49.691Z,36.431,70.6689,218.046,5.3,mww,189,27,2.306,0.71,us,us6000ky6s,2023-10-17T22:01:25.040Z,"Badakhshan, Afghanistan",earthquake,7.27,4.318,0.054,33,reviewed,us,us
+2023-08-05T16:01:49.816Z,36.4504,70.7227,209,5.8,mww,211,15,2.347,0.88,us,us6000ky4d,2023-10-07T21:38:59.040Z,"47 km SSW of Jurm, Afghanistan",earthquake,6.72,1.626,0.061,26,reviewed,us,us
+2023-08-05T14:47:17.093Z,36.539,71.3177,118.561,4.2,mb,20,120,2.723,0.41,us,us6000ky44,2023-10-07T21:38:59.040Z,"25 km SW of Ashkāsham, Afghanistan",earthquake,4.85,9.866,0.199,8,reviewed,us,us
+2023-08-05T10:07:45.475Z,36.1102,70.3189,137.858,4.1,mb,25,79,1.881,0.71,us,us6000ky35,2023-10-07T21:38:59.040Z,"65 km SE of Farkhār, Afghanistan",earthquake,4.91,10.135,0.198,7,reviewed,us,us
+2023-08-05T04:53:52.852Z,36.5243,69.8597,46.677,4.7,mb,69,45,2.088,0.8,us,us6000ky1a,2023-10-07T21:38:58.040Z,"5 km S of Farkhār, Afghanistan",earthquake,3.25,5.932,0.06,85,reviewed,us,us
+2023-08-05T03:06:04.876Z,34.8611,72.8455,45.949,5,mb,72,37,1.257,0.75,us,us6000ky0p,2023-10-07T21:38:58.040Z,"23 km NNW of Shingli Bala, Pakistan",earthquake,6.6,6.065,0.045,160,reviewed,us,us
+2023-08-04T20:58:36.806Z,36.7125,71.0798,243.301,4.1,mb,52,69,2.544,0.38,us,us6000kxyp,2023-10-07T21:38:58.040Z,"Afghanistan-Tajikistan-Pakistan region",earthquake,7.37,7.539,0.082,41,reviewed,us,us
+2023-08-04T17:50:48.335Z,36.3873,69.1298,44.653,4.2,mb,34,102,1.844,0.69,us,us6000kxxb,2023-10-07T21:38:58.040Z,"32 km S of Khanabad, Afghanistan",earthquake,6.41,3.773,0.115,25,reviewed,us,us
+2023-08-02T09:58:06.278Z,36.571,70.2002,213.933,4,mb,31,94,2.235,0.25,us,us6000kx9v,2023-10-07T21:38:56.040Z,"30 km E of Farkhār, Afghanistan",earthquake,5.51,9.732,0.15,12,reviewed,us,us
+2023-07-28T12:39:49.057Z,36.5663,71.2614,222.873,4,mb,54,72,2.712,0.61,us,us6000kw7a,2023-09-30T21:36:32.040Z,"27 km WSW of Ashkāsham, Afghanistan",earthquake,7.06,6.965,0.093,31,reviewed,us,us
+2023-07-23T03:16:17.304Z,36.593,70.9815,181.244,4.4,mb,64,38,2.586,1.3,us,us7000khqq,2023-09-30T21:36:38.040Z,"32 km SSE of Jurm, Afghanistan",earthquake,7.35,6.234,0.063,73,reviewed,us,us
+2023-07-20T22:39:44.949Z,26.8685,75.8906,10,4.3,mb,37,199,7.129,0.44,us,us7000kh99,2024-06-08T19:58:22.813Z,"11 km ESE of Jaipur, India",earthquake,9.9,1.99,0.125,18,reviewed,us,us
+2023-07-19T07:26:40.770Z,36.5193,70.0961,215.106,5.1,mww,123,22,2.153,0.92,us,us7000kgsp,2023-09-28T21:33:47.040Z,"22 km ESE of Farkhār, Afghanistan",earthquake,6.77,4.283,0.061,26,reviewed,us,us
+2023-07-17T16:37:23.404Z,33.1046,76.0979,10,4.2,mb,34,94,2.429,1.07,us,us7000kgdh,2023-09-28T21:33:39.040Z,"38 km ENE of Bhadarwāh, India",earthquake,4.36,1.896,0.121,20,reviewed,us,us
+2023-07-14T19:19:32.212Z,36.722,71.3745,148.631,4.2,mb,52,69,2.771,0.61,us,us7000kft5,2023-09-16T19:16:15.040Z,"14 km WNW of Ashkāsham, Afghanistan",earthquake,3.35,9.028,0.1,29,reviewed,us,us
+2023-07-13T20:49:11.810Z,36.5387,71.2765,229.843,4.5,mb,103,32,2.7,1.17,us,us7000kfk0,2023-09-16T19:16:14.040Z,"28 km SW of Ashkāsham, Afghanistan",earthquake,7.12,4.985,0.052,108,reviewed,us,us
+2023-07-10T00:13:43.298Z,33.2711,75.8514,25.38,4.2,mb,30,107,2.192,0.48,us,us7000kgk7,2023-09-16T19:16:20.040Z,"9 km ESE of Kishtwār, India",earthquake,5.51,6.812,0.132,16,reviewed,us,us
+2023-07-10T00:08:53.217Z,33.2332,75.9099,27.461,4.9,mb,138,44,2.247,0.66,us,us6000kr8m,2023-12-04T20:35:02.957Z,"15 km SE of Kishtwār, India",earthquake,8.01,4.458,0.052,117,reviewed,us,us
+2023-07-09T18:40:06.068Z,36.448,70.8281,136.454,4,mb,26,83,2.396,0.46,us,us6000kr67,2023-09-16T19:16:06.040Z,"46 km S of Jurm, Afghanistan",earthquake,7.04,12.607,0.212,6,reviewed,us,us
+2023-07-07T19:32:09.468Z,36.5101,71.1318,97.515,4,mb,21,73,2.601,0.96,us,us6000kqud,2023-09-09T21:54:56.040Z,"40 km WSW of Ashkāsham, Afghanistan",earthquake,6.43,6.819,0.173,10,reviewed,us,us
+2023-07-06T01:10:06.902Z,36.8038,71.3091,179.591,4,mb,29,111,2.599,0.57,us,us6000kqcd,2023-09-09T21:54:50.040Z,"Afghanistan-Tajikistan-Pakistan region",earthquake,8.18,12.403,0.211,6,reviewed,us,us
+2023-07-05T13:42:48.669Z,36.1005,68.8223,44.297,4.4,mb,30,114,1.567,0.84,us,us6000kq7l,2023-09-09T21:54:48.040Z,"10 km ESE of Baghlān, Afghanistan",earthquake,8.04,9.089,0.13,17,reviewed,us,us
+2023-07-04T09:30:52.269Z,36.351,70.6083,135.617,4.3,mb,47,82,2.212,0.63,us,us6000kq0c,2023-09-09T21:54:45.040Z,"Hindu Kush region, Afghanistan",earthquake,5.99,4.233,0.094,32,reviewed,us,us
+2023-07-03T09:14:30.324Z,36.5057,70.9395,191.366,4.2,mb,58,73,2.497,1.04,us,us6000kpt1,2023-09-09T21:54:40.040Z,"40 km SSE of Jurm, Afghanistan",earthquake,6.95,6.231,0.103,26,reviewed,us,us
+2023-07-01T12:57:11.673Z,36.4332,70.3799,212.628,4.2,mb,23,80,2.181,0.69,us,us6000kpfy,2023-09-08T14:18:32.040Z,"49 km ESE of Farkhār, Afghanistan",earthquake,7.47,8.723,0.199,7,reviewed,us,us
+2023-06-27T05:15:53.912Z,36.4892,71.2895,127.013,4.5,mb,68,70,2.672,0.75,us,us6000knce,2023-09-08T14:18:23.040Z,"30 km SW of Ashkāsham, Afghanistan",earthquake,6.53,7.12,0.075,52,reviewed,us,us
+2023-06-26T06:46:54.293Z,36.5042,71.0511,189.869,4.1,mb,55,73,2.553,0.58,us,us7000kb3d,2023-09-08T14:18:41.040Z,"44 km SSE of Jurm, Afghanistan",earthquake,7.06,6.448,0.093,32,reviewed,us,us
+2023-06-25T15:49:58.299Z,34.449,69.5154,14.775,4.5,mb,32,95,0.401,1.39,us,us7000kb05,2023-09-08T14:18:40.040Z,"32 km ESE of Kabul, Afghanistan",earthquake,6.36,5.421,0.09,36,reviewed,us,us
+2023-06-21T01:55:05.448Z,36.5132,70.8908,193.375,4.2,mb,48,72,2.479,0.9,us,us7000ka09,2023-08-26T20:54:25.040Z,"39 km S of Jurm, Afghanistan",earthquake,4.5,7.919,0.11,23,reviewed,us,us
+2023-06-18T16:34:49.119Z,29.8241,68.4073,10,4.2,mb,33,170,4.734,0.68,us,us7000k9e3,2023-08-26T20:54:22.040Z,"39 km SSW of Duki, Pakistan",earthquake,9.36,1.941,0.136,15,reviewed,us,us
+2023-06-17T22:20:24.254Z,33.0208,75.9599,10,4.3,mb,58,99,2.339,0.44,us,us7000k99b,2023-08-21T04:19:22.040Z,"23 km ENE of Bhadarwāh, India",earthquake,7.97,1.877,0.096,31,reviewed,us,us
+2023-06-17T16:25:33.967Z,33.2377,75.9002,10,4.3,mb,32,153,2.238,1.08,us,us7000k986,2023-08-21T04:19:20.040Z,"14 km SE of Kishtwār, India",earthquake,7.83,1.663,0.125,18,reviewed,us,us
+2023-06-13T20:50:56.444Z,33.0446,75.948,14.274,4.6,mb,145,46,2.323,0.87,us,us7000k89b,2023-08-21T04:18:50.040Z,"22 km ENE of Bhadarwāh, India",earthquake,8.05,3.773,0.048,138,reviewed,us,us
+2023-06-13T08:03:40.348Z,33.1191,75.9074,10,5.2,mww,121,23,2.271,0.79,us,us7000k850,2023-08-21T04:18:46.040Z,"23 km NE of Bhadarwāh, India",earthquake,7.16,1.72,0.069,20,reviewed,us,us
+2023-06-09T19:13:41.361Z,36.6115,70.9846,211.106,4,mb,55,74,2.576,0.82,us,us7000k7hj,2023-08-12T17:15:14.040Z,"31 km SSE of Jurm, Afghanistan",earthquake,5.08,8.2,0.087,38,reviewed,us,us
+2023-06-09T15:08:45.324Z,36.6906,71.46,178.368,3.9,mb,31,69,2.765,0.87,us,us7000k7fk,2023-08-12T17:15:13.040Z,"6 km W of Ashkāsham, Afghanistan",earthquake,7.93,8.929,0.21,6,reviewed,us,us
+2023-06-09T01:21:52.701Z,33.7716,71.0951,55.677,4.4,mb,34,136,1.816,0.82,us,us7000k79v,2023-08-12T17:15:11.040Z,"26 km N of Hangu, Pakistan",earthquake,5.92,9.096,0.11,24,reviewed,us,us
+2023-06-06T18:06:55.828Z,28.0367,66.4,10,4.2,mb,36,132,6.867,0.95,us,us7000k6p6,2023-08-12T17:15:05.040Z,"Pakistan",earthquake,10.57,1.911,0.105,27,reviewed,us,us
+2023-06-03T07:53:08.963Z,35.7826,69.4477,106.6,4,mb,17,147,1.283,0.55,us,us7000k7dk,2023-08-05T22:08:02.040Z,"42 km SE of Nahrīn, Afghanistan",earthquake,8.88,7.354,0.212,6,reviewed,us,us
+2023-06-03T07:48:45.208Z,36.7948,61.6165,10.12,4.5,mb,80,153,3.009,0.61,us,us7000k61n,2023-08-05T22:07:52.040Z,"49 km NE of Sarakhs, Iran",earthquake,7.16,3.508,0.072,56,reviewed,us,us
+2023-06-01T18:12:18.019Z,36.5071,70.6056,200.839,4.4,mb,61,89,2.494,0.84,us,us7000k5jv,2024-01-18T20:03:50.716Z,"44 km SSW of Jurm, Afghanistan",earthquake,7.06,4.957,0.088,37,reviewed,us,us
+2023-06-01T00:44:35.979Z,36.5187,71.3559,85.558,4.1,mb,42,77,2.835,0.73,us,us7000k5ed,2024-01-18T20:03:11.286Z,"24 km SW of Ashk?sham, Afghanistan",earthquake,8.42,8.583,0.107,24,reviewed,us,us
+2023-05-31T03:26:56.763Z,36.2923,69.7219,186.536,4.3,mb,25,152,3.58,0.54,us,us7000k55d,2024-01-18T20:02:36.160Z,"33 km SSW of Farkh?r, Afghanistan",earthquake,5.96,10.974,0.147,13,reviewed,us,us
+2023-05-28T21:32:26.855Z,36.1767,71.1854,101.206,4,mb,29,82,2.394,0.65,us,us7000k4p9,2023-08-05T22:07:37.040Z,"64 km SSW of Ashkāsham, Afghanistan",earthquake,5.36,9.219,0.173,9,reviewed,us,us
+2023-05-28T12:56:53.671Z,34.4416,70.4644,55.324,4.7,mb,53,145,1.178,0.53,us,us7000k4m8,2023-08-05T22:07:37.040Z,"2 km NE of Jalālābād, Afghanistan",earthquake,6.97,7.821,0.076,53,reviewed,us,us
+2023-05-28T05:49:56.585Z,36.6064,71.0508,230.416,5.3,mww,130,45,2.613,0.67,us,us7000k4kr,2023-08-05T22:07:36.040Z,"34 km SE of Jurm, Afghanistan",earthquake,6.98,5.628,0.057,30,reviewed,us,us
+2023-05-27T19:24:53.382Z,36.8547,71.3831,182.814,4.2,mb,54,59,2.605,0.57,us,us7000k4i4,2023-07-29T22:00:44.040Z,"23 km NW of Ashkāsham, Afghanistan",earthquake,7.14,7.563,0.098,29,reviewed,us,us
+2023-05-24T03:18:06.626Z,36.3715,71.1661,141.49,4,mb,32,91,2.518,0.58,us,us7000k3e7,2023-07-29T22:00:33.040Z,"47 km SW of Ashkāsham, Afghanistan",earthquake,8.69,10.889,0.164,10,reviewed,us,us
+2023-05-23T03:45:38.528Z,36.5082,71.2008,102.101,4.2,mb,21,100,2.636,0.93,us,us7000k35m,2023-07-29T22:00:30.040Z,"35 km WSW of Ashkāsham, Afghanistan",earthquake,7.55,8.763,0.186,8,reviewed,us,us
+2023-05-22T05:43:27.382Z,36.37,71.173,106.164,4.9,mww,134,57,2.521,0.48,us,us6000kdtp,2023-07-29T22:00:27.040Z,"47 km SW of Ashkāsham, Afghanistan",earthquake,6.94,6.403,0.093,11,reviewed,us,us
+2023-05-21T21:45:43.212Z,35.8576,60.5366,10,4.4,mb,57,145,2.835,0.72,us,us6000kdrl,2023-07-29T22:00:26.040Z,"68 km N of Torbat-e Jām, Iran",earthquake,8.26,1.866,0.105,26,reviewed,us,us
+2023-05-11T21:38:57.019Z,36.4788,71.0141,125.965,4,mb,36,127,2.515,0.41,us,us6000kb8k,2023-07-22T19:16:53.040Z,"45 km SSE of Jurm, Afghanistan",earthquake,8.56,6.921,0.129,16,reviewed,us,us
+2023-05-11T00:21:01.719Z,36.5765,69.7255,163.012,4.1,mb,37,78,2.106,0.42,us,us6000kb08,2023-07-22T19:16:42.040Z,"11 km W of Farkhār, Afghanistan",earthquake,7.11,9.476,0.096,30,reviewed,us,us
+2023-05-10T18:22:46.157Z,36.099,70.9317,104.453,4,mb,40,61,2.191,0.76,us,us6000kay7,2023-07-22T19:16:39.040Z,"Hindu Kush region, Afghanistan",earthquake,5.31,7.755,0.119,19,reviewed,us,us
+2023-05-08T22:02:18.977Z,36.973,71.3134,110.872,4.2,mb,38,99,2.483,0.55,us,us6000kahm,2023-07-22T19:16:26.040Z,"37 km NNW of Ashkāsham, Afghanistan",earthquake,4.59,8.929,0.121,19,reviewed,us,us
+2023-05-08T08:58:12.854Z,33.9253,75.0264,10,3.8,mb,16,141,1.489,0.71,us,us6000kace,2023-07-22T19:16:14.040Z,"1 km ENE of Awantipur, India",earthquake,7.13,1.969,0.228,5,reviewed,us,us
+2023-05-03T09:51:20.143Z,36.4988,70.7311,194.44,5.3,mww,198,28,2.39,0.59,us,us7000jxqb,2023-07-15T22:11:05.040Z,"41 km SSW of Jurm, Afghanistan",earthquake,6.84,6.303,0.068,21,reviewed,us,us
+2023-05-03T06:20:51.075Z,36.5761,71.2122,118.428,4.3,mb,38,94,2.693,1.14,us,us7000jxpi,2023-07-15T22:11:03.040Z,"31 km WSW of Ashkāsham, Afghanistan",earthquake,7.27,8.517,0.129,17,reviewed,us,us
+2023-05-03T03:53:52.369Z,36.6457,71.0545,225.152,4.3,mb,62,70,2.583,0.93,us,us7000jxnp,2023-07-15T22:11:00.040Z,"31 km SE of Jurm, Afghanistan",earthquake,7.83,6.328,0.109,24,reviewed,us,us
+2023-04-30T00:40:46.997Z,36.7193,71.1848,245.884,4,mb,41,81,2.594,0.47,us,us7000jx2q,2023-07-15T22:10:31.040Z,"31 km W of Ashkāsham, Afghanistan",earthquake,6.4,9.459,0.134,15,reviewed,us,us
+2023-04-29T23:45:29.213Z,34.9011,73.9963,10,4.3,mb,49,85,1.385,0.47,us,us7000jx2h,2023-07-11T01:44:55.040Z,"76 km NE of Muzaffarābād, Pakistan",earthquake,3.97,1.892,0.129,17,reviewed,us,us
+2023-04-24T00:21:44.971Z,36.47,70.9101,119.175,4,mb,32,84,2.455,0.83,us,us6000k6me,2023-07-11T01:45:36.040Z,"44 km S of Jurm, Afghanistan",earthquake,6.11,11.696,0.173,9,reviewed,us,us
+2023-04-23T16:27:48.460Z,30.3208,70.9766,10,4.8,mb,40,87,3.849,0.43,us,us6000k6kk,2023-07-11T01:44:40.040Z,"16 km S of Kot Addu, Pakistan",earthquake,10.49,1.906,0.088,40,reviewed,us,us
+2023-04-14T14:50:32.277Z,36.6448,70.993,228.341,4,mb,44,70,2.554,0.42,us,us6000k4hf,2023-06-17T21:36:54.040Z,"28 km SSE of Jurm, Afghanistan",earthquake,6.82,3.54,0.122,18,reviewed,us,us
+2023-04-12T06:54:33.671Z,36.7068,71.081,223.174,4.3,mb,47,69,2.549,0.82,us,us6000k3rd,2023-06-17T21:36:48.040Z,"Afghanistan-Tajikistan-Pakistan region",earthquake,5.52,6.636,0.116,21,reviewed,us,us
+2023-04-12T04:40:49.522Z,34.3015,73.6471,10,4.2,mb,30,85,0.721,0.9,us,us6000k3q6,2023-06-17T21:36:47.040Z,"17 km ESE of Muzaffarābād, Pakistan",earthquake,6.96,1.48,0.146,13,reviewed,us,us
+2023-04-12T03:37:36.670Z,36.5066,70.6973,195.302,4.1,mb,21,88,2.381,0.31,us,us6000k3py,2023-06-17T21:36:47.040Z,"41 km SSW of Jurm, Afghanistan",earthquake,9.07,13.394,0.214,6,reviewed,us,us
+2023-04-11T04:52:34.595Z,36.2421,69.3989,38.828,4.5,mb,50,61,1.722,0.61,us,us6000k3f6,2023-06-17T21:36:45.040Z,"30 km NE of Nahrīn, Afghanistan",earthquake,5.82,4.553,0.067,65,reviewed,us,us
+2023-04-11T03:37:15.356Z,36.5582,70.9436,204.637,4.5,mb,72,72,2.54,0.63,us,us6000k3ez,2023-06-17T21:36:45.040Z,"Hindu Kush region, Afghanistan",earthquake,3.99,6.226,0.053,102,reviewed,us,us
+2023-04-10T02:53:01.911Z,36.6746,71.074,210.354,4.1,mb,24,110,2.571,0.48,us,us6000k37j,2023-06-17T21:36:42.040Z,"30 km SE of Jurm, Afghanistan",earthquake,5.36,10.288,0.165,10,reviewed,us,us
+2023-04-09T07:14:18.152Z,36.5602,70.8734,178.234,4.1,mb,48,84,2.507,0.52,us,us6000k2z2,2024-01-18T19:45:05.183Z,"33 km S of Jurm, Afghanistan",earthquake,7.23,8.99,0.089,35,reviewed,us,us
+2023-04-08T09:07:36.558Z,34.6449,70.5873,50.284,4.4,mb,49,95,1.278,0.55,us,us6000k2un,2023-06-13T03:12:25.040Z,"Hindu Kush region, Afghanistan",earthquake,7.17,7.692,0.082,46,reviewed,us,us
+2023-03-31T17:01:31.261Z,30.3652,66.7484,10,3.4,mb,9,149,4.593,0.6,us,us6000k5wm,2023-06-03T22:06:23.040Z,"29 km NW of Kot Malik Barkhurdar, Pakistan",earthquake,7.48,1.978,0.284,3,reviewed,us,us
+2023-03-30T19:18:55.215Z,35.6273,70.8464,93.224,4.2,mb,50,100,1.834,0.54,us,us6000k0y6,2023-06-03T22:06:09.040Z,"23 km NNW of Pārūn, Afghanistan",earthquake,6.98,7.803,0.112,22,reviewed,us,us
+2023-03-29T08:09:20.347Z,36.6498,71.1131,215.123,4.1,mb,33,101,2.61,0.36,us,us6000k0id,2023-06-03T22:06:05.040Z,"34 km SE of Jurm, Afghanistan",earthquake,4.89,7.274,0.214,6,reviewed,us,us
+2023-03-29T07:32:50.302Z,36.5285,70.8946,205.288,4.1,mb,18,107,2.493,0.59,us,us6000k0i5,2023-06-03T22:06:04.040Z,"Hindu Kush region, Afghanistan",earthquake,8.76,15.901,0.371,2,reviewed,us,us
+2023-03-29T02:15:54.347Z,36.7237,71.2869,179.668,4.1,mb,31,75,2.645,0.44,us,us6000k0gv,2024-01-18T19:38:14.478Z,"22 km WNW of Ashk?sham, Afghanistan",earthquake,6.05,10.557,0.197,7,reviewed,us,us
+2023-03-29T00:34:59.215Z,36.5043,70.2756,199.223,4,mb,9,112,2.202,0.57,us,us6000k0gg,2023-06-03T22:06:04.040Z,"38 km ESE of Farkhār, Afghanistan",earthquake,8.27,18.022,0.26,4,reviewed,us,us
+2023-03-29T00:19:14.154Z,34.5884,70.6034,53.083,4.4,mb,70,78,1.288,0.97,us,us6000k0gc,2023-06-03T22:06:04.040Z,"22 km NE of Jalālābād, Afghanistan",earthquake,6.33,7.028,0.07,59,reviewed,us,us
+2023-03-26T23:23:28.594Z,36.3288,70.0075,127.097,4.2,mb,50,82,1.95,0.79,us,us7000jmxe,2023-06-03T22:06:25.040Z,"Hindu Kush region, Afghanistan",earthquake,6.52,8.556,0.128,17,reviewed,us,us
+2023-03-26T13:14:32.905Z,36.4008,71.1798,120.22,4.4,mb,40,76,2.547,0.66,us,us7000jmuz,2024-01-18T19:37:20.090Z,"44 km SW of Ashk?sham, Afghanistan",earthquake,4.37,7.629,0.114,22,reviewed,us,us
+2023-03-25T20:49:05.281Z,28.278,67.2063,10,3.9,mb,17,166,6.438,1.18,us,us6000k0n6,2023-05-26T21:54:03.040Z,"75 km WNW of Chowki Jamali, Pakistan",earthquake,7.47,1.989,0.162,10,reviewed,us,us
+2023-03-23T07:18:18.139Z,36.3466,71.2181,83.664,4.4,mb,31,72,2.53,0.55,us,us7000jm4q,2023-05-26T21:54:14.040Z,"46 km SW of Ashkāsham, Afghanistan",earthquake,2.8,8.076,0.144,14,reviewed,us,us
+2023-03-21T16:47:23.626Z,36.523,70.943,192,6.5,mww,164,12,2.512,0.94,us,us7000jln7,2023-10-22T17:50:55.996Z,"40 km SSE of Jurm, Afghanistan",earthquake,6.23,1.842,0.057,30,reviewed,us,us
+2023-03-21T07:25:40.183Z,36.4287,70.9198,138.988,4.2,mb,32,78,2.428,0.44,us,us7000jlld,2023-05-26T21:54:10.040Z,"48 km S of Jurm, Afghanistan",earthquake,7.77,9.191,0.186,8,reviewed,us,us
+2023-03-20T14:30:21.229Z,36.1532,71.2691,129.326,4.1,mb,17,100,2.429,1.04,us,us7000jlfd,2023-05-26T21:54:08.040Z,"63 km SSW of Ashkāsham, Afghanistan",earthquake,9.82,11.588,0.233,5,reviewed,us,us
+2023-03-18T00:00:54.160Z,36.5189,69.8936,163.474,4.9,mww,115,21,2.092,0.81,us,us7000jkzj,2023-05-20T23:20:35.040Z,"Hindu Kush region, Afghanistan",earthquake,5.52,5.251,0.086,13,reviewed,us,us
+2023-03-12T11:33:58.096Z,36.5092,70.9383,160.685,4.6,mb,89,73,2.499,0.56,us,us7000jjbk,2023-05-20T23:20:17.040Z,"40 km SSE of Jurm, Afghanistan",earthquake,6.6,6.858,0.041,178,reviewed,us,us
+2023-03-11T23:41:33.217Z,36.4904,70.4125,210.153,4.1,mb,48,70,2.243,0.45,us,us7000jj8h,2023-05-15T02:49:06.040Z,"50 km E of Farkh?r, Afghanistan",earthquake,8.01,4.376,0.117,20,reviewed,us,us
+2023-03-10T10:04:22.284Z,36.2146,70.4377,100.94,4.2,mb,42,77,2.022,0.47,us,us7000jis8,2023-05-15T02:49:29.040Z,"65 km SE of Farkh?r, Afghanistan",earthquake,6.03,6.298,0.125,18,reviewed,us,us
+2023-03-10T01:16:14.845Z,36.5038,70.4159,201.292,4.1,mb,39,81,2.256,0.56,us,us7000jip6,2023-05-15T02:49:36.040Z,"50 km E of Farkh?r, Afghanistan",earthquake,8.4,8.297,0.145,13,reviewed,us,us
+2023-03-06T01:01:52.461Z,26.2173,67.4737,10,4,mb,23,221,8.406,0.44,us,us7000jhji,2023-05-15T02:50:33.040Z,"45 km WSW of Sehwan, Pakistan",earthquake,5.99,1.997,0.116,20,reviewed,us,us
+2023-03-05T01:26:27.302Z,36.7649,71.3667,179.856,4.2,mb,48,68,2.659,0.72,us,us7000jheb,2023-05-15T02:50:41.040Z,"17 km WNW of Ashk?sham, Afghanistan",earthquake,3.93,8.528,0.124,18,reviewed,us,us
+2023-03-01T01:26:39.071Z,36.4588,70.8632,183.185,4.3,mb,51,93,2.422,0.6,us,us7000jge4,2023-05-08T02:00:02.040Z,"45 km S of Jurm, Afghanistan",earthquake,8.43,7.179,0.111,23,reviewed,us,us
+2023-02-28T18:17:05.853Z,36.4747,70.7789,202.552,4.1,mb,28,74,2.393,0.47,us,us7000jgbd,2023-05-08T01:59:58.040Z,"43 km S of Jurm, Afghanistan",earthquake,3.53,8.852,0.145,13,reviewed,us,us
+2023-02-27T22:35:23.020Z,36.3774,70.6141,180.148,4.1,mb,35,77,2.237,0.57,us,us7000jg4h,2024-01-18T19:24:34.016Z,"57 km SSW of Jurm, Afghanistan",earthquake,7.75,8.57,0.112,22,reviewed,us,us
+2023-02-26T09:59:16.507Z,36.1711,70.7199,115.224,4.3,mb,43,80,2.127,0.52,us,us6000jrph,2023-05-08T01:59:31.040Z,"77 km S of Jurm, Afghanistan",earthquake,6.8,6.468,0.122,19,reviewed,us,us
+2023-02-24T01:06:31.718Z,33.7601,72.7349,10,4.1,mb,26,165,0.458,0.62,us,us6000jr5s,2024-01-18T19:23:08.015Z,"27 km E of Sanjwal, Pakistan",earthquake,4.79,1.859,0.14,14,reviewed,us,us
+2023-02-21T11:35:18.592Z,36.201,70.0083,171.083,4.1,mb,22,91,1.835,0.27,us,us6000jqiw,2023-04-29T21:57:21.040Z,"43 km SSE of Farkh?r, Afghanistan",earthquake,8.17,14.957,0.234,5,reviewed,us,us
+2023-02-19T07:21:55.890Z,36.5342,70.2087,207.364,4.1,mb,19,72,2.204,0.9,us,us6000jq2f,2023-04-29T21:57:12.040Z,"31 km E of Farkh?r, Afghanistan",earthquake,7.6,14.058,0.214,6,reviewed,us,us
+2023-02-18T07:39:19.120Z,36.527,70.8332,179.846,4.2,mb,51,77,2.461,0.89,us,us6000jpvk,2023-04-22T21:33:18.040Z,"37 km S of Jurm, Afghanistan",earthquake,7.6,8.912,0.09,34,reviewed,us,us
+2023-02-14T15:37:30.155Z,36.6928,71.02,218.501,4.2,mb,54,69,2.529,0.67,us,us6000jnxh,2023-04-22T21:33:07.040Z,"25 km SE of Jurm, Afghanistan",earthquake,8.17,6.578,0.096,30,reviewed,us,us
+2023-02-13T02:59:47.109Z,36.4994,70.3753,202.811,4,mb,16,98,2.236,0.62,us,us6000jniv,2023-04-22T21:33:04.040Z,"47 km E of Farkh?r, Afghanistan",earthquake,8.63,11.078,0.3,3,reviewed,us,us
+2023-02-13T01:17:53.573Z,36.5303,71.2129,97.28,4.1,mb,23,112,2.659,0.57,us,us6000jnim,2023-04-22T21:33:04.040Z,"33 km WSW of Ashk?sham, Afghanistan",earthquake,5.5,10.513,0.173,9,reviewed,us,us
+2023-02-12T09:01:06.922Z,31.682,69.9963,10,4.2,mb,29,120,2.961,0.74,us,us6000jqbi,2023-04-22T21:33:20.040Z,"51 km WSW of Kulachi, Pakistan",earthquake,10.11,1.926,0.141,14,reviewed,us,us
+2023-02-10T04:40:52.049Z,36.7449,71.1258,210.571,4.2,mb,35,79,2.543,0.44,us,us6000jn0g,2023-04-15T21:39:53.040Z,"29 km ESE of Jurm, Afghanistan",earthquake,8.32,7.282,0.166,10,reviewed,us,us
+2023-02-06T11:04:07.452Z,36.5065,70.3144,194.34,4.1,mb,30,89,2.219,0.68,us,us6000jlqs,2023-04-15T21:39:36.040Z,"41 km E of Farkh?r, Afghanistan",earthquake,7.23,8.512,0.185,8,reviewed,us,us
+2023-02-04T10:47:31.711Z,36.4381,70.9881,153.041,4.1,mb,21,88,2.47,0.62,us,us6000jldc,2023-04-13T21:53:24.040Z,"Hindu Kush region, Afghanistan",earthquake,5.13,10.574,0.234,5,reviewed,us,us
+2023-02-04T03:37:21.314Z,36.6455,71.2009,221.972,4.1,mb,35,73,2.739,0.64,us,us6000jlbv,2023-04-13T21:53:23.040Z,"30 km W of Ashk?sham, Afghanistan",earthquake,8.29,7.353,0.15,12,reviewed,us,us
+2023-02-03T21:22:53.059Z,36.4094,70.7814,205.818,4.3,mb,81,75,2.343,0.49,us,us6000jl9j,2023-04-13T21:53:22.040Z,"50 km S of Jurm, Afghanistan",earthquake,7.01,7.217,0.075,50,reviewed,us,us
+2023-02-02T03:44:27.080Z,27.0533,65.8629,30.704,3.9,mb,30,98,8.94,0.48,us,us6000jkwt,2023-04-13T21:53:07.040Z,"101 km NNW of Bela, Pakistan",earthquake,9.29,4.502,0.142,13,reviewed,us,us
+2023-02-01T14:29:54.469Z,36.2121,68.7661,69.431,4,mb,16,116,1.683,0.18,us,us6000jkru,2023-04-13T21:53:16.040Z,"Hindu Kush region, Afghanistan",earthquake,8.69,11.173,0.157,11,reviewed,us,us
+2023-01-29T07:54:47.532Z,33.5931,72.8907,30.793,4.4,mb,39,176,0.321,0.52,us,us6000jk4q,2025-02-15T20:05:26.620Z,"14 km W of Rawalpindi, Pakistan",earthquake,10.11,7.211,0.127,18,reviewed,us,us
+2023-01-28T01:08:04.554Z,36.4986,71.3233,92.65,4.3,mb,21,108,2.697,0.65,us,us6000jjw9,2023-04-11T18:51:37.040Z,"27 km SW of Ashk?sham, Afghanistan",earthquake,5.52,15.325,0.187,8,reviewed,us,us
+2023-01-26T23:38:14.307Z,36.6217,67.6255,10,4,mb,27,129,2.311,0.71,us,us6000jjkl,2024-01-18T19:15:58.514Z,"10 km SW of Khulm, Afghanistan",earthquake,7.61,1.973,0.211,6,reviewed,us,us
+2023-01-26T01:41:56.836Z,36.0944,70.2975,123.331,4.1,mb,24,80,1.859,0.67,us,us6000jjb5,2023-04-11T18:51:33.040Z,"66 km SE of Farkh?r, Afghanistan",earthquake,6.95,13.598,0.174,9,reviewed,us,us
+2023-01-22T21:22:37.602Z,36.5949,70.8744,214.022,4.4,mb,20,97,2.536,0.73,us,us7000j6a0,2023-04-11T18:51:53.040Z,"30 km S of Jurm, Afghanistan",earthquake,8.11,10.761,0.311,3,reviewed,us,us
+2023-01-22T03:34:41.423Z,36.4969,70.2902,202.922,4.1,mb,34,83,2.201,0.76,us,us7000j660,2023-04-11T18:51:51.040Z,"39 km ESE of Farkh?r, Afghanistan",earthquake,7.18,7.547,0.145,17,reviewed,us,us
+2023-01-19T11:30:42.960Z,35.5464,71.3961,104.372,5.1,mww,115,46,2.176,0.7,us,us7000j5hh,2023-03-31T19:45:23.040Z,"45 km ENE of P?r?n, Afghanistan",earthquake,5.86,4.417,0.08,15,reviewed,us,us
+2023-01-18T14:09:34.227Z,36.492,69.6013,10,4.2,mb,18,104,1.999,1.05,us,us6000jjez,2023-03-31T19:43:28.040Z,"24 km WSW of Farkh?r, Afghanistan",earthquake,7.74,1.945,0.187,8,reviewed,us,us
+2023-01-12T16:18:38.280Z,36.4328,71.1482,231.547,4.1,mb,41,74,2.552,0.83,us,us7000j5tz,2023-03-20T06:04:01.040Z,"44 km SW of Ashk?sham, Afghanistan",earthquake,7.31,6.727,0.117,22,reviewed,us,us
+2023-01-09T04:48:16.893Z,36.5315,70.9571,193.763,4,mb,52,73,2.526,0.83,us,us7000j329,2023-03-20T06:03:03.040Z,"38 km SSE of Jurm, Afghanistan",earthquake,8.21,7.47,0.095,30,reviewed,us,us
+2023-01-05T22:45:21.345Z,36.4511,68.7722,10,4.3,mb,45,101,1.919,0.91,us,us7000j2f5,2023-03-11T22:51:41.040Z,"31 km SSW of Kunduz, Afghanistan",earthquake,7.63,1.912,0.119,20,reviewed,us,us
+2023-01-05T14:25:53.019Z,36.4738,70.7455,203,6,mww,108,22,2.377,0.73,us,us7000j2b9,2023-03-11T22:51:41.040Z,"44 km S of Jurm, Afghanistan",earthquake,7.14,1.888,0.039,62,reviewed,us,us
+2023-01-04T10:04:28.046Z,31.7032,73.979,10,4.2,mb,16,182,2.032,0.68,us,us7000j22v,2023-03-11T22:51:39.040Z,"1 km SSW of Shekhupura, Pakistan",earthquake,8.81,1.994,0.264,4,reviewed,us,us
+2023-01-01T21:24:15.849Z,29.7295,70.1934,10,4.3,mb,33,138,4.706,0.68,us,us7000j1h6,2023-03-11T22:51:30.040Z,"25 km NW of Dajal, Pakistan",earthquake,9.06,1.935,0.153,12,reviewed,us,us
+2023-01-01T13:02:57.452Z,36.691,76.9958,98.403,4.3,mb,46,97,4.303,0.86,us,us7000j1f2,2023-03-11T22:51:30.040Z,"Kashmir-Xinjiang border region",earthquake,7.99,7.916,0.106,25,reviewed,us,us
+2023-01-01T06:39:45.016Z,36.5374,70.9078,187.282,4.8,mb,108,37,2.506,0.49,us,us7000j1cr,2023-03-11T22:51:29.040Z,"36 km S of Jurm, Afghanistan",earthquake,6.21,5.592,0.04,194,reviewed,us,us
+2022-12-31T19:49:41.613Z,28.7191,76.6286,10,4.1,mb,21,179,5.696,0.57,us,us7000j1aj,2025-07-10T03:56:56.629Z,"Haryana, India",earthquake,9.35,1.929,0.158,13,reviewed,us,us
+2022-12-30T01:45:16.195Z,36.6977,71.4086,181.299,4.2,mb,56,69,2.731,0.98,us,us7000j0ze,2024-01-18T19:07:02.172Z,"11 km W of Ashk?sham, Afghanistan",earthquake,7.59,7.207,0.099,28,reviewed,us,us
+2022-12-28T22:50:11.288Z,36.5728,70.9592,202.082,4,mb,37,71,0.632,0.68,us,us7000j0q7,2023-03-07T18:59:56.040Z,"34 km SSE of Jurm, Afghanistan",earthquake,4.04,5.481,0.134,15,reviewed,us,us
+2022-12-26T02:57:03.782Z,36.5225,70.8007,177.945,4.4,mb,75,74,0.628,0.85,us,us6000jbq3,2023-03-07T18:59:49.040Z,"38 km S of Jurm, Afghanistan",earthquake,6.93,5.401,0.082,43,reviewed,us,us
+2022-12-21T19:33:15.412Z,36.7182,71.0735,221.368,4.2,mb,47,69,0.569,0.92,us,us6000jawr,2023-02-28T23:06:41.040Z,"26 km SE of Jurm, Afghanistan",earthquake,4.32,6.483,0.115,21,reviewed,us,us
+2022-12-21T06:27:42.596Z,36.5404,70.8832,185.215,4,mb,38,79,0.634,1.08,us,us6000jasq,2023-02-28T23:06:38.040Z,"36 km S of Jurm, Afghanistan",earthquake,7.14,4.032,0.138,14,reviewed,us,us
+2022-12-21T02:27:01.824Z,36.5417,71.4099,116.948,4.4,mb,67,77,0.887,0.6,us,us6000jar7,2024-01-18T17:37:51.764Z,"19 km SW of Ashk?sham, Afghanistan",earthquake,6.38,4.801,0.078,47,reviewed,us,us
+2022-12-15T17:07:39.851Z,36.3421,71.0118,104.319,4.3,mb,37,77,2.411,0.85,us,us6000j9ih,2023-02-18T22:04:14.040Z,"60 km SW of Ashk?sham, Afghanistan",earthquake,6.11,7.889,0.122,21,reviewed,us,us
+2022-12-13T02:05:12.632Z,36.3305,69.2784,12.274,4.3,mb,26,65,1.31,0.54,us,us6000j8x8,2023-02-18T22:04:07.040Z,"32 km NNE of Nahr?n, Afghanistan",earthquake,4.27,5.671,0.169,10,reviewed,us,us
+2022-12-12T02:11:07.931Z,36.5658,71.0032,219.279,4.4,mb,81,72,0.655,0.7,us,us6000j8pk,2023-02-18T22:04:05.040Z,"36 km SSE of Jurm, Afghanistan",earthquake,8.05,3.068,0.067,63,reviewed,us,us
+2022-12-11T09:53:38.335Z,36.7551,71.1267,95.589,4.6,mb,35,68,2.536,0.53,us,us6000j8ki,2023-02-18T22:04:03.040Z,"28 km ESE of Jurm, Afghanistan",earthquake,4.96,7.947,0.152,13,reviewed,us,us
+2022-12-11T03:13:53.784Z,36.6716,71.0593,243.953,4.5,mb,77,47,0.596,0.88,us,us6000j8ip,2023-02-18T22:04:02.040Z,"29 km SE of Jurm, Afghanistan",earthquake,7.47,4.992,0.058,87,reviewed,us,us
+2022-12-11T01:52:46.957Z,34.6418,69.3476,25.69,4.3,mb,25,123,0.271,0.95,us,us6000j8id,2023-02-18T22:04:02.040Z,"20 km NE of Kabul, Afghanistan",earthquake,9.41,6.074,0.142,14,reviewed,us,us
+2022-12-08T20:01:41.565Z,36.4811,71.2461,120.961,4,mb,23,106,2.641,0.98,us,us6000j804,2023-02-11T23:03:18.040Z,"34 km SW of Ashk?sham, Afghanistan",earthquake,8.82,12.152,0.232,5,reviewed,us,us
+2022-12-03T15:54:11.766Z,36.5299,70.4886,206.272,4.2,mb,16,83,0.599,0.89,us,us6000j6p4,2023-02-11T23:03:04.040Z,"Hindu Kush region, Afghanistan",earthquake,8.67,8.764,0.304,3,reviewed,us,us
+2022-12-03T02:59:37.987Z,36.5846,71.4785,90.921,4.5,mb,55,53,0.903,0.9,us,us6000j6hx,2023-02-11T23:03:02.040Z,"12 km SSW of Ashk?sham, Afghanistan",earthquake,6.57,6.2,0.08,46,reviewed,us,us
+2022-12-03T01:21:40.640Z,35.4013,71.0115,97.436,4.3,mb,37,117,1.756,0.87,us,us6000j6hi,2023-02-11T23:03:02.040Z,"8 km ESE of P?r?n, Afghanistan",earthquake,7.87,7.654,0.129,18,reviewed,us,us
+2022-11-29T20:21:06.444Z,36.3986,70.6357,140.832,4.1,mb,21,79,0.727,0.93,us,us6000j5le,2024-01-18T17:29:24.516Z,"54 km SSW of Jurm, Afghanistan",earthquake,6.74,7.174,0.185,9,reviewed,us,us
+2022-11-29T05:33:53.060Z,36.6376,69.948,41.538,4.6,mb,76,40,0.701,0.65,us,us7000it74,2023-02-05T23:25:00.040Z,"10 km NE of Farkh?r, Afghanistan",earthquake,5.7,5.795,0.071,58,reviewed,us,us
+2022-11-25T16:49:28.073Z,36.6873,71.0338,230.981,4.1,mb,22,76,0.571,0.63,us,us7000isew,2024-01-18T17:27:12.401Z,"26 km SE of Jurm, Afghanistan",earthquake,9.28,4.621,0.233,5,reviewed,us,us
+2022-11-23T08:45:18.130Z,36.5152,70.6088,200.696,4.5,mb,60,71,0.61,0.73,us,us7000irs3,2024-01-18T17:26:14.421Z,"43 km SSW of Jurm, Afghanistan",earthquake,7.65,5.627,0.063,74,reviewed,us,us
+2022-11-23T04:07:01.135Z,36.6778,71.2267,216.267,4,mb,25,85,0.687,0.52,us,us7000irqt,2023-01-30T06:01:06.040Z,"27 km W of Ashk?sham, Afghanistan",earthquake,7.28,4.627,0.231,5,reviewed,us,us
+2022-11-22T14:39:41.427Z,36.3563,70.6926,102.269,4.2,mb,14,113,0.773,0.34,us,us7000irj0,2023-01-30T06:00:57.040Z,"57 km SSW of Jurm, Afghanistan",earthquake,6.32,5.685,0.529,1,reviewed,us,us
+2022-11-22T04:35:48.715Z,36.186,77.8163,85.634,4.5,mb,55,98,4.512,0.48,us,us7000irg7,2024-01-18T17:25:42.684Z,"148 km SW of Zangguy, China",earthquake,8.9,6.837,0.102,28,reviewed,us,us
+2022-11-21T15:02:06.961Z,36.556,71.2504,100.444,4.2,mb,29,100,0.785,0.4,us,us7000irb9,2023-01-30T06:00:35.040Z,"28 km WSW of Ashk?sham, Afghanistan",earthquake,6.1,8.248,0.199,8,reviewed,us,us
+2022-11-20T22:42:09.227Z,36.8229,69.8367,10,4.2,mb,39,65,0.665,0.59,us,us7000ir80,2023-01-30T06:00:29.040Z,"27 km N of Farkh?r, Afghanistan",earthquake,4.86,1.9,0.146,13,reviewed,us,us
+2022-11-20T02:03:23.223Z,36.6665,71.1539,207.291,4.2,mb,42,70,0.652,0.82,us,us7000ir2r,2023-01-30T06:00:17.040Z,"33 km W of Ashk?sham, Afghanistan",earthquake,8.23,5.909,0.128,17,reviewed,us,us
+2022-11-19T08:41:06.777Z,36.6359,71.3665,223.813,4.4,mb,27,80,0.8,0.59,us,us7000iqye,2023-01-30T06:00:08.040Z,"15 km WSW of Ashk?sham, Afghanistan",earthquake,7.34,7.796,0.17,10,reviewed,us,us
+2022-11-19T01:21:06.892Z,29.9755,68.2441,36.082,4.2,mb,22,262,4.602,0.73,us,us7000iqw2,2023-01-30T06:00:04.040Z,"32 km ESE of Harnai, Pakistan",earthquake,14.65,12.707,0.199,7,reviewed,us,us
+2022-11-18T22:26:52.838Z,34.6684,70.5727,10,4,mb,34,120,1.268,0.79,us,us7000iqv8,2023-01-28T19:58:27.040Z,"29 km NNE of Jal?l?b?d, Afghanistan",earthquake,2.76,1.909,0.197,7,reviewed,us,us
+2022-11-17T10:37:58.751Z,36.3373,70.9558,108.455,4.3,mb,32,79,0.843,0.87,us,us7000iqdk,2023-01-28T19:58:21.040Z,"59 km S of Jurm, Afghanistan",earthquake,5.22,7.616,0.16,11,reviewed,us,us
+2022-11-17T08:35:45.861Z,33.5036,72.1278,25.92,4.4,mb,41,167,0.963,0.52,us,us7000iqcw,2023-01-28T19:58:21.040Z,"12 km NE of Jand, Pakistan",earthquake,8.05,3.6,0.115,22,reviewed,us,us
+2022-11-16T16:02:53.870Z,31.8986,76.9792,10,4.4,mb,46,87,3.581,0.56,us,us7000iq4z,2023-01-28T19:58:19.040Z,"13 km WSW of Kulu, India",earthquake,3.67,1.816,0.102,28,reviewed,us,us
+2022-11-14T07:41:29.999Z,36.469,71.002,153.469,4,mb,34,76,0.739,0.49,us,us7000ipkk,2023-01-28T19:58:14.040Z,"46 km SSE of Jurm, Afghanistan",earthquake,5.24,7.281,0.164,10,reviewed,us,us
+2022-11-13T22:12:16.150Z,31.6076,73.0214,10,4.4,mb,38,174,2.048,0.68,us,us7000ipim,2023-01-28T19:58:13.040Z,"13 km SSE of Chiniot, Pakistan",earthquake,9.02,1.981,0.126,18,reviewed,us,us
+2022-11-12T07:08:11.149Z,36.5158,71.1766,83.718,4.6,mb,46,105,0.776,0.61,us,us7000ip8g,2023-01-28T19:58:08.040Z,"36 km WSW of Ashk?sham, Afghanistan",earthquake,6.9,7.079,0.1,30,reviewed,us,us
+2022-11-06T07:05:25.732Z,36.4624,70.5744,202.019,4.4,mb,30,92,0.662,0.84,us,us7000imvs,2023-01-21T19:27:10.040Z,"50 km SSW of Jurm, Afghanistan",earthquake,8.44,6.853,0.149,13,reviewed,us,us
+2022-11-05T17:51:42.527Z,36.5149,70.3789,196.417,4.3,mb,37,73,0.63,0.3,us,us7000imr4,2023-01-21T19:27:09.040Z,"47 km E of Farkh?r, Afghanistan",earthquake,5.19,5.871,0.101,29,reviewed,us,us
+2022-11-03T23:04:04.862Z,36.6048,70.8899,215.868,4.3,mb,37,70,0.577,0.68,us,us7000imbm,2023-01-12T23:11:22.040Z,"29 km S of Jurm, Afghanistan",earthquake,6.82,6.574,0.132,16,reviewed,us,us
+2022-11-02T03:07:58.893Z,36.3763,71.307,100.585,4.1,mb,33,78,0.951,0.86,us,us7000ilw9,2023-01-12T23:10:59.040Z,"39 km SSW of Ashk?sham, Afghanistan",earthquake,6.14,3.369,0.165,10,reviewed,us,us
+2022-10-31T19:44:57.958Z,36.5904,71.4367,112.713,4.3,mb,58,71,2.825,1.21,us,us7000ilk4,2023-01-12T23:10:49.040Z,"13 km SW of Ashk?sham, Afghanistan",earthquake,7.65,8.26,0.086,38,reviewed,us,us
+2022-10-31T16:08:38.061Z,25.9532,60.3815,10,4.1,mb,20,136,3.907,0.88,us,us7000imhy,2023-01-12T23:11:28.040Z,"34 km SSE of N?kshahr, Iran",earthquake,7.7,1.913,0.175,10,reviewed,us,us
+2022-10-30T18:31:03.751Z,28.7382,66.667,10,4.2,mb,35,78,6.129,1.04,us,us7000ilcs,2023-01-12T23:10:40.040Z,"Pakistan",earthquake,5.66,1.929,0.115,21,reviewed,us,us
+2022-10-30T14:41:03.782Z,36.5144,71.3103,93.169,4.1,mb,21,75,2.701,0.67,us,us7000ilc1,2023-01-12T23:10:38.040Z,"27 km SW of Ashk?sham, Afghanistan",earthquake,8.34,11.867,0.174,10,reviewed,us,us
+2022-10-29T15:41:08.165Z,36.5219,71.2745,130.931,4.1,mb,27,70,2.687,0.68,us,us7000il6l,2023-01-12T23:10:30.040Z,"29 km SW of Ashk?sham, Afghanistan",earthquake,5.8,8.157,0.166,10,reviewed,us,us
+2022-10-25T16:54:24.109Z,26.3746,67.4179,10,4.4,mb,39,142,8.259,0.48,us,us6000iwfw,2023-01-03T15:23:38.040Z,"Pakistan",earthquake,10.32,1.854,0.12,22,reviewed,us,us
+2022-10-21T04:07:10.974Z,36.6385,71.1062,203.205,4.1,mb,19,101,2.615,0.75,us,us6000iwec,2022-12-31T23:03:49.040Z,"34 km SE of Jurm, Afghanistan",earthquake,9.51,8.966,0.213,6,reviewed,us,us
+2022-10-20T08:33:44.360Z,36.7349,69.793,300.149,4.2,mb,54,58,2.019,0.76,us,us6000iv4d,2022-12-31T23:03:40.040Z,"18 km NNW of Farkh?r, Afghanistan",earthquake,7.57,7.479,0.091,34,reviewed,us,us
+2022-10-19T20:35:22.038Z,36.2664,71.2038,99.091,4.3,mb,32,79,2.466,1.23,us,us6000iuy8,2022-12-31T23:03:40.040Z,"54 km SSW of Ashk?sham, Afghanistan",earthquake,5.73,10.03,0.133,16,reviewed,us,us
+2022-10-11T08:10:20.201Z,36.8088,66.8796,36.415,4.9,mb,55,79,2.501,0.77,us,us6000isnu,2022-12-17T22:53:53.040Z,"6 km NNW of Balkh, Afghanistan",earthquake,6.48,6.839,0.071,62,reviewed,us,us
+2022-10-11T02:41:02.161Z,36.6384,70.8961,219.825,4,mb,24,101,0.55,0.46,us,us6000iubt,2022-12-17T22:54:15.040Z,"25 km SSE of Jurm, Afghanistan",earthquake,4.41,6.048,0.259,4,reviewed,us,us
+2022-10-10T03:20:07.448Z,36.359,70.7118,135.869,4,mb,17,112,0.773,0.38,us,us6000ise2,2022-12-17T22:53:48.040Z,"57 km S of Jurm, Afghanistan",earthquake,3.61,9.063,0.3,3,reviewed,us,us
+2022-10-08T04:39:29.974Z,36.4985,70.3221,220.12,4,mb,18,124,0.658,0.95,us,us6000is0w,2022-12-17T22:53:40.040Z,"42 km ESE of Farkh?r, Afghanistan",earthquake,9.57,7.331,0.259,4,reviewed,us,us
+2022-10-02T23:28:25.589Z,36.1294,70.7686,91.572,4.4,mb,50,82,1.006,0.62,us,us6000iqb1,2022-12-10T22:52:51.040Z,"79 km N of P?r?n, Afghanistan",earthquake,6.8,7.281,0.1,29,reviewed,us,us
+2022-09-28T05:41:16.561Z,36.3288,72.6568,58.337,4.4,mb,23,100,1.851,0.7,us,us6000inws,2022-12-03T22:02:33.040Z,"75 km SSE of Khand?d, Afghanistan",earthquake,4.47,8.587,0.24,5,reviewed,us,us
+2022-09-27T01:04:58.038Z,32.8847,73.58,10,4.3,mb,41,160,0.807,0.95,us,us6000inhw,2022-12-03T22:02:25.040Z,"15 km WSW of Jhelum, Pakistan",earthquake,6.94,1.785,0.153,12,reviewed,us,us
+2022-09-26T15:07:53.838Z,35.9041,70.6052,101.245,4.2,mb,26,88,1.219,0.62,us,us7000ib49,2022-12-03T22:03:26.040Z,"60 km NNW of P?r?n, Afghanistan",earthquake,7.01,6.249,0.153,12,reviewed,us,us
+2022-09-23T23:33:08.970Z,36.5316,71.0249,199.179,4,mb,35,94,0.694,0.52,us,us7000iam6,2022-11-26T20:58:00.040Z,"40 km SSE of Jurm, Afghanistan",earthquake,8.76,3.937,0.156,11,reviewed,us,us
+2022-09-22T23:52:59.626Z,36.0685,70.6615,107.646,4.5,mb,37,83,1.057,0.69,us,us7000iabv,2022-11-26T20:57:54.040Z,"75 km NNW of P?r?n, Afghanistan",earthquake,5.45,6.025,0.15,13,reviewed,us,us
+2022-09-20T04:18:30.861Z,34.7011,70.603,10,4.4,mb,54,95,1.296,0.78,us,us7000i9fm,2022-11-26T20:57:44.040Z,"Hindu Kush region, Afghanistan",earthquake,5.96,1.819,0.108,25,reviewed,us,us
+2022-09-19T22:36:13.138Z,36.4285,71.173,207.395,4.3,mb,61,43,0.845,0.65,us,us7000i9e1,2022-11-26T20:57:43.040Z,"Afghanistan-Tajikistan-Pakistan region",earthquake,7.86,5.648,0.078,46,reviewed,us,us
+2022-09-19T20:44:55.316Z,36.7216,71.3253,183.637,4.1,mb,35,69,0.723,0.91,us,us7000i9d5,2022-11-26T20:57:43.040Z,"19 km WNW of Ashk?sham, Afghanistan",earthquake,8.47,3.395,0.145,13,reviewed,us,us
+2022-09-19T04:00:00.077Z,35.5275,74.9896,10,4.6,mb,66,85,2.35,0.49,us,us7000i975,2022-11-26T20:57:41.040Z,"63 km WNW of Skardu, Pakistan",earthquake,7.33,1.884,0.074,54,reviewed,us,us
+2022-09-18T15:06:41.302Z,35.9282,77.9225,10,4.1,mb,44,100,4.453,0.83,us,us7000i93n,2022-11-26T20:57:39.040Z,"151 km NE of Thang, India",earthquake,6.07,1.881,0.139,16,reviewed,us,us
+2022-09-18T14:46:35.427Z,36.9732,71.2341,104.279,4.3,mb,20,82,0.548,0.28,us,us7000i93j,2022-11-26T20:57:39.040Z,"Afghanistan-Tajikistan-Pakistan region",earthquake,5.34,6.158,0.239,6,reviewed,us,us
+2022-09-15T22:49:37.729Z,35.907,77.7506,10,4.9,mww,108,47,4.321,0.63,us,us7000i8e9,2022-11-19T23:03:21.040Z,"139 km NE of Thang, India",earthquake,7.16,1.815,0.098,10,reviewed,us,us
+2022-09-09T07:33:42.898Z,36.5582,71.0865,200.937,4.4,mb,46,103,0.699,0.79,us,us6000iid5,2022-11-15T19:05:51.040Z,"40 km SSE of Jurm, Afghanistan",earthquake,7.68,4.86,0.109,24,reviewed,us,us
+2022-09-08T18:56:51.416Z,35.9625,77.7205,10,4,mb,31,105,4.328,0.84,us,us6000ii8r,2024-01-18T16:48:38.479Z,"142 km NE of Thang, India",earthquake,5.15,1.91,0.184,8,reviewed,us,us
+2022-09-08T01:50:50.946Z,35.9009,77.8306,10,4.4,mb,55,85,4.374,0.42,us,us6000ii12,2022-11-15T19:05:47.040Z,"143 km NE of Thang, India",earthquake,8.2,1.881,0.12,20,reviewed,us,us
+2022-09-07T13:22:07.091Z,36.6965,71.2004,197.819,4.2,mb,32,82,0.659,0.62,us,us7000i5zq,2022-11-15T19:06:13.040Z,"Afghanistan-Tajikistan-Pakistan region",earthquake,6.8,6.385,0.187,8,reviewed,us,us
+2022-09-07T08:09:13.956Z,34.5449,70.7074,10,4.6,mb,61,55,1.374,1.1,us,us7000i5yc,2022-11-15T19:06:13.040Z,"26 km ENE of Jal?l?b?d, Afghanistan",earthquake,6.36,1.813,0.059,86,reviewed,us,us
+2022-09-07T01:02:40.387Z,36.5732,71.1671,209.002,4.1,mb,28,84,0.727,0.76,us,us7000i5vz,2022-11-15T19:06:12.040Z,"34 km WSW of Ashk?sham, Afghanistan",earthquake,5.99,6.187,0.145,13,reviewed,us,us
+2022-09-06T07:04:42.759Z,36.6227,70.6462,69.06,4.8,mb,63,70,0.505,0.95,us,us7000i5kb,2022-11-15T19:06:10.040Z,"31 km SSW of Jurm, Afghanistan",earthquake,7.84,4.923,0.044,158,reviewed,us,us
+2022-09-05T11:57:01.033Z,34.5991,70.5807,10,4.6,mb,60,143,1.27,0.43,us,us7000i5cw,2022-11-15T19:06:08.040Z,"22 km NNE of Jal?l?b?d, Afghanistan",earthquake,6.1,1.866,0.066,69,reviewed,us,us
+2022-09-04T21:57:35.743Z,34.6636,70.7117,10,5.1,mww,123,42,1.382,0.49,us,us7000i57m,2022-11-15T19:06:06.040Z,"35 km NE of Jal?l?b?d, Afghanistan",earthquake,4.41,1.713,0.098,10,reviewed,us,us
+2022-09-02T17:00:14.416Z,36.1725,68.863,35,4.9,mww,215,24,1.635,0.76,us,us7000i4qg,2022-11-06T04:35:54.040Z,"14 km ENE of Baghl?n, Afghanistan",earthquake,2.45,1.807,0.086,13,reviewed,us,us
+2022-08-31T12:36:44.583Z,28.9851,66.3703,9.664,4.6,mb,65,102,5.988,0.68,us,us7000i3zb,2022-11-06T04:36:57.040Z,"22 km WSW of Kalat, Pakistan",earthquake,8.78,4.375,0.083,44,reviewed,us,us
+2022-08-30T08:45:29.038Z,36.4496,71.1575,137.894,4.2,mb,27,86,0.82,0.83,us,us7000i3ml,2022-11-06T04:37:38.040Z,"Afghanistan-Tajikistan-Pakistan region",earthquake,2.84,6.982,0.236,5,reviewed,us,us
+2022-08-26T09:50:56.829Z,31.9227,60.0517,10,4.2,mb,58,88,7.732,0.42,us,us7000i2k0,2022-11-01T15:14:18.040Z,"130 km SE of B?rjand, Iran",earthquake,5.21,1.877,0.078,46,reviewed,us,us
+2022-08-25T21:25:39.860Z,35.928,70.9051,94.985,4.4,mb,60,81,1.224,0.44,us,us7000i2fx,2022-11-01T15:14:11.040Z,"56 km N of P?r?n, Afghanistan",earthquake,6.58,5.936,0.092,34,reviewed,us,us
+2022-08-24T17:34:21.884Z,33.1509,75.7219,10,4.2,mb,42,156,2.112,0.68,us,us7000i23w,2022-11-01T15:14:03.040Z,"16 km E of Doda, India",earthquake,8.01,1.838,0.121,19,reviewed,us,us
+2022-08-22T20:50:28.977Z,33.2367,75.8439,10,4,mb,33,153,2.192,1.01,us,us6000icvq,2022-11-01T15:12:53.040Z,"11 km SE of Kishtw?r, India",earthquake,8.14,1.881,0.144,13,reviewed,us,us
+2022-08-22T13:53:55.885Z,33.0822,69.508,35.13,4.6,mb,82,56,1.505,0.45,us,us6000icrr,2022-11-01T15:12:50.040Z,"47 km SW of Kh?st, Afghanistan",earthquake,7.25,3.662,0.056,97,reviewed,us,us
+2022-08-21T21:00:29.847Z,36.561,70.8175,203.258,4.1,mb,20,96,0.596,0.47,us,us7000i3q7,2022-11-01T15:14:31.040Z,"33 km S of Jurm, Afghanistan",earthquake,5.69,6.663,0.214,6,reviewed,us,us
+2022-08-14T09:53:16.643Z,26.8918,67.4689,10,4.3,mb,34,139,7.744,0.37,us,us6000iar0,2022-10-28T02:25:52.040Z,"21 km W of Goth Phulji, Pakistan",earthquake,8.92,1.923,0.116,21,reviewed,us,us
+2022-08-13T14:58:17.076Z,36.3121,71.2298,102.123,4,mb,18,126,0.967,0.9,us,us6000iaj6,2022-10-28T02:25:40.040Z,"49 km SSW of Ashk?sham, Afghanistan",earthquake,7.61,5.205,0.196,7,reviewed,us,us
+2022-08-12T08:09:47.048Z,36.5038,71.0949,143.445,4.6,mb,65,73,0.747,0.47,us,us6000ia62,2024-01-18T16:43:18.788Z,"44 km WSW of Ashk?sham, Afghanistan",earthquake,7.03,3.579,0.077,51,reviewed,us,us
+2022-08-08T04:30:10.945Z,36.5995,71.2897,110.101,4,mb,22,107,0.777,0.85,us,us6000i8zt,2022-10-21T23:19:04.040Z,"23 km WSW of Ashk?sham, Afghanistan",earthquake,7.86,7.638,0.26,4,reviewed,us,us
+2022-08-06T15:21:34.383Z,36.6671,71.2334,228.415,4.2,mb,35,77,0.698,0.74,us,us6000i8nj,2022-10-21T23:18:30.040Z,"26 km W of Ashk?sham, Afghanistan",earthquake,8.41,4.71,0.115,21,reviewed,us,us
+2022-08-05T03:21:05.826Z,36.4332,71.1844,143.347,3.9,mb,23,85,0.846,0.69,us,us6000i891,2022-10-12T14:50:45.040Z,"41 km SW of Ashk?sham, Afghanistan",earthquake,6.72,7.768,0.195,7,reviewed,us,us
+2022-08-04T19:08:10.347Z,36.4812,71.3235,98.864,4.6,mb,157,48,0.88,0.69,us,us6000i84m,2022-10-12T14:50:39.040Z,"Afghanistan-Tajikistan-Pakistan region",earthquake,5.82,5.511,0.041,175,reviewed,us,us
+2022-08-02T13:42:24.461Z,32.5867,69.0816,10,4.3,mb,22,113,1.949,0.36,us,us6000i7g8,2022-10-12T14:49:56.040Z,"56 km NW of Wana, Pakistan",earthquake,4.8,1.955,0.178,10,reviewed,us,us
+2022-07-31T13:52:17.244Z,25.1097,63.4765,16.727,5.1,mb,74,44,6.599,0.51,us,us6000i6z0,2022-10-12T14:49:13.040Z,"17 km S of Pasni, Pakistan",earthquake,6.67,4.116,0.043,184,reviewed,us,us
+2022-07-31T13:42:15.318Z,25.1448,63.5694,27.11,5.6,mww,108,44,6.683,0.62,us,us6000i6yz,2022-10-12T14:49:13.040Z,"16 km SE of Pasni, Pakistan",earthquake,8.75,4.173,0.06,27,reviewed,us,us
+2022-07-26T20:37:18.652Z,36.4291,70.591,216.706,4.9,mww,179,20,0.695,0.74,us,us6000i5pp,2022-10-01T22:09:20.040Z,"53 km SSW of Jurm, Afghanistan",earthquake,6.65,4.2,0.098,10,reviewed,us,us
+2022-07-25T12:03:27.136Z,30.6529,66.702,10,4.2,mb,28,132,4.351,0.74,us,us7000htar,2022-10-01T22:09:50.040Z,"29 km WNW of Pishin, Pakistan",earthquake,5.15,1.951,0.131,16,reviewed,us,us
+2022-07-19T13:07:47.641Z,36.4839,60.5499,10,4.4,mb,32,188,7.192,0.92,us,us6000i3md,2022-09-27T16:57:02.040Z,"54 km W of Sarakhs, Iran",earthquake,10.1,1.9,0.102,28,reviewed,us,us
+2022-07-19T01:09:59.630Z,32.9587,69.5038,10,4.1,mb,42,96,1.624,0.85,us,us6000i3kp,2022-09-27T16:57:01.040Z,"53 km W of Miran Shah, Pakistan",earthquake,8,1.9,0.131,16,reviewed,us,us
+2022-07-18T19:23:14.084Z,33.0329,69.4451,10,4.3,mb,43,96,1.54,0.57,us,us6000i3ie,2022-09-27T16:57:00.040Z,"55 km SW of Kh?st, Afghanistan",earthquake,9.5,1.9,0.104,26,reviewed,us,us
+2022-07-18T14:38:21.481Z,36.5911,70.9833,208.72,4.9,mb,94,43,0.625,0.72,us,us6000i3f4,2022-09-27T16:57:00.040Z,"33 km SSE of Jurm, Afghanistan",earthquake,7.3,4.2,0.039,208,reviewed,us,us
+2022-07-18T12:22:44.372Z,33.0608,69.4864,10,5.2,mww,113,67,1.522,0.54,us,us6000i3el,2022-09-27T16:56:59.040Z,"50 km SW of Kh?st, Afghanistan",earthquake,7.12,1.854,0.093,11,reviewed,us,us
+2022-07-18T11:34:30.969Z,36.6953,71.0468,211.03,4.3,mb,46,57,0.571,0.75,us,us6000i3ee,2022-09-27T16:56:59.040Z,"26 km SE of Jurm, Afghanistan",earthquake,7,5.1,0.102,27,reviewed,us,us
+2022-07-16T11:35:02.161Z,34.4397,69.4929,48.584,4.3,mb,32,113,0.385,0.5,us,us7000htck,2022-09-27T16:57:17.040Z,"31 km ESE of Kabul, Afghanistan",earthquake,7.38,5.583,0.109,25,reviewed,us,us
+2022-07-16T11:27:35.315Z,34.5144,69.6798,35.746,4.7,mb,94,95,0.526,0.47,us,us6000i30w,2022-09-27T16:56:53.040Z,"37 km S of Tag?b, Afghanistan",earthquake,7.51,7.036,0.052,112,reviewed,us,us
+2022-07-15T22:22:12.994Z,29.0575,69.5091,10,4.6,mb,111,56,5.481,0.69,us,us6000i2w3,2022-09-24T21:25:31.040Z,"34 km E of Dera Bugti, Pakistan",earthquake,9.88,1.837,0.052,109,reviewed,us,us
+2022-07-12T05:12:04.111Z,36.0582,70.7605,110.08,4.2,mb,40,85,1.075,0.46,us,us6000i1r9,2022-09-24T21:25:52.040Z,"72 km NNW of P?r?n, Afghanistan",earthquake,3.6,7.1,0.113,22,reviewed,us,us
+2022-07-12T04:35:19.618Z,36.5302,71.2331,204.14,4.2,mb,42,71,0.794,0.77,us,us6000i1r5,2022-09-24T21:25:52.040Z,"31 km WSW of Ashk?sham, Afghanistan",earthquake,7.2,3.6,0.14,14,reviewed,us,us
+2022-07-08T11:51:00.494Z,36.4514,71.0547,134.96,4,mb,31,75,0.774,0.52,us,us6000i0th,2022-09-13T06:24:25.040Z,"49 km SSE of Jurm, Afghanistan",earthquake,6.5,5.3,0.139,14,reviewed,us,us
+2022-07-07T17:41:26.999Z,36.4242,71.1755,89,4.2,mb,48,73,0.849,1.04,us,us6000i0mu,2022-09-13T06:24:04.040Z,"43 km SW of Ashk?sham, Afghanistan",earthquake,7.1,6.9,0.094,33,reviewed,us,us
+2022-07-07T05:09:20.056Z,35.6261,69.7582,88.86,4.3,mb,37,85,1.231,0.69,us,us6000i0gh,2022-09-13T06:23:21.040Z,"41 km NNE of B?z?rak, Afghanistan",earthquake,6,7.5,0.116,21,reviewed,us,us
+2022-07-01T23:09:30.765Z,27.126,62.8188,10,4.3,mb,20,229,6.333,0.46,us,us6000i0as,2022-09-03T21:03:30.040Z,"126 km N of Turbat, Pakistan",earthquake,6.7,2,0.169,10,reviewed,us,us
+2022-06-29T04:30:31.097Z,36.4184,70.7633,209.373,4.8,mww,101,37,0.722,0.76,us,us7000hl0x,2022-09-03T21:03:47.040Z,"49 km S of Jurm, Afghanistan",earthquake,6.88,4.281,0.098,10,reviewed,us,us
+2022-06-27T22:49:50.675Z,28.8231,76.6692,10,3.7,mb,14,202,5.624,0.44,us,us7000hkq7,2022-11-12T17:33:52.134Z,"11 km SE of Rohtak, India",earthquake,8,2,0.251,4,reviewed,us,us
+2022-06-25T21:12:01.215Z,36.4865,70.8165,145.65,3.5,mb,15,110,0.666,0.85,us,us7000hk8p,2022-09-03T21:03:39.040Z,"Hindu Kush region, Afghanistan",earthquake,6.5,8.2,0.287,3,reviewed,us,us
+2022-06-24T01:43:29.039Z,33.0083,69.5438,10,4.2,mb,39,73,1.584,0.84,us,us7000hjt5,2022-08-28T03:20:50.040Z,"49 km W of Miran Shah, Pakistan",earthquake,5.4,1.9,0.112,24,reviewed,us,us
+2022-06-23T03:56:52.409Z,36.5151,70.5109,220.16,4.3,mb,23,71,0.611,0.92,us,us7000hjha,2022-08-28T03:20:25.040Z,"48 km SW of Jurm, Afghanistan",earthquake,8.5,5.6,0.217,6,reviewed,us,us
+2022-06-23T01:48:58.334Z,36.4687,70.729,214.33,4.2,mb,27,112,0.667,0.34,us,us7000hjgc,2022-08-28T03:20:22.040Z,"44 km SSW of Jurm, Afghanistan",earthquake,6.2,7.1,0.216,8,reviewed,us,us
+2022-06-21T21:50:24.948Z,32.9999,69.5099,10,4.5,mb,91,46,1.585,0.65,us,us7000hj4i,2022-08-28T03:19:52.040Z,"52 km W of Miran Shah, Pakistan",earthquake,7.9,1.8,0.065,68,reviewed,us,us
+2022-06-21T20:54:34.410Z,33.0203,69.4639,4,6,mww,206,15,1.557,0.83,us,us7000hj3u,2023-02-01T23:54:11.900Z,"55 km SW of Kh?st, Afghanistan",earthquake,6.65,1.667,0.098,10,reviewed,us,us
+2022-06-21T00:49:18.013Z,36.4196,70.8008,116.41,4.1,mb,43,75,2.36,0.86,us,us7000hiv9,2022-08-28T03:19:27.040Z,"49 km S of Jurm, Afghanistan",earthquake,6.8,7.8,0.112,22,reviewed,us,us
+2022-06-17T12:25:14.704Z,36.3681,71.1179,89.766,4.8,mww,126,45,0.872,0.58,us,us7000hi3k,2022-08-21T00:18:15.040Z,"51 km SW of Ashk?sham, Afghanistan",earthquake,6.12,5.639,0.093,11,reviewed,us,us
+2022-06-17T09:22:58.499Z,36.5049,71.1541,220.21,5.1,mww,143,36,0.773,0.58,us,us7000hi2g,2022-08-21T00:18:11.040Z,"39 km WSW of Ashk?sham, Afghanistan",earthquake,7.1,4.8,0.069,20,reviewed,us,us
+2022-06-14T14:48:27.431Z,36.5803,71.0265,219.13,3.9,mb,37,94,0.653,0.51,us,us7000hhbn,2022-08-21T00:17:13.040Z,"35 km SSE of Jurm, Afghanistan",earthquake,9.9,5.8,0.129,17,reviewed,us,us
+2022-06-14T07:35:44.604Z,36.4814,71.1703,208.81,4.9,mb,109,43,0.8,1.01,us,us7000hh92,2022-08-21T00:17:04.040Z,"39 km SW of Ashk?sham, Afghanistan",earthquake,6.5,4.8,0.034,269,reviewed,us,us
+2022-06-13T17:56:04.463Z,36.5427,70.8475,201.87,4.2,mb,19,85,0.621,0.87,us,us7000hh4j,2022-08-21T00:16:52.040Z,"35 km S of Jurm, Afghanistan",earthquake,3.9,6.2,0.2,7,reviewed,us,us
+2022-06-13T05:34:35.715Z,36.4393,70.7682,207.83,4.3,mb,82,74,0.702,0.65,us,us7000hh1f,2022-08-21T00:16:43.040Z,"47 km S of Jurm, Afghanistan",earthquake,6.5,5.2,0.075,51,reviewed,us,us
+2022-06-12T15:49:07.165Z,36.2613,70.5255,93.46,4.2,mb,19,101,0.863,0.69,us,us7000hgy5,2022-08-21T00:16:28.040Z,"69 km ESE of Farkh?r, Afghanistan",earthquake,6.2,8.1,0.216,6,reviewed,us,us
+2022-06-10T23:09:21.293Z,36.6728,71.1786,218.52,3.8,mb,27,106,0.661,0.49,us,us7000hgm6,2022-08-13T21:52:27.040Z,"Afghanistan-Tajikistan-Pakistan region",earthquake,9.1,5.7,0.18,8,reviewed,us,us
+2022-06-08T09:25:29.205Z,35.9367,77.9967,10,4.4,mb,27,117,4.509,0.6,us,us7000hfvg,2022-08-13T21:51:41.040Z,"156 km NE of Thang, India",earthquake,7.6,1.9,0.189,8,reviewed,us,us
+2022-06-08T06:52:24.266Z,35.9196,77.8975,10,4.9,mb,110,51,4.43,0.73,us,us7000hfug,2022-08-13T21:51:40.040Z,"Kashmir-Xinjiang border region",earthquake,7,1.8,0.041,192,reviewed,us,us
+2022-06-07T16:57:24.471Z,36.563,71.01,190.17,4.5,mb,110,72,0.66,0.44,us,us7000hfmx,2022-08-13T21:51:39.040Z,"36 km SSE of Jurm, Afghanistan",earthquake,7.1,5.4,0.048,132,reviewed,us,us
+2022-06-06T14:09:28.249Z,36.7838,70.9227,68.33,4.1,mb,40,83,0.439,0.57,us,us7000hfb9,2022-08-13T21:51:36.040Z,"11 km SE of Jurm, Afghanistan",earthquake,7.1,4.8,0.126,19,reviewed,us,us
+2022-06-04T13:59:05.096Z,36.4806,70.6659,199.29,4.7,mb,127,38,0.647,0.65,us,us7000heyi,2022-08-13T21:52:28.040Z,"45 km SSW of Jurm, Afghanistan",earthquake,6.5,4.9,0.04,186,reviewed,us,us
+2022-06-02T19:33:53.503Z,25.0269,60.9101,10,4.5,mb,72,48,4.271,0.94,us,us7000hega,2022-08-06T22:13:20.040Z,"39 km SE of Chabahar, Iran",earthquake,6.6,1.7,0.059,84,reviewed,us,us
+2022-06-02T13:45:51.466Z,36.6304,71.3306,228.18,4.2,mb,27,71,0.781,0.85,us,us7000hecc,2022-08-06T22:13:17.040Z,"19 km WSW of Ashk?sham, Afghanistan",earthquake,5.6,8.4,0.146,13,reviewed,us,us
+2022-06-02T04:18:04.591Z,36.2021,70.9262,91.96,4.2,mb,37,78,0.963,0.64,us,us7000he90,2022-08-06T22:13:15.040Z,"73 km S of Jurm, Afghanistan",earthquake,5,6.8,0.141,14,reviewed,us,us
+2022-05-31T20:51:38.268Z,34.4941,69.0207,10,2.7,ml,6,258,0.05,0.88,us,us7000hdyh,2022-08-06T22:13:11.040Z,"12 km SSE of Paghm?n, Afghanistan",earthquake,7.2,2,0.128,8,reviewed,us,us
+2022-05-27T12:42:36.032Z,36.2961,71.1718,108.76,4.1,mb,34,79,0.956,0.62,us,us7000hd0v,2022-08-02T19:50:57.040Z,"53 km SW of Ashk?sham, Afghanistan",earthquake,5.9,5.4,0.131,16,reviewed,us,us
+2022-05-24T08:23:30.473Z,36.5161,69.8883,152.1,4.1,mb,31,122,0.821,0.99,us,us7000hc62,2022-08-02T19:50:47.040Z,"6 km SSE of Farkh?r, Afghanistan",earthquake,7.4,8.4,0.234,5,reviewed,us,us
+2022-05-24T07:11:22.103Z,36.1297,70.2878,109.66,4.9,mb,96,30,1.02,0.92,us,us7000hc5n,2022-08-02T19:50:47.040Z,"62 km SE of Farkh?r, Afghanistan",earthquake,5.9,4.9,0.038,216,reviewed,us,us
+2022-05-22T09:37:42.209Z,36.531,70.2417,211.85,4.4,mb,48,68,0.651,0.42,us,us6000hn2y,2022-08-02T19:50:40.040Z,"34 km E of Farkh?r, Afghanistan",earthquake,3.3,5.2,0.103,27,reviewed,us,us
+2022-05-20T21:42:23.258Z,36.5642,69.6313,45.5,4.5,mb,79,74,0.942,0.56,us,us6000hmsd,2022-07-24T02:40:44.040Z,"20 km W of Farkh?r, Afghanistan",earthquake,4.7,6.7,0.071,57,reviewed,us,us
+2022-05-18T07:46:56.302Z,36.9172,71.1286,77.39,4.7,mb,94,41,0.488,1.13,us,us6000hly9,2022-07-24T02:39:49.040Z,"26 km ENE of Jurm, Afghanistan",earthquake,6.8,4.5,0.052,114,reviewed,us,us
+2022-05-13T22:18:14.299Z,36.6811,71.1161,209.14,4.3,mb,78,70,0.619,0.77,us,us6000hl0e,2022-07-22T18:30:56.040Z,"32 km SE of Jurm, Afghanistan",earthquake,6.3,5.2,0.079,46,reviewed,us,us
+2022-05-13T02:16:42.668Z,32.7165,76.2415,10,4.6,mb,19,169,2.661,0.8,us,us6000hmcp,2022-07-22T18:31:00.040Z,"20 km NNE of Chamba, India",earthquake,8.2,2,0.173,11,reviewed,us,us
+2022-05-11T14:34:52.462Z,36.5242,70.8281,188.85,4,mb,42,75,0.633,0.55,us,us7000h8ll,2022-07-22T18:31:13.040Z,"37 km S of Jurm, Afghanistan",earthquake,6.8,5.3,0.11,22,reviewed,us,us
+2022-05-11T09:43:13.280Z,36.5754,71.0477,204.41,3.9,mb,20,77,0.666,0.66,us,us7000h8k0,2022-07-22T18:30:49.040Z,"37 km SSE of Jurm, Afghanistan",earthquake,6.3,6.2,0.257,4,reviewed,us,us
+2022-05-11T02:29:00.454Z,36.5925,71.0161,219.45,3.9,mb,38,97,0.638,0.89,us,us7000h8i5,2022-07-22T18:30:49.040Z,"34 km SSE of Jurm, Afghanistan",earthquake,6.4,5.5,0.125,17,reviewed,us,us
+2022-05-10T13:44:31.496Z,36.5749,70.9769,214.05,4.2,mb,24,94,0.636,0.31,us,us7000h8cf,2022-07-22T18:31:11.040Z,"34 km SSE of Jurm, Afghanistan",earthquake,7.1,6,0.199,8,reviewed,us,us
+2022-05-06T06:21:18.625Z,26.9552,66.2726,10,5.1,mww,153,77,7.927,0.68,us,us7000h7gi,2022-08-09T06:38:31.083Z,"80 km N of Bela, Pakistan",earthquake,8.2,1.8,0.086,13,reviewed,us,us
+2022-05-06T00:48:02.830Z,28.4676,64.35,10,5.1,mb,98,103,8.084,0.85,us,us7000h7er,2022-07-09T21:40:05.040Z,"46 km S of Dalbandin, Pakistan",earthquake,9.5,1.8,0.042,183,reviewed,us,us
+2022-05-05T16:59:55.459Z,36.4392,71.1694,142.19,4.3,mb,38,81,0.834,0.76,us,us7000h7bz,2022-07-09T21:40:04.040Z,"42 km SW of Ashk?sham, Afghanistan",earthquake,5.5,6.2,0.108,24,reviewed,us,us
+2022-05-05T11:54:31.816Z,36.4617,70.3496,200.14,4.2,mb,46,113,0.687,1.16,us,us7000h793,2022-07-09T21:40:03.040Z,"45 km ESE of Farkh?r, Afghanistan",earthquake,9,7,0.121,19,reviewed,us,us
+2022-05-01T19:06:43.287Z,36.5505,70.9706,206.04,4.2,mb,34,85,0.655,0.92,us,us7000h68f,2022-07-09T21:39:47.040Z,"36 km SSE of Jurm, Afghanistan",earthquake,6.4,5.3,0.11,23,reviewed,us,us
+2022-05-01T13:52:59.667Z,35.9168,77.9188,10,4.4,mb,52,105,5.804,0.48,us,us7000h67m,2022-07-09T21:39:46.040Z,"149 km NE of Thang, India",earthquake,8.1,1.9,0.114,24,reviewed,us,us
+2022-04-25T19:15:26.215Z,36.2389,70.5074,143.19,4.2,mb,47,71,0.886,0.33,us,us6000hgad,2022-07-05T03:40:42.040Z,"69 km ESE of Farkh?r, Afghanistan",earthquake,5.3,5.9,0.103,28,reviewed,us,us
+2022-04-25T10:11:20.587Z,36.3713,71.2166,131.74,4.1,mb,33,77,0.911,0.75,us,us6000hg7h,2022-07-05T03:40:34.040Z,"44 km SW of Ashk?sham, Afghanistan",earthquake,4.6,6.9,0.151,12,reviewed,us,us
+2022-04-24T09:34:41.283Z,36.6853,67.5509,10,4.5,mb,75,68,2.284,0.45,us,us6000hg12,2022-07-05T03:40:06.040Z,"13 km W of Khulm, Afghanistan",earthquake,6.7,1.9,0.059,84,reviewed,us,us
+2022-04-24T09:23:41.724Z,36.7806,76.8247,94.87,4.3,mb,60,72,4.269,0.58,us,us6000hg0y,2022-07-05T03:40:06.040Z,"181 km WSW of Zangguy, China",earthquake,7.5,6.7,0.09,35,reviewed,us,us
+2022-04-22T13:20:17.112Z,36.7229,77.0189,110.9,4.3,mb,,97,4.338,0.63,us,us6000hfkz,2022-06-26T01:20:54.040Z,"167 km WSW of Zangguy, China",earthquake,8.1,8.2,0.092,33,reviewed,us,us
+2022-04-22T11:05:37.991Z,36.4763,70.7099,145.68,4,mb,,91,0.656,0.66,us,us6000hfjc,2022-06-26T01:20:52.040Z,"44 km SSW of Jurm, Afghanistan",earthquake,7.6,5.5,0.125,17,reviewed,us,us
+2022-04-15T12:04:04.325Z,36.1336,70.7954,107.78,4.3,mb,,56,1.005,0.8,us,us7000h2h1,2022-06-20T22:08:30.040Z,"79 km N of P?r?n, Afghanistan",earthquake,5.8,6.4,0.094,32,reviewed,us,us
+2022-04-15T02:41:17.591Z,36.635,71.0771,207.4,3.9,mb,,94,0.633,0.53,us,us7000h2ei,2022-06-20T22:07:27.040Z,"33 km SE of Jurm, Afghanistan",earthquake,6.2,6.5,0.195,7,reviewed,us,us
+2022-04-12T11:20:15.526Z,36.5387,70.0785,169.33,4.2,mb,,66,0.708,0.64,us,us7000h1gk,2022-06-20T22:07:56.040Z,"20 km E of Farkh?r, Afghanistan",earthquake,6.3,6,0.112,22,reviewed,us,us
+2022-04-11T01:41:41.895Z,33.2832,70.5607,41.19,4.8,mb,,70,1.779,0.8,us,us7000h16s,2022-06-20T22:07:46.040Z,"22 km SW of Doaba, Pakistan",earthquake,4.2,5,0.048,131,reviewed,us,us
+2022-04-11T01:29:34.599Z,36.6348,71.3624,98.32,4.3,mb,,81,0.798,1.03,us,us7000h16k,2022-06-20T22:07:45.040Z,"16 km WSW of Ashk?sham, Afghanistan",earthquake,7.1,6,0.085,39,reviewed,us,us
+2022-04-09T21:16:58.222Z,36.3452,71.133,103.25,4.1,mb,,115,0.898,0.68,us,us7000h0yu,2022-06-20T22:07:37.040Z,"51 km SW of Ashk?sham, Afghanistan",earthquake,7.4,8.3,0.197,7,reviewed,us,us
+2022-04-04T17:43:24.653Z,36.6154,70.9879,212.07,4.1,mb,,71,0.606,0.92,us,us7000gzmy,2022-06-11T20:21:03.040Z,"30 km SSE of Jurm, Afghanistan",earthquake,5.5,4.5,0.127,17,reviewed,us,us
+2022-04-03T22:58:41.923Z,36.577,70.9955,202.7,4.6,mb,,72,0.642,0.49,us,us7000gzgf,2022-06-11T20:21:01.040Z,"35 km SSE of Jurm, Afghanistan",earthquake,7.7,4.6,0.046,140,reviewed,us,us
+2022-04-03T15:00:03.555Z,36.0018,69.8291,101.15,4.2,mb,,75,1.272,0.32,us,us7000gzdn,2022-06-11T20:21:00.040Z,"63 km E of Nahr?n, Afghanistan",earthquake,7.5,4.6,0.147,15,reviewed,us,us
+2022-04-02T17:53:47.510Z,36.0451,77.9318,10,4.5,mb,,104,4.517,0.7,us,us7000gz8t,2022-06-11T20:20:58.040Z,"156 km SSW of Zangguy, China",earthquake,8.6,1.9,0.092,38,reviewed,us,us
+2022-03-31T07:22:11.235Z,35.5596,74.8138,66.44,4.4,mb,,87,2.291,0.69,us,us7000gynf,2022-06-04T20:42:28.040Z,"60 km SE of Gilgit, Pakistan",earthquake,6.8,5.3,0.077,49,reviewed,us,us
+2022-03-29T01:59:33.433Z,35.9605,77.9296,10,4.3,mb,,100,4.473,0.96,us,us7000gxzr,2022-06-04T20:42:16.040Z,"154 km NE of Thang, India",earthquake,7.4,1.9,0.154,12,reviewed,us,us
+2022-03-25T10:51:33.486Z,24.66,61.5204,10,4.1,mb,,235,4.839,0.6,us,us7000gyhc,2022-05-28T18:35:43.040Z,"48 km SSW of Jiwani, Pakistan",earthquake,14.9,2,0.185,9,reviewed,us,us
+2022-03-23T01:29:17.462Z,35.7092,75.2199,10,4,mb,,89,2.608,1.03,us,us6000h6uv,2022-05-28T18:35:26.040Z,"59 km NW of Skardu, Pakistan",earthquake,6,1.9,0.144,13,reviewed,us,us
+2022-03-22T20:11:39.450Z,35.6142,74.9006,46.47,4.1,mb,,96,2.376,1.19,us,us6000h6se,2022-05-28T18:35:25.040Z,"northwestern Kashmir",earthquake,7.9,5,0.124,19,reviewed,us,us
+2022-03-22T18:14:34.649Z,36.5693,69.7435,170.8,4.2,mb,,62,0.868,0.89,us,us6000h6pe,2022-05-28T18:35:25.040Z,"10 km W of Farkh?r, Afghanistan",earthquake,6.6,3.4,0.106,26,reviewed,us,us
+2022-03-22T14:23:44.906Z,36.1622,70.9778,92.2,4.2,mb,,78,1.014,0.34,us,us7000gxbw,2022-05-28T18:35:39.040Z,"76 km SW of Ashk?sham, Afghanistan",earthquake,4.7,7,0.115,21,reviewed,us,us
+2022-03-22T05:22:33.846Z,36.4529,71.0645,119.6,4.2,mb,,75,0.777,0.81,us,us6000h6kq,2022-05-28T18:35:24.040Z,"49 km WSW of Ashk?sham, Afghanistan",earthquake,7.6,6.7,0.108,24,reviewed,us,us
+2022-03-21T13:43:56.499Z,35.661,75.0961,10,4.2,mb,,110,2.508,0.33,us,us6000h6e3,2022-08-06T08:25:39.016Z,"63 km NW of Skardu, Pakistan",earthquake,7.3,1.9,0.215,7,reviewed,us,us
+2022-03-20T13:06:56.543Z,35.5881,74.9652,10,4.5,mb,,89,2.386,0.43,us,us6000h66m,2022-05-28T18:35:20.040Z,"68 km WNW of Skardu, Pakistan",earthquake,7.4,1.8,0.084,46,reviewed,us,us
+2022-03-18T02:54:09.608Z,30.1073,72.5726,10,4.3,mb,,209,3.582,0.97,us,us6000h5la,2022-05-27T14:55:35.040Z,"9 km SW of B?rew?la, Pakistan",earthquake,12.7,2,0.188,9,reviewed,us,us
+2022-03-17T17:35:00.416Z,35.9368,77.9458,10,4.1,mb,,111,4.473,1.03,us,us6000h5hl,2022-05-27T14:55:34.040Z,"153 km NE of Thang, India",earthquake,9.2,1.9,0.117,20,reviewed,us,us
+2022-03-17T13:41:18.468Z,35.9998,77.9099,10,5.1,mww,,33,4.479,0.88,us,us6000h5el,2022-05-27T14:55:32.040Z,"156 km NE of Thang, India",earthquake,7.2,1.8,0.093,11,reviewed,us,us
+2022-03-16T16:10:46.275Z,35.7142,75.3139,10,4.1,mb,,106,2.66,1.25,us,us6000h6ge,2022-05-27T14:55:40.040Z,"54 km NNW of Skardu, Pakistan",earthquake,9.4,2,0.198,7,reviewed,us,us
+2022-03-16T13:35:23.288Z,35.5965,74.9251,10,5.1,mww,,48,2.373,0.91,us,us6000h50x,2023-02-08T09:51:00.292Z,"65 km ESE of Gilgit, Pakistan",earthquake,7.2,1.8,0.11,8,reviewed,us,us
+2022-03-16T12:02:59.784Z,31.945,66.8343,10,4.1,mb,,117,3.182,1.03,us,us6000h50p,2022-05-27T14:55:29.040Z,"19 km SSW of Qal?t, Afghanistan",earthquake,9.6,1.9,0.135,15,reviewed,us,us
+2022-03-16T06:10:12.001Z,35.9335,77.9888,10,4.3,mb,,100,4.502,1.21,us,us6000h4z9,2022-05-27T14:55:28.040Z,"155 km NE of Thang, India",earthquake,7.6,1.9,0.187,8,reviewed,us,us
+2022-03-16T03:41:25.723Z,35.9093,77.9477,10,4.1,mb,,113,4.461,0.7,us,us6000h4yj,2022-05-27T14:55:28.040Z,"151 km NE of Thang, India",earthquake,7.7,1.8,0.184,10,reviewed,us,us
+2022-03-14T06:46:59.632Z,35.9455,76.8204,10,4.2,mb,,48,3.712,0.4,us,us6000h4d6,2022-05-27T14:55:23.040Z,"112 km N of Thang, India",earthquake,7.4,1.9,0.085,40,reviewed,us,us
+2022-03-10T19:28:51.759Z,35.8865,77.8078,10,4.5,mb,,101,4.351,0.85,us,us6000h3mr,2022-05-14T21:52:30.040Z,"140 km NE of Thang, India",earthquake,8.2,1.9,0.156,12,reviewed,us,us
+2022-03-08T14:22:15.105Z,36.0746,70.4466,105.46,4.1,mb,,82,1.054,0.66,us,us6000h31a,2022-05-14T21:52:23.040Z,"76 km SE of Farkh?r, Afghanistan",earthquake,7.2,6.9,0.112,23,reviewed,us,us
+2022-03-07T15:58:38.291Z,36.2025,71.1034,98.22,4.2,mb,,76,1.014,0.58,us,us6000h3tf,2022-05-14T21:52:32.040Z,"65 km SW of Ashk?sham, Afghanistan",earthquake,5.6,7.1,0.132,16,reviewed,us,us
+2022-03-06T21:30:58.594Z,36.4567,70.2667,205.91,4.3,mb,,70,0.712,0.87,us,us6000h2ls,2022-05-14T21:52:19.040Z,"38 km ESE of Farkh?r, Afghanistan",earthquake,7.1,4.3,0.168,10,reviewed,us,us
+2022-03-03T14:13:13.485Z,36.1554,70.573,86.62,4.8,mb,,42,0.968,0.77,us,us6000h1q6,2022-05-07T21:32:45.040Z,"79 km SE of Farkh?r, Afghanistan",earthquake,6.5,5.4,0.049,127,reviewed,us,us
+2022-03-02T09:58:27.468Z,35.5378,69.7845,91.19,5.2,mww,,38,1.165,0.78,us,us6000h1c9,2022-05-07T21:32:42.040Z,"34 km NE of B?z?rak, Afghanistan",earthquake,5.8,5.9,0.098,10,reviewed,us,us
+2022-02-26T05:50:45.822Z,36.071,71.0861,97.05,4.2,mb,,102,1.129,0.83,us,us6000h1r3,2022-05-07T21:32:46.040Z,"73 km NNE of P?r?n, Afghanistan",earthquake,8.8,2.2,0.141,14,reviewed,us,us
+2022-02-25T07:29:03.263Z,32.3654,76.3939,10,3.6,mb,,173,2.921,0.7,us,us6000h0l1,2022-05-04T13:40:36.040Z,"17 km NNE of Dharamsala, India",earthquake,5.4,2,0.25,4,reviewed,us,us
+2022-02-25T00:11:56.596Z,36.4695,70.4004,201.34,4.5,mb,,71,0.669,0.88,us,us6000gzxs,2022-05-04T13:40:28.040Z,"49 km ESE of Farkh?r, Afghanistan",earthquake,4.7,5,0.121,20,reviewed,us,us
+2022-02-23T04:28:24.354Z,31.4596,77.8709,10,4.2,mb,,130,4.457,0.8,us,us7000gn46,2022-05-04T13:39:58.040Z,"9 km SE of Sar?han, India",earthquake,7.1,1.9,0.146,13,reviewed,us,us
+2022-02-22T14:59:30.901Z,36.1973,68.6023,44.93,4,mb,,167,1.691,0.72,us,us7000gmyp,2022-05-04T13:39:47.040Z,"12 km NW of Baghl?n, Afghanistan",earthquake,8.2,11.5,0.212,6,reviewed,us,us
+2022-02-22T03:05:23.758Z,35.6023,75.0229,10,4.4,mb,,88,2.425,0.79,us,us7000gmvb,2022-05-04T13:39:35.040Z,"64 km WNW of Skardu, Pakistan",earthquake,7.3,1.9,0.097,33,reviewed,us,us
+2022-02-21T20:27:44.295Z,36.4875,70.2034,216.15,4.2,mb,,43,0.703,0.82,us,us7000gmr5,2022-05-04T13:39:27.040Z,"32 km ESE of Farkh?r, Afghanistan",earthquake,5.5,3.6,0.063,71,reviewed,us,us
+2022-02-21T16:24:33.784Z,36.538,70.8793,201.38,4,mb,,109,0.634,0.57,us,us7000gmnr,2022-05-04T13:39:20.040Z,"36 km S of Jurm, Afghanistan",earthquake,10.6,7.7,0.258,4,reviewed,us,us
+2022-02-21T05:47:49.574Z,36.6922,71.4306,178.84,4.2,mb,,40,0.81,0.61,us,us7000gmkg,2022-05-04T13:39:11.040Z,"9 km W of Ashk?sham, Afghanistan",earthquake,7,5.4,0.062,72,reviewed,us,us
+2022-02-20T11:27:00.420Z,36.4782,70.6836,198.87,4.3,mb,,73,0.651,0.59,us,us7000gmer,2022-05-04T13:38:54.040Z,"44 km SSW of Jurm, Afghanistan",earthquake,6.3,5.4,0.111,23,reviewed,us,us
+2022-02-20T09:37:25.833Z,36.5001,70.1123,214.65,4.3,mb,,68,0.726,0.41,us,us7000gme4,2022-05-04T13:38:51.040Z,"24 km ESE of Farkh?r, Afghanistan",earthquake,3.9,5.5,0.084,40,reviewed,us,us
+2022-02-19T23:03:43.106Z,34.5993,73.2217,10,4.2,mb,,93,0.947,1.16,us,us7000gmb1,2022-05-04T13:38:44.040Z,"17 km N of Baffa, Pakistan",earthquake,3.4,1.9,0.146,13,reviewed,us,us
+2022-02-17T09:14:38.110Z,36.9881,71.2421,120,4.4,mb,,70,0.55,0.93,us,us7000gn0a,2022-04-30T14:18:22.040Z,"38 km ENE of Jurm, Afghanistan",earthquake,6.9,1.9,0.24,5,reviewed,us,us
+2022-02-16T05:38:15.249Z,36.2366,73.2176,62.14,4.4,mb,,66,2.301,0.55,us,us7000gl7r,2022-04-30T14:18:18.040Z,"49 km W of Gahkuch, Pakistan",earthquake,4.1,8,0.086,39,reviewed,us,us
+2022-02-12T18:04:49.886Z,35.4588,70.5963,83.92,4.6,mb,,52,1.569,0.6,us,us7000gkbj,2022-04-30T14:18:03.040Z,"29 km W of P?r?n, Afghanistan",earthquake,4.2,5.9,0.056,103,reviewed,us,us
+2022-02-12T10:50:23.937Z,36.3882,71.2769,120.21,4.2,mb,,107,0.926,0.37,us,us7000gk91,2022-04-30T14:18:02.040Z,"39 km SW of Ashk?sham, Afghanistan",earthquake,5.7,7.8,0.264,4,reviewed,us,us
+2022-02-06T10:40:12.843Z,36.9207,71.455,105.96,4.4,mb,,66,0.732,0.68,us,us7000gifv,2022-04-19T17:38:46.040Z,"25 km NNW of Ishqoshim, Tajikistan",earthquake,6.3,3.9,0.087,38,reviewed,us,us
+2022-02-06T02:46:38.086Z,36.5184,70.9294,200.87,4,mb,,90,0.669,1.08,us,us7000gicf,2022-04-19T17:38:41.040Z,"39 km SSE of Jurm, Afghanistan",earthquake,9.1,3.5,0.212,7,reviewed,us,us
+2022-02-05T18:16:42.905Z,36.6024,71.6299,105.06,4.2,mb,,72,0.993,0.58,us,us7000gi9r,2022-04-19T17:38:36.040Z,"12 km SE of Ashk?sham, Afghanistan",earthquake,6.4,6.8,0.115,26,reviewed,us,us
+2022-02-05T04:16:01.236Z,36.4307,71.126,212,5.8,mww,,20,0.822,0.97,us,us7000gi69,2022-04-19T17:38:32.040Z,"45 km SW of Ashk?sham, Afghanistan",earthquake,3.8,1.8,0.045,47,reviewed,us,us
+2022-02-03T19:31:29.080Z,36.5399,70.4391,205.03,4.9,mb,,30,0.594,0.68,us,us7000ghq2,2022-04-15T17:57:16.040Z,"50 km SW of Jurm, Afghanistan",earthquake,7.2,4.4,0.037,235,reviewed,us,us
+2022-02-03T16:29:54.643Z,35.8923,65.3793,26.16,4.8,mb,,39,3.288,0.84,us,us7000ghmf,2022-04-15T17:57:16.040Z,"9 km S of Darz?b, Afghanistan",earthquake,7,3.9,0.042,181,reviewed,us,us
+2022-01-31T17:03:53.352Z,29.5941,68.9004,10,4.1,mb,,136,4.933,0.93,us,us7000ggpl,2022-04-15T17:57:08.040Z,"47 km SW of Kohlu, Pakistan",earthquake,7.6,1.8,0.151,12,reviewed,us,us
+2022-01-30T08:48:00.284Z,36.959,71.0291,109.87,4.2,mb,,219,0.398,0.2,us,us7000ghyg,2022-04-15T17:57:21.040Z,"20 km ENE of Jurm, Afghanistan",earthquake,12.5,7.6,0.146,13,reviewed,us,us
+2022-01-29T06:40:34.547Z,35.6406,75.0156,10,4.1,mb,,92,2.452,1.05,us,us7000ghuk,2022-04-15T17:57:18.040Z,"67 km NW of Skardu, Pakistan",earthquake,7.7,1.5,0.151,12,reviewed,us,us
+2022-01-28T16:49:10.545Z,36.1005,70.4209,124.33,4.4,mb,,78,1.03,0.85,us,us7000gfyc,2022-04-09T20:19:15.040Z,"72 km SE of Farkh?r, Afghanistan",earthquake,6.5,5.8,0.094,33,reviewed,us,us
+2022-01-27T17:26:40.375Z,36.5388,70.9321,198.05,4.1,mb,,73,0.651,0.75,us,us7000ghe3,2022-04-09T20:19:11.040Z,"37 km SSE of Jurm, Afghanistan",earthquake,6.8,5.9,0.114,21,reviewed,us,us
+2022-01-24T01:20:50.412Z,36.0702,69.1575,10,5,mww,,44,1.528,0.93,us,us7000gege,2022-08-06T13:00:49.436Z,"2 km ENE of Nahr?n, Afghanistan",earthquake,5.8,1.8,0.093,11,reviewed,us,us
+2022-01-21T21:23:38.467Z,33.2225,75.9072,10,4.1,mb,,87,2.247,0.94,us,us7000ge0w,2022-04-01T17:40:27.040Z,"16 km SE of Kishtw?r, India",earthquake,7.6,1.9,0.117,20,reviewed,us,us
+2022-01-20T05:55:21.002Z,36.5511,70.925,205.32,4.5,mb,,57,0.638,0.74,us,us7000gdfj,2022-04-01T17:40:20.040Z,"35 km SSE of Jurm, Afghanistan",earthquake,6.5,4.3,0.061,79,reviewed,us,us
+2022-01-19T06:23:57.338Z,36.6984,67.9575,10,4.2,mb,,108,2.141,1.27,us,us7000gd3v,2022-04-01T17:40:18.040Z,"23 km E of Khulm, Afghanistan",earthquake,7.2,1.9,0.152,13,reviewed,us,us
+2022-01-18T22:46:21.531Z,36.133,71.1441,93.26,4.4,mb,,55,1.091,0.9,us,us7000gd0v,2022-04-01T17:40:17.040Z,"70 km SSW of Ashk?sham, Afghanistan",earthquake,8.4,5.7,0.068,63,reviewed,us,us
+2022-01-18T00:30:14.220Z,33.5946,72.5708,41.1,4.3,mb,,119,0.584,0.82,us,us7000gcrj,2022-04-01T17:40:15.040Z,"22 km SE of Sanjwal, Pakistan",earthquake,7.2,8.9,0.083,41,reviewed,us,us
+2022-01-17T11:40:06.817Z,34.9289,63.6208,11.4,5.3,mww,,43,4.482,0.54,us,us7000gclu,2022-04-01T17:40:14.040Z,"45 km E of Qala i Naw, Afghanistan",earthquake,7.2,4.1,0.083,14,reviewed,us,us
+2022-01-17T09:35:57.301Z,34.9362,63.6666,10,4.9,mb,,57,4.444,0.94,us,us7000gcle,2022-04-01T17:40:14.040Z,"49 km E of Qala i Naw, Afghanistan",earthquake,7.9,1.8,0.054,109,reviewed,us,us
+2022-01-15T11:22:09.834Z,36.6171,71.4625,100.88,4.3,mb,,56,0.873,0.67,us,us7000gc85,2022-04-01T17:40:10.040Z,"9 km SW of Ashk?sham, Afghanistan",earthquake,6.4,6,0.07,58,reviewed,us,us
+2022-01-15T05:57:57.657Z,36.5064,70.9073,198.38,4.2,mb,,73,0.672,0.78,us,us7000gc6t,2022-04-01T17:40:10.040Z,"40 km S of Jurm, Afghanistan",earthquake,7.5,6.3,0.103,26,reviewed,us,us
+2022-01-14T19:09:54.298Z,36.4859,70.5044,207.77,4.3,mb,,71,0.641,0.59,us,us7000gc2k,2022-03-19T22:08:02.040Z,"51 km SW of Jurm, Afghanistan",earthquake,6.6,2.2,0.067,71,reviewed,us,us
+2022-01-14T16:13:03.550Z,36.5418,71.4945,106.99,5.3,mb,,22,0.939,0.85,us,us7000gc0n,2022-03-19T22:08:02.040Z,"16 km SSW of Ashk?sham, Afghanistan",earthquake,6.5,4.9,0.035,265,reviewed,us,us
+2022-01-13T17:36:52.352Z,36.4719,70.2604,221.46,4.1,mb,,70,0.699,0.78,us,us7000gbpk,2022-03-19T22:07:59.040Z,"37 km ESE of Farkh?r, Afghanistan",earthquake,4,5.4,0.112,22,reviewed,us,us
+2022-01-12T05:26:44.602Z,36.474,70.5248,79.01,4.9,mb,,42,0.651,0.87,us,us7000gb8k,2022-03-19T22:07:51.040Z,"51 km SSW of Jurm, Afghanistan",earthquake,6.1,5,0.049,128,reviewed,us,us
+2022-01-11T21:21:56.484Z,25.4644,62.4473,10,4.7,mb,,122,5.678,0.61,us,us7000gb39,2022-03-19T22:07:48.040Z,"39 km NNE of Gwadar, Pakistan",earthquake,9.4,1.7,0.069,64,reviewed,us,us
+2022-01-04T17:15:52.331Z,33.0339,76.074,40.06,4.3,mb,,105,2.427,0.77,us,us7000g8yg,2022-03-12T22:19:07.040Z,"Kashmir-India border region",earthquake,7.9,7.5,0.09,38,reviewed,us,us
+2022-01-02T08:59:59.686Z,36.5701,71.3585,218.64,4.2,mb,,87,0.837,0.59,us,us7000g8g5,2022-03-12T22:19:01.040Z,"20 km SW of Ashk?sham, Afghanistan",earthquake,8.2,5.7,0.067,61,reviewed,us,us
+2022-01-01T13:15:25.380Z,36.59,71.1783,231.91,5.2,mww,,55,0.72,0.93,us,us7000g8bl,2022-06-23T18:03:48.222Z,"Badakhshan, Afghanistan",earthquake,7.3,4.7,0.062,25,reviewed,us,us
+2021-12-31T07:56:48.332Z,36.6252,71.1823,223.29,4.6,mb,,71,0.697,0.65,us,us7000g84z,2022-03-05T23:10:59.040Z,"32 km WSW of Ashk?sham, Afghanistan",earthquake,7.8,6.8,0.056,95,reviewed,us,us
+2021-12-30T12:24:43.735Z,35.5329,74.9167,10,4.1,mb,,88,2.318,1.17,us,us7000g7yc,2022-03-05T23:10:56.040Z,"69 km SE of Gilgit, Pakistan",earthquake,7.5,1.9,0.158,11,reviewed,us,us
+2021-12-29T04:55:19.027Z,29.8879,69.8504,10,4.4,mb,,97,4.689,0.63,us,us6000gg0w,2022-03-05T23:10:50.040Z,"31 km E of Barkhan, Pakistan",earthquake,10.1,1.9,0.117,21,reviewed,us,us
+2021-12-28T13:16:30.068Z,36.3998,70.6265,213.65,4.2,mb,,74,0.725,0.57,us,us6000gfv9,2022-03-05T23:10:48.040Z,"54 km SSW of Jurm, Afghanistan",earthquake,7.4,4.3,0.087,40,reviewed,us,us
+2021-12-28T12:31:47.144Z,36.419,70.7233,207.09,4.1,mb,,75,0.715,0.58,us,us6000gfv0,2022-03-05T23:10:47.040Z,"Hindu Kush region, Afghanistan",earthquake,7.2,3.5,0.079,44,reviewed,us,us
+2021-12-27T19:40:58.392Z,35.5564,74.8743,51.7,4.4,mb,,72,2.317,0.52,us,us6000gfnw,2022-03-05T23:10:46.040Z,"64 km SE of Gilgit, Pakistan",earthquake,7.1,7.6,0.096,33,reviewed,us,us
+2021-12-27T18:52:46.933Z,36.6104,71.0497,200.63,4.4,mb,,71,0.639,0.65,us,us6000gfnn,2022-03-05T23:10:45.040Z,"34 km SE of Jurm, Afghanistan",earthquake,8.1,5.6,0.089,39,reviewed,us,us
+2021-12-27T13:37:24.003Z,35.6073,74.9802,10,4.8,mb,,87,2.408,0.4,us,us6000gfm1,2022-08-06T16:25:17.389Z,"68 km WNW of Skardu, Pakistan",earthquake,8.3,1.9,0.061,87,reviewed,us,us
+2021-12-27T13:31:04.395Z,35.5592,74.8205,10,5.2,mww,,43,2.294,0.62,us,us6000gflv,2025-12-22T22:23:49.545Z,"60 km SE of Gilgit, Pakistan",earthquake,4.6,1.8,0.098,10,reviewed,us,us
+2021-12-25T06:39:01.552Z,30.314,67.4107,10,4.7,mb,,96,4.434,0.74,us,us6000gf61,2022-08-06T16:33:14.573Z,"22 km SSW of Alik Ghund, Pakistan",earthquake,7.5,1.9,0.097,32,reviewed,us,us
+2021-12-24T17:58:56.965Z,34.6134,73.1273,28.13,4.5,mb,,49,0.967,0.98,us,us6000gf2y,2022-03-05T23:10:37.040Z,"11 km SE of Battagram, Pakistan",earthquake,5,5.2,0.088,44,reviewed,us,us
+2021-12-24T07:00:00.870Z,36.646,70.9849,224.48,4.4,mb,,79,0.58,0.66,us,us6000gf06,2022-03-05T23:10:36.040Z,"27 km SSE of Jurm, Afghanistan",earthquake,8.1,7.1,0.096,31,reviewed,us,us
+2021-12-23T13:02:54.518Z,34.0215,70.4751,51.3,4.4,mb,,48,1.293,1.06,us,us6000geti,2022-03-01T16:39:52.040Z,"24 km WSW of Markaz-e Woluswal?-ye ?ch?n, Afghanistan",earthquake,6,6.7,0.083,42,reviewed,us,us
+2021-12-20T20:35:32.010Z,36.0988,70.9302,92.4,4.4,mb,,44,1.063,0.71,us,us6000gdy8,2022-03-01T16:38:27.040Z,"75 km N of P?r?n, Afghanistan",earthquake,5.6,5.7,0.07,59,reviewed,us,us
+2021-12-20T08:13:40.008Z,36.3532,69.4107,10,4.1,mb,,69,1.212,0.39,us,us7000g8xg,2022-03-01T16:38:12.040Z,"Hindu Kush region, Afghanistan",earthquake,6.1,1.9,0.165,10,reviewed,us,us
+2021-12-18T19:40:33.908Z,25.5047,60.8744,10,4,mb,,137,4.266,0.68,us,us6000gekf,2022-03-01T16:37:39.040Z,"33 km NE of Chabahar, Iran",earthquake,8.6,1.8,0.129,16,reviewed,us,us
+2021-12-14T02:00:29.735Z,36.2602,70.0532,122.57,4,mb,,83,0.96,0.82,us,us6000gc22,2022-02-24T21:00:39.040Z,"38 km SSE of Farkh?r, Afghanistan",earthquake,5.7,7,0.15,12,reviewed,us,us
+2021-12-12T13:26:13.997Z,29.7501,69.9288,10,4.1,mb,,130,4.818,0.93,us,us6000gbnb,2022-02-24T21:00:16.040Z,"42 km ESE of Barkhan, Pakistan",earthquake,6.1,1.9,0.158,12,reviewed,us,us
+2021-12-12T00:27:01.087Z,25.4558,67.8352,10,4.2,mb,,85,9.114,0.72,us,us6000gbiy,2022-02-24T21:00:05.040Z,"48 km WNW of Kotri, Pakistan",earthquake,6.5,1.9,0.1,28,reviewed,us,us
+2021-12-11T23:38:32.213Z,34.9192,72.1372,67.32,4.2,mb,,108,1.574,0.63,us,us6000gbim,2022-02-24T21:00:04.040Z,"10 km SE of Kakad Wari Dir Upper, Pakistan",earthquake,6.7,7.2,0.11,23,reviewed,us,us
+2021-12-11T20:38:33.809Z,36.5179,69.7473,212.37,4,mb,,71,0.9,0.76,us,us6000gbhc,2022-02-24T21:00:00.040Z,"11 km WSW of Farkh?r, Afghanistan",earthquake,8.6,7.6,0.15,12,reviewed,us,us
+2021-12-11T15:30:59.349Z,27.6367,66.0912,33.7,4.2,mb,,73,7.332,0.97,us,us6000gbfp,2022-02-24T20:59:57.040Z,"54 km WSW of Khuzdar, Pakistan",earthquake,9.8,6,0.105,25,reviewed,us,us
+2021-12-11T13:43:43.673Z,27.889,66.1589,32.07,4.3,mb,,45,7.075,1.04,us,us6000gchn,2022-02-24T21:01:19.040Z,"45 km W of Khuzdar, Pakistan",earthquake,9.9,3.6,0.094,32,reviewed,us,us
+2021-12-08T17:16:02.551Z,24.9902,67.5668,10,3.9,mb,,145,9.603,1.03,us,us6000gan6,2022-08-06T17:55:00.079Z,"27 km N of Gharo, Pakistan",earthquake,11,1.9,0.128,16,reviewed,us,us
+2021-12-07T07:24:40.607Z,36.6747,71.401,182.13,4,mb,,77,0.799,0.97,us,us6000g9z0,2022-02-12T23:06:20.040Z,"11 km W of Ashk?sham, Afghanistan",earthquake,8.1,6.9,0.164,10,reviewed,us,us
+2021-12-06T10:49:12.255Z,36.6529,71.4082,220.32,4.1,mb,,110,0.817,0.5,us,us6000g9fw,2022-02-12T23:06:13.040Z,"11 km WSW of Ashk?sham, Afghanistan",earthquake,8.8,6.7,0.234,6,reviewed,us,us
+2021-12-05T17:42:14.358Z,36.6853,71.3856,177.51,4.3,mb,,75,0.783,1.07,us,us6000g9b6,2022-02-12T23:06:05.040Z,"13 km W of Ashk?sham, Afghanistan",earthquake,7.3,5.8,0.126,18,reviewed,us,us
+2021-12-04T18:09:35.684Z,36.4917,70.1915,221.49,4,mb,,127,0.703,1.13,us,us6000g91z,2022-02-12T23:05:53.040Z,"31 km ESE of Farkh?r, Afghanistan",earthquake,6,6.3,0.173,9,reviewed,us,us
+2021-12-03T13:10:50.536Z,36.5787,71.2851,222.74,4.3,mb,,74,0.788,0.79,us,us6000g8q4,2022-02-12T23:05:44.040Z,"25 km WSW of Ashk?sham, Afghanistan",earthquake,6.8,5.6,0.073,53,reviewed,us,us
+2021-12-02T17:57:08.923Z,36.2637,68.4836,62.9,4,mb,,145,1.778,0.47,us,us6000g8i3,2022-02-05T23:03:53.040Z,"25 km NW of Baghl?n, Afghanistan",earthquake,7.9,7.1,0.173,10,reviewed,us,us
+2021-12-02T16:39:51.343Z,36.4846,71.1951,142.22,4.1,mb,,100,0.81,0.67,us,us6000g8hp,2022-02-05T23:03:52.040Z,"37 km SW of Ashk?sham, Afghanistan",earthquake,7.2,6.9,0.175,12,reviewed,us,us
+2021-11-30T18:02:56.185Z,36.4727,70.7382,196.6,4.2,mb,,73,0.664,1.14,us,us6000g7yx,2022-02-05T23:03:33.040Z,"44 km S of Jurm, Afghanistan",earthquake,2.8,5.1,0.1,30,reviewed,us,us
+2021-11-29T03:24:36.000Z,36.5215,70.1384,224.51,4.1,mb,,70,0.697,0.75,us,us7000fxv6,2022-02-05T23:04:30.040Z,"25 km ESE of Farkh?r, Afghanistan",earthquake,5.4,5.5,0.197,7,reviewed,us,us
+2021-11-27T02:37:45.383Z,36.4955,70.2067,216.32,4.1,mb,,93,0.695,0.8,us,us7000fxdp,2022-02-05T23:04:17.040Z,"32 km ESE of Farkh?r, Afghanistan",earthquake,7.6,4.4,0.197,7,reviewed,us,us
+2021-11-23T16:31:58.690Z,31.3163,77.1736,10,4.3,mb,,97,4.038,0.6,us,us7000fwgt,2022-01-29T22:55:33.040Z,"9 km NNE of Seoni, India",earthquake,9.3,1.9,0.122,19,reviewed,us,us
+2021-11-20T14:03:46.610Z,32.1077,69.0845,42.75,4,mb,,96,2.426,0.99,us,us7000fvrt,2022-01-29T22:55:09.040Z,"50 km WSW of Wana, Pakistan",earthquake,8.3,6.9,0.157,11,reviewed,us,us
+2021-11-20T06:28:54.230Z,36.2551,69.8673,131.56,4.2,mb,,86,1.039,0.6,us,us7000fvp2,2022-01-29T22:55:06.040Z,"35 km S of Farkh?r, Afghanistan",earthquake,4,10.8,0.237,5,reviewed,us,us
+2021-11-19T20:56:16.978Z,25.1721,72.5323,10,4.4,mb,,68,8.473,0.79,us,us7000fvkc,2022-01-29T22:55:03.040Z,"20 km SSW of Jalor, India",earthquake,9.4,1.9,0.075,55,reviewed,us,us
+2021-11-19T10:39:47.357Z,36.3825,68.3175,10,4.2,mb,,81,1.93,0.52,us,us7000fvez,2022-01-29T22:54:58.040Z,"30 km ENE of A?bak, Afghanistan",earthquake,5.4,1.9,0.141,15,reviewed,us,us
+2021-11-17T00:52:23.608Z,36.6001,71.0725,202.35,4.2,mb,,73,0.658,0.91,us,us7000fups,2022-01-22T20:51:57.040Z,"36 km SE of Jurm, Afghanistan",earthquake,7.5,5.4,0.121,19,reviewed,us,us
+2021-11-13T21:42:04.636Z,32.202,68.7997,10,4.7,mb,,50,2.341,0.47,us,us7000ftwp,2022-01-22T20:51:49.040Z,"73 km W of Wana, Pakistan",earthquake,7.8,1.8,0.057,93,reviewed,us,us
+2021-11-12T03:39:54.234Z,24.6025,62.3405,10,4.3,mb,,171,5.588,0.72,us,us7000fuuj,2022-01-22T20:51:58.040Z,"off the coast of Pakistan",earthquake,14.6,1.9,0.153,14,reviewed,us,us
+2021-11-10T06:46:50.354Z,36.4703,70.3913,203.24,4,mb,,71,0.67,0.91,us,us7000fswk,2022-01-15T20:51:44.040Z,"49 km ESE of Farkh?r, Afghanistan",earthquake,5.9,5.9,0.196,7,reviewed,us,us
+2021-11-10T06:14:32.698Z,36.7565,71.4232,171.12,4.1,mb,,70,0.772,0.76,us,us7000fswb,2022-01-15T20:51:44.040Z,"12 km NW of Ashk?sham, Afghanistan",earthquake,7,5.1,0.091,34,reviewed,us,us
+2021-11-09T14:25:42.611Z,36.6409,71.1487,202.59,4.4,mb,,71,0.667,0.61,us,us7000fspx,2022-01-15T20:51:43.040Z,"34 km W of Ashk?sham, Afghanistan",earthquake,7.8,5,0.077,48,reviewed,us,us
+2021-11-07T05:03:02.318Z,35.8697,70.7367,93.18,4.2,mb,,91,1.26,0.55,us,us7000fs58,2022-01-15T20:51:37.040Z,"52 km NNW of P?r?n, Afghanistan",earthquake,6.1,8.8,0.121,21,reviewed,us,us
+2021-11-04T09:45:40.485Z,24.2251,68.4329,10,4.9,mb,,80,10.293,0.74,us,us7000frd2,2025-12-22T22:19:34.086Z,"22 km SE of Jati, Pakistan",earthquake,7.7,1.7,0.065,74,reviewed,us,us
+2021-10-31T05:28:47.835Z,36.4812,71.1601,239.04,4.2,mb,,94,0.795,0.56,us,us7000fq86,2022-01-14T17:58:46.040Z,"40 km SW of Ashk?sham, Afghanistan",earthquake,4.5,7.3,0.159,11,reviewed,us,us
+2021-10-30T16:29:09.837Z,33.2438,76.7582,10,4.2,mb,,80,2.945,1.08,us,us7000fq4k,2022-01-14T17:58:45.040Z,"27 km SSW of Padam, India",earthquake,7.9,1.9,0.11,23,reviewed,us,us
+2021-10-30T13:09:23.898Z,28.2806,65.7619,10,4.3,mb,,94,6.841,0.7,us,us7000fq38,2022-01-14T17:58:45.040Z,"47 km SE of Kharan, Pakistan",earthquake,9.2,1.9,0.116,21,reviewed,us,us
+2021-10-28T15:26:26.430Z,36.6045,71.3255,131.07,4.2,mb,,74,0.794,0.84,us,us7000fpf0,2022-01-08T17:43:21.040Z,"20 km WSW of Ashk?sham, Afghanistan",earthquake,6.1,6.3,0.095,33,reviewed,us,us
+2021-10-26T00:32:08.893Z,33.2123,76.8049,10,4.6,mb,,53,2.989,0.77,us,us6000fxih,2022-01-08T17:42:34.040Z,"29 km SSW of Padam, India",earthquake,7.4,1.9,0.058,89,reviewed,us,us
+2021-10-25T14:47:20.837Z,36.9327,66.6992,18.88,4.4,mb,,146,3.054,1.13,us,us6000fxeb,2022-01-08T17:42:29.040Z,"14 km SW of Qarch? Gak, Afghanistan",earthquake,6.3,3.7,0.109,27,reviewed,us,us
+2021-10-25T14:05:33.281Z,36.4917,70.2839,218.65,4,mb,,92,0.674,0.37,us,us6000fxe4,2022-01-08T17:42:28.040Z,"39 km ESE of Farkh?r, Afghanistan",earthquake,9,4.6,0.212,6,reviewed,us,us
+2021-10-24T05:59:14.353Z,35.6507,74.504,60.94,4.1,mb,,85,2.24,0.4,us,us6000fx60,2024-01-17T22:22:22.112Z,"34 km SSE of Gilgit, Pakistan",earthquake,4.6,9.9,0.145,14,reviewed,us,us
+2021-10-22T04:14:28.112Z,36.1878,70.9024,93.17,4.2,mb,,99,0.972,0.64,us,us7000fpfc,2022-01-08T17:43:22.040Z,"75 km S of Jurm, Afghanistan",earthquake,5.8,9.4,0.236,5,reviewed,us,us
+2021-10-20T09:31:36.768Z,36.3213,69.808,129.91,4.3,mb,,103,1.012,0.85,us,us6000fw2x,2021-12-25T22:58:51.040Z,"28 km S of Farkh?r, Afghanistan",earthquake,5.9,9.6,0.168,10,reviewed,us,us
+2021-10-17T21:56:32.298Z,29.9492,68.2934,21.97,4.3,mb,,123,4.622,0.9,us,us6000fvi8,2021-12-25T22:58:44.040Z,"35 km SW of Duki, Pakistan",earthquake,10.8,5.5,0.148,13,reviewed,us,us
+2021-10-17T20:11:58.599Z,36.1384,70.7219,91.09,4.4,mb,,82,0.992,0.76,us,us6000fvhr,2021-12-25T22:58:43.040Z,"81 km S of Jurm, Afghanistan",earthquake,6,6.5,0.077,49,reviewed,us,us
+2021-10-10T15:02:41.360Z,30.0547,67.9369,10,4.5,mb,,124,4.57,0.62,us,us6000ftip,2021-12-18T19:58:47.040Z,"5 km S of Harnai, Pakistan",earthquake,10,1.9,0.105,30,reviewed,us,us
+2021-10-10T11:39:34.566Z,36.5138,70.8503,193.76,4.3,mb,,93,0.649,0.5,us,us6000fthu,2021-12-18T19:58:46.040Z,"38 km S of Jurm, Afghanistan",earthquake,8.1,5.6,0.08,44,reviewed,us,us
+2021-10-07T00:00:57.061Z,30.0779,68.0339,10,4.6,mb,,100,4.531,0.59,us,us6000fshe,2021-12-10T21:14:16.040Z,"9 km ESE of Harnai, Pakistan",earthquake,8.8,1.9,0.076,52,reviewed,us,us
+2021-10-06T22:01:08.867Z,30.1933,67.9948,9,5.9,mww,,17,4.424,0.52,us,us6000fsg9,2025-12-22T22:17:30.293Z,"11 km NNE of Harnai, Pakistan",earthquake,8.4,1.7,0.098,10,reviewed,us,us
+2021-10-05T07:59:57.259Z,36.8392,66.6469,10,5.1,mww,,38,3.01,1.06,us,us6000frum,2025-12-22T22:17:27.596Z,"Central Afghanistan",earthquake,6.6,1.8,0.098,10,reviewed,us,us
+2021-10-05T00:20:10.360Z,36.479,71.3025,125.79,4.4,mb,,44,0.869,0.78,us,us6000frqw,2021-12-10T21:14:09.040Z,"30 km SW of Ashk?sham, Afghanistan",earthquake,7.2,6.3,0.054,105,reviewed,us,us
+2021-10-04T21:45:30.189Z,36.9747,69.996,10,4.4,mb,,60,0.488,1.07,us,us6000frpx,2021-12-10T21:14:09.040Z,"22 km SE of Rust?q, Afghanistan",earthquake,3.1,1.9,0.086,39,reviewed,us,us
+2021-09-30T13:04:13.421Z,36.6494,71.0771,213.77,4.8,mb,,32,0.622,0.71,us,us6000fqez,2021-12-04T14:28:22.040Z,"32 km SE of Jurm, Afghanistan",earthquake,6.4,4.7,0.04,196,reviewed,us,us
+2021-09-30T10:36:37.162Z,36.3856,71.2316,130.59,4.5,mb,,41,0.906,1.03,us,us6000fqej,2021-12-04T14:28:19.040Z,"42 km SW of Ashk?sham, Afghanistan",earthquake,5.1,6.3,0.108,25,reviewed,us,us
+2021-09-28T15:11:47.221Z,30.4798,69.9279,10,4.3,mb,,91,4.117,0.52,us,us7000ff89,2021-12-04T14:30:09.040Z,"73 km WSW of Taunsa, Pakistan",earthquake,5.4,1.9,0.188,10,reviewed,us,us
+2021-09-27T04:41:28.232Z,36.6582,71.1186,209.77,4.3,mb,,72,0.637,0.93,us,us7000ferq,2021-12-04T14:29:51.040Z,"34 km SE of Jurm, Afghanistan",earthquake,8.1,5.4,0.092,33,reviewed,us,us
+2021-09-17T19:12:03.060Z,30.1325,69.282,30.71,4.7,mb,,88,4.4,0.53,us,us7000fc7z,2025-12-22T22:14:50.189Z,"26 km N of Kohlu, Pakistan",earthquake,7.9,3.8,0.048,135,reviewed,us,us
+2021-09-15T00:41:12.624Z,36.2949,70.6059,120.76,4.3,mb,,58,0.829,0.92,us,us7000fb7y,2021-11-23T15:12:11.040Z,"66 km SSW of Jurm, Afghanistan",earthquake,6.8,5.2,0.096,31,reviewed,us,us
+2021-09-14T10:40:08.838Z,33.2902,72.1846,32.06,4.7,mb,,113,0.974,0.52,us,us7000fb0c,2021-11-23T15:11:53.040Z,"9 km NW of Pindi Gheb, Pakistan",earthquake,7.3,5.9,0.058,92,reviewed,us,us
+2021-09-13T03:46:47.551Z,33.7409,76.4233,10,4.3,mb,,141,2.631,0.99,us,us7000fanp,2021-11-23T15:11:04.040Z,"52 km NW of Padam, India",earthquake,7.2,1.8,0.117,21,reviewed,us,us
+2021-09-12T06:10:00.932Z,36.2135,70.4992,87.36,4.4,mb,,78,0.912,0.79,us,us7000fagu,2021-11-23T15:10:25.040Z,"70 km SE of Farkh?r, Afghanistan",earthquake,6.3,7.1,0.12,20,reviewed,us,us
+2021-09-10T05:22:40.994Z,36.5486,70.86,194.2,4.4,mb,,73,0.619,0.79,us,us7000f9wy,2021-11-23T15:08:46.040Z,"Hindu Kush region, Afghanistan",earthquake,5.6,5.8,0.114,22,reviewed,us,us
+2021-09-09T23:43:15.564Z,36.6814,71.0931,214.33,4.5,mb,,70,0.606,0.7,us,us7000f9v7,2021-11-17T17:42:47.040Z,"30 km SE of Jurm, Afghanistan",earthquake,6.9,3.4,0.064,72,reviewed,us,us
+2021-09-09T13:27:04.336Z,31.9732,72.2567,10,3.4,mb,,285,1.877,0.75,us,us7000f9u0,2021-11-17T17:42:01.040Z,"7 km W of Sahiwal, Pakistan",earthquake,10.6,2,0.49,1,reviewed,us,us
+2021-08-30T18:23:33.691Z,36.4122,69.1128,49.45,4.7,mb,,60,1.373,0.59,us,us7000f5tv,2021-11-06T20:28:45.040Z,"30 km S of Khanabad, Afghanistan",earthquake,6.3,5.6,0.047,136,reviewed,us,us
+2021-08-30T08:18:59.610Z,36.5684,70.8459,203.32,4.2,mb,,107,0.596,0.35,us,us7000f5mh,2021-11-06T20:28:47.040Z,"32 km S of Jurm, Afghanistan",earthquake,7.4,4.2,0.186,8,reviewed,us,us
+2021-08-28T22:36:04.517Z,30.1983,69.7587,10,4.8,mb,,48,4.372,0.66,us,us7000f5bl,2021-11-06T20:28:53.040Z,"40 km NE of Barkhan, Pakistan",earthquake,7.4,1.8,0.063,78,reviewed,us,us
+2021-08-28T12:24:01.478Z,36.57,70.9104,193.53,4.2,mb,,72,0.616,0.86,us,us7000f57m,2021-11-06T20:28:55.040Z,"33 km SSE of Jurm, Afghanistan",earthquake,6.2,6,0.121,19,reviewed,us,us
+2021-08-28T03:57:36.138Z,35.4088,64.1087,10,4.1,mb,,88,4.143,0.73,us,us7000f54d,2021-11-06T20:28:56.040Z,"46 km SE of Ghormach, Afghanistan",earthquake,8.5,1.9,0.139,17,reviewed,us,us
+2021-08-28T00:22:48.762Z,36.4658,71.2047,204.24,4.1,mb,,85,0.829,0.52,us,us7000f52k,2021-11-06T20:28:57.040Z,"38 km SW of Ashk?sham, Afghanistan",earthquake,8.7,5,0.15,12,reviewed,us,us
+2021-08-27T18:52:06.317Z,36.5563,70.8751,187.15,4.3,mb,,72,0.616,0.8,us,us7000f4zr,2021-11-06T20:28:59.040Z,"34 km S of Jurm, Afghanistan",earthquake,7.1,5.4,0.079,45,reviewed,us,us
+2021-08-26T00:07:48.081Z,25.0595,61.3743,10,4.1,mb,,168,4.692,0.47,us,us7000f3y2,2021-11-02T14:55:20.040Z,"37 km W of Jiwani, Pakistan",earthquake,12.1,2,0.114,21,reviewed,us,us
+2021-08-23T13:28:54.434Z,34.491,61.7066,10.13,4.5,mb,,89,6.057,0.64,us,us7000f739,2021-11-02T14:56:16.040Z,"16 km NNW of Zindah J?n, Afghanistan",earthquake,8.5,4.6,0.116,22,reviewed,us,us
+2021-08-19T05:52:41.816Z,36.4394,69.4116,173.45,4.4,mb,,98,1.158,0.56,us,us6000f88k,2021-10-29T14:46:30.040Z,"34 km SSW of Taloqan, Afghanistan",earthquake,11.3,10.3,0.178,9,reviewed,us,us
+2021-08-18T09:31:46.104Z,36.5239,70.5385,197.77,4.2,mb,,120,0.601,0.88,us,us6000f7v9,2021-10-29T14:46:27.040Z,"46 km SW of Jurm, Afghanistan",earthquake,10.3,4.9,0.131,16,reviewed,us,us
+2021-08-17T15:39:29.307Z,35.2083,64.5691,15.25,4.3,mb,,130,3.738,0.74,us,us7000f4tk,2021-10-29T14:47:03.040Z,"81 km SSW of Maymana, Afghanistan",earthquake,10,4.7,0.177,9,reviewed,us,us
+2021-08-17T08:44:16.276Z,36.6446,71.112,204.76,4.1,mb,,99,0.644,0.86,us,us6000f7gq,2021-10-29T14:46:24.040Z,"34 km SE of Jurm, Afghanistan",earthquake,9.5,6.6,0.26,4,reviewed,us,us
+2021-08-17T00:38:37.816Z,36.6677,71.1422,241.45,4.5,mb,,72,0.644,0.76,us,us6000f7e3,2021-10-29T14:46:23.040Z,"35 km W of Ashk?sham, Afghanistan",earthquake,7.3,2.5,0.06,80,reviewed,us,us
+2021-08-16T07:31:10.679Z,35.7887,68.5348,33.68,4.4,mb,,71,1.312,1,us,us7000f4mz,2021-10-29T14:46:58.040Z,"13 km SSE of ?uk?mat? Dahanah-ye Gh?r?, Afghanistan",earthquake,8.2,6.4,0.178,9,reviewed,us,us
+2021-08-10T16:25:07.626Z,36.6818,71.489,171.37,4.1,mb,,97,0.855,0.44,us,us6000f3wq,2021-10-23T15:46:01.040Z,"3 km W of Ashk?sham, Afghanistan",earthquake,8.4,4.9,0.14,14,reviewed,us,us
+2021-08-10T15:45:38.323Z,36.7508,70.8377,265.94,4.1,mb,,89,0.428,0.59,us,us6000f3wh,2021-10-23T15:46:01.040Z,"12 km S of Jurm, Afghanistan",earthquake,7.2,4.4,0.111,22,reviewed,us,us
+2021-08-07T09:34:37.584Z,36.4613,71.1077,113.75,4.6,mb,,73,0.788,0.51,us,us6000f34g,2021-10-23T15:45:47.040Z,"45 km WSW of Ashk?sham, Afghanistan",earthquake,6.9,5.9,0.075,53,reviewed,us,us
+2021-08-07T06:44:05.798Z,36.5628,71.0882,206.47,4,mb,,111,0.695,0.66,us,us6000f706,2021-10-23T15:46:45.040Z,"40 km SE of Jurm, Afghanistan",earthquake,10.3,7.3,0.183,8,reviewed,us,us
+2021-08-05T01:56:16.852Z,36.8044,70.8558,68.58,4.4,mb,,43,0.391,0.55,us,us6000f2bm,2021-10-14T01:07:28.040Z,"6 km SSE of Jurm, Afghanistan",earthquake,7.3,6,0.144,14,reviewed,us,us
+2021-08-04T10:32:27.066Z,36.3149,69.858,145.6,4.9,mww,,21,0.993,0.59,us,us6000f254,2025-12-22T22:13:10.699Z,"28 km S of Farkh?r, Afghanistan",earthquake,6.4,5.5,0.083,14,reviewed,us,us
+2021-08-02T21:39:37.512Z,32.1646,60.6425,10,4.5,mb,,86,7.417,0.95,us,us6000f1mm,2021-10-14T01:05:50.040Z,"115 km SW of An?r Darah, Afghanistan",earthquake,8.4,1.9,0.069,63,reviewed,us,us
+2021-08-01T09:16:26.634Z,36.9911,71.3805,102.43,4.6,mb,,64,0.657,1,us,us6000f172,2021-10-14T01:04:55.040Z,"36 km NW of Ishqoshim, Tajikistan",earthquake,6.8,5.9,0.066,69,reviewed,us,us
+2021-07-31T18:32:35.052Z,29.2414,69.5135,19.48,4.5,mb,,97,5.298,0.74,us,us6000f11c,2021-10-14T01:04:28.040Z,"41 km ENE of Dera Bugti, Pakistan",earthquake,9.6,2.7,0.082,49,reviewed,us,us
+2021-07-29T00:51:21.716Z,36.4427,70.7609,191.98,4,mb,,103,0.697,0.71,us,us6000f2fb,2021-10-03T05:24:27.040Z,"47 km S of Jurm, Afghanistan",earthquake,7.3,6.9,0.196,7,reviewed,us,us
+2021-07-26T08:49:08.945Z,36.5941,71.5091,97.78,4.2,mb,,103,0.917,0.77,us,us6000ez4p,2021-10-03T05:22:10.040Z,"10 km SSW of Ashk?sham, Afghanistan",earthquake,6.5,7.2,0.11,23,reviewed,us,us
+2021-07-23T20:12:53.276Z,36.5757,70.8556,207.17,4.3,mb,,78,0.592,0.78,us,us6000eyf6,2021-10-03T05:21:28.040Z,"32 km S of Jurm, Afghanistan",earthquake,8.6,5.4,0.082,45,reviewed,us,us
+2021-07-22T02:12:24.995Z,30.06,70.3286,10,4.5,mb,,97,4.598,0.6,us,us6000exuh,2021-09-25T21:08:31.040Z,"30 km W of Dera Ghazi Khan, Pakistan",earthquake,10,1.9,0.088,38,reviewed,us,us
+2021-07-21T04:42:30.449Z,36.9233,71.3484,126.71,4.1,mb,,69,0.65,0.89,us,us6000ezht,2021-09-25T21:08:25.040Z,"31 km NNW of Ashk?sham, Afghanistan",earthquake,5.6,7.2,0.262,4,reviewed,us,us
+2021-07-20T23:54:26.196Z,29.3258,70.0487,10,5.2,mww,,39,8.336,0.66,us,us6000exhl,2025-12-22T19:04:41.667Z,"36 km NW of Rajanpur, Pakistan",earthquake,8.7,1.8,0.069,20,reviewed,us,us
+2021-07-20T23:16:39.566Z,23.8122,65.3033,10,4.2,mb,,193,8.371,0.93,us,us6000exhg,2021-09-25T21:08:22.040Z,"168 km SSE of Ormara, Pakistan",earthquake,11.9,2,0.117,20,reviewed,us,us
+2021-07-20T17:49:28.185Z,29.3394,70.1331,10,4.2,mb,,130,5.063,0.69,us,us6000ezf0,2021-09-25T21:08:21.040Z,"32 km NW of Rajanpur, Pakistan",earthquake,7.2,1.8,0.166,13,reviewed,us,us
+2021-07-16T11:39:34.809Z,36.0468,69.8996,122.41,4.2,mb,,75,1.206,0.56,us,us7000emhc,2021-09-25T21:07:49.040Z,"58 km S of Farkh?r, Afghanistan",earthquake,6.7,7,0.132,18,reviewed,us,us
+2021-07-15T00:18:34.074Z,36.745,71.2632,188.48,4.2,mb,,72,0.668,0.55,us,us7000em1f,2021-09-17T22:50:35.040Z,"25 km WNW of Ashk?sham, Afghanistan",earthquake,4.8,6,0.14,14,reviewed,us,us
+2021-07-14T08:17:47.519Z,36.5531,70.8497,195.39,4.3,mb,,72,0.612,0.93,us,us7000elu3,2021-09-17T22:50:23.040Z,"34 km S of Jurm, Afghanistan",earthquake,6.3,5.6,0.137,15,reviewed,us,us
+2021-07-14T05:47:26.468Z,36.595,70.9321,201.21,4,mb,,100,0.601,0.76,us,us7000elt8,2021-09-17T22:50:21.040Z,"31 km SSE of Jurm, Afghanistan",earthquake,6.7,6.7,0.144,13,reviewed,us,us
+2021-07-13T21:10:34.383Z,36.5519,70.8861,188.82,4.5,mb,,57,0.624,0.59,us,us7000elpr,2021-09-17T22:50:15.040Z,"35 km S of Jurm, Afghanistan",earthquake,6.9,4.9,0.044,149,reviewed,us,us
+2021-07-08T08:20:56.649Z,36.6626,71.4147,183.1,4.9,mb,,43,0.815,0.65,us,us6000et3i,2021-09-10T20:06:48.040Z,"Afghanistan-Tajikistan-Pakistan region",earthquake,7.6,6.6,0.048,137,reviewed,us,us
+2021-07-05T17:06:55.336Z,28.9016,76.839,10,3.9,mb,,199,5.634,1.28,us,us7000eiwa,2021-09-10T20:07:23.040Z,"7 km WNW of Kharkhauda, India",earthquake,6.1,2,0.143,13,reviewed,us,us
+2021-07-04T10:07:03.226Z,27.2967,65.7434,10,4.2,mb,,94,7.68,0.53,us,us7000eimc,2021-09-10T20:06:48.040Z,"102 km SW of Khuzdar, Pakistan",earthquake,4,1.9,0.1,29,reviewed,us,us
+2021-06-29T19:24:35.052Z,34.6873,77.9908,10,3.7,mb,,183,4.049,0.91,us,us6000eqyg,2021-09-09T22:05:56.040Z,"68 km NNE of Leh, India",earthquake,7.5,1.9,0.224,5,reviewed,us,us
+2021-06-27T09:07:22.760Z,36.2779,71.1488,98.61,4.1,mb,,106,0.963,0.74,us,us6000eq7g,2021-09-09T22:05:21.040Z,"56 km SW of Ashk?sham, Afghanistan",earthquake,4.2,7.6,0.151,12,reviewed,us,us
+2021-06-25T09:11:28.648Z,36.5979,69.6458,181.47,4.1,mb,,72,0.913,0.82,us,us6000epmb,2021-09-09T22:04:50.040Z,"18 km SSE of Taloqan, Afghanistan",earthquake,5.1,6.6,0.185,10,reviewed,us,us
+2021-06-25T01:11:18.543Z,36.573,70.9718,207.4,4.1,mb,,74,0.636,1.11,us,us6000epjl,2021-09-09T22:04:44.040Z,"34 km SSE of Jurm, Afghanistan",earthquake,8.6,6,0.145,14,reviewed,us,us
+2021-06-24T23:04:44.289Z,34.9509,69.0848,16.2,5.1,mww,,49,0.41,1.08,us,us6000epir,2025-12-22T19:03:00.866Z,"10 km SW of Charikar, Afghanistan",earthquake,6.2,4,0.098,10,reviewed,us,us
+2021-06-24T04:58:58.588Z,35.93,70.963,91.24,4.4,mb,,81,1.233,0.45,us,us6000ep95,2021-08-27T18:58:47.040Z,"56 km N of P?r?n, Afghanistan",earthquake,6.1,3.3,0.078,47,reviewed,us,us
+2021-06-23T01:09:13.906Z,33.5317,71.5687,33.21,4.7,mb,,96,1.423,0.58,us,us7000efcx,2022-08-09T05:40:01.274Z,"12 km ESE of Kohat, Pakistan",earthquake,4.7,4.8,0.057,93,reviewed,us,us
+2021-06-22T07:08:12.310Z,36.4852,68.5431,82.64,4.2,mb,,85,1.752,0.96,us,us7000ef56,2021-08-27T18:58:20.040Z,"38 km SW of Kunduz, Afghanistan",earthquake,6,10.1,0.175,9,reviewed,us,us
+2021-06-19T13:59:17.264Z,32.1089,69.8552,51.42,4.5,mb,,96,2.518,0.77,us,us7000eeew,2021-08-27T18:57:36.040Z,"33 km SE of Wana, Pakistan",earthquake,7.8,7,0.061,78,reviewed,us,us
+2021-06-18T06:45:30.652Z,25.8161,65.0633,10,4.1,mb,,145,8.059,0.54,us,us7000ee24,2021-08-27T18:57:11.040Z,"79 km NNE of Ormara, Pakistan",earthquake,11,1.9,0.151,13,reviewed,us,us
+2021-06-17T14:19:36.145Z,34.7242,73.2047,10,5,mb,,42,1.072,0.84,us,us7000edut,2025-12-22T18:01:06.394Z,"17 km ENE of Battagram, Pakistan",earthquake,6.6,1.8,0.058,93,reviewed,us,us
+2021-06-15T21:52:16.471Z,34.5637,70.3727,34.73,4.4,mb,,70,1.097,0.94,us,us7000edcg,2021-08-26T21:59:24.040Z,"16 km NNW of Jal?l?b?d, Afghanistan",earthquake,6.5,4.8,0.087,38,reviewed,us,us
+2021-06-14T16:40:40.428Z,36.1591,70.5849,88.01,4,mb,,104,0.964,0.78,us,us7000ee4i,2021-08-26T21:59:19.040Z,"79 km SE of Farkh?r, Afghanistan",earthquake,5.8,6.4,0.183,10,reviewed,us,us
+2021-06-14T04:29:02.436Z,27.9711,66.5514,10,4.1,mb,,191,6.887,0.57,us,us7000ee43,2021-08-26T21:59:17.040Z,"18 km NNW of Khuzdar, Pakistan",earthquake,11,2,0.185,8,reviewed,us,us
+2021-06-13T07:28:08.559Z,36.4239,71.4384,98.93,4.3,mb,,108,0.984,0.78,us,us7000ecmw,2021-08-26T21:59:14.040Z,"30 km SSW of Ashk?sham, Afghanistan",earthquake,6.9,7.2,0.101,31,reviewed,us,us
+2021-06-12T01:44:42.946Z,36.5303,70.7326,227.04,4.3,mb,,72,0.607,0.81,us,us7000ec99,2021-08-26T21:59:07.040Z,"38 km SSW of Jurm, Afghanistan",earthquake,8.6,6.8,0.129,17,reviewed,us,us
+2021-06-10T06:42:12.687Z,36.5607,70.946,209.63,4,mb,,76,0.637,0.82,us,us7000ebn3,2021-08-24T21:33:45.040Z,"35 km SSE of Jurm, Afghanistan",earthquake,8.5,6,0.138,14,reviewed,us,us
+2021-06-09T11:35:23.904Z,31.7774,69.7581,28.11,4.5,mb,,99,2.82,0.81,us,us7000ebf8,2021-08-24T21:34:03.040Z,"56 km NNE of Zhob, Pakistan",earthquake,8,5.1,0.102,28,reviewed,us,us
+2021-06-08T19:28:39.196Z,36.248,70.8875,104.52,4.1,mb,,78,0.911,0.94,us,us7000eb8g,2021-08-24T21:34:13.040Z,"68 km S of Jurm, Afghanistan",earthquake,6.3,6.5,0.13,18,reviewed,us,us
+2021-06-02T20:47:45.178Z,36.866,68.3333,10,4.2,mb,,79,1.814,1.09,us,us7000e95j,2021-08-07T22:07:20.040Z,"47 km SSE of Shahritus, Tajikistan",earthquake,4.1,1.9,0.146,13,reviewed,us,us
+2021-06-02T17:56:57.673Z,36.947,68.2486,10,4.1,mb,,122,1.871,0.77,us,us7000e92q,2021-08-07T22:07:17.040Z,"36 km SSE of Shahritus, Tajikistan",earthquake,5,1.9,0.165,10,reviewed,us,us
+2021-06-02T09:40:28.423Z,36.9211,68.0422,10,4.4,mb,,83,2.51,0.81,us,us6000egwy,2021-08-07T22:07:11.040Z,"38 km SSW of Shahritus, Tajikistan",earthquake,6.5,1.6,0.104,27,reviewed,us,us
+2021-06-02T09:31:38.634Z,36.8618,68.2466,10,4.4,mb,,81,1.883,0.37,us,us6000egwt,2021-08-07T22:07:11.040Z,"45 km SSE of Shahritus, Tajikistan",earthquake,7.1,1.9,0.127,18,reviewed,us,us
+2021-06-01T10:35:29.216Z,36.6997,71.4554,181.48,4.1,mb,,70,0.823,0.56,us,us6000egju,2021-08-07T22:06:53.040Z,"7 km WNW of Ashk?sham, Afghanistan",earthquake,7.4,5.8,0.111,22,reviewed,us,us
+2021-05-28T07:24:16.071Z,36.5239,70.1352,209.8,5,mb,,44,0.697,0.78,us,us6000efd7,2021-08-07T22:05:38.040Z,"25 km ESE of Farkh?r, Afghanistan",earthquake,5.9,5.5,0.053,112,reviewed,us,us
+2021-05-28T03:58:07.378Z,27.9368,66.4794,10,4.8,mb,,54,6.939,0.78,us,us6000efc9,2021-08-07T22:05:37.040Z,"18 km NW of Khuzdar, Pakistan",earthquake,8.7,1.9,0.048,132,reviewed,us,us
+2021-05-27T08:54:33.708Z,30.0738,66.2502,10,4.7,mb,,96,5.042,0.71,us,us6000ef0w,2025-12-22T18:00:58.281Z,"61 km NNE of Nushki, Pakistan",earthquake,8.9,1.9,0.074,56,reviewed,us,us
+2021-05-27T00:38:27.680Z,30.0988,66.2734,10,4.2,mb,,123,5.011,0.71,us,us6000eey6,2021-07-31T22:10:07.040Z,"64 km WNW of Mastung, Pakistan",earthquake,9.4,1.9,0.106,25,reviewed,us,us
+2021-05-25T22:12:19.297Z,30.2556,66.4514,10,4.2,mb,,121,4.802,0.74,us,us6000efky,2021-07-31T22:09:48.040Z,"51 km W of Kot Malik Barkhurdar, Pakistan",earthquake,9.9,1.9,0.108,24,reviewed,us,us
+2021-05-24T21:15:18.761Z,27.4192,62.7334,10,4.3,mb,,133,6.361,0.71,us,us6000efix,2021-07-31T22:09:23.040Z,"160 km NNW of Turbat, Pakistan",earthquake,6.6,1.9,0.119,20,reviewed,us,us
+2021-05-19T09:19:13.065Z,34.776,69.5705,14.82,4.6,mb,,55,0.494,0.7,us,us7000e4d1,2021-07-24T21:08:13.040Z,"11 km SW of Tag?b, Afghanistan",earthquake,5.4,4.1,0.065,71,reviewed,us,us
+2021-05-17T04:11:52.943Z,36.255,71.1316,100.48,4.1,mb,,97,0.976,0.53,us,us7000e529,2021-07-24T21:07:32.040Z,"59 km SW of Ashk?sham, Afghanistan",earthquake,6.7,7.3,0.165,10,reviewed,us,us
+2021-05-14T09:57:25.837Z,36.4008,69.5932,42.65,4.5,mb,,59,1.07,0.62,us,us7000e4py,2021-07-24T21:06:51.040Z,"30 km SW of Farkh?r, Afghanistan",earthquake,1.8,7.1,0.072,57,reviewed,us,us
+2021-05-14T01:02:21.662Z,36.5242,69.4966,31.91,4.6,mb,,46,1.053,1.1,us,us7000e2y2,2021-07-24T21:06:43.040Z,"23 km S of Taloqan, Afghanistan",earthquake,5.2,4.9,0.075,53,reviewed,us,us
+2021-05-10T08:04:24.462Z,36.4912,71.1117,126.19,4.3,mb,,46,0.765,0.6,us,us7000e1r9,2021-07-23T18:08:28.040Z,"43 km WSW of Ashk?sham, Afghanistan",earthquake,6.5,4.2,0.109,25,reviewed,us,us
+2021-05-07T11:21:16.940Z,36.6988,71.0116,222,4.1,mb,,64,0.55,0.76,us,us7000e0zq,2021-07-23T18:08:17.040Z,"24 km SE of Jurm, Afghanistan",earthquake,3.4,5,0.094,31,reviewed,us,us
+2021-05-07T08:16:41.007Z,36.5596,70.9579,188.16,4.1,mb,,105,0.642,0.95,us,us7000e2h1,2021-07-23T18:08:36.040Z,"35 km SSE of Jurm, Afghanistan",earthquake,10.8,7.8,0.185,8,reviewed,us,us
+2021-05-04T11:28:33.106Z,36.4422,70.9143,143.16,4,mb,,75,0.734,0.9,us,us7000dzz9,2021-07-10T20:15:18.040Z,"47 km S of Jurm, Afghanistan",earthquake,3.3,8,0.183,9,reviewed,us,us
+2021-05-02T11:19:05.225Z,24.0664,65.0104,10,4.4,mb,,82,8.068,0.73,us,us7000dzhd,2021-07-10T20:15:00.040Z,"132 km SSE of Ormara, Pakistan",earthquake,8.7,1.8,0.079,48,reviewed,us,us
+2021-04-29T20:06:02.744Z,36.61,70.9548,72.99,4.7,mb,,45,0.597,0.97,us,us7000dyqk,2021-07-07T18:38:15.040Z,"30 km SSE of Jurm, Afghanistan",earthquake,5.7,4.5,0.04,185,reviewed,us,us
+2021-04-29T05:57:44.026Z,36.2283,71.089,102.29,4.1,mb,,98,0.985,0.47,us,us7000dyfw,2021-07-07T18:37:32.040Z,"64 km SW of Ashk?sham, Afghanistan",earthquake,7.6,7.5,0.12,19,reviewed,us,us
+2021-04-24T16:56:58.971Z,36.4255,68.663,56.85,4.5,mb,,133,1.687,0.71,us,us6000e4er,2021-07-07T18:34:35.040Z,"32 km N of Baghl?n, Afghanistan",earthquake,5.2,9.2,0.144,14,reviewed,us,us
+2021-04-23T07:50:34.321Z,36.5522,70.9212,194.6,4.4,mb,,78,0.635,0.62,us,us6000e3wl,2021-07-07T18:33:52.040Z,"35 km SSE of Jurm, Afghanistan",earthquake,5.4,5.5,0.078,48,reviewed,us,us
+2021-04-22T21:07:39.299Z,36.44,70.7896,203.27,4.1,mb,,81,0.705,0.66,us,us6000e3se,2021-07-03T16:49:20.040Z,"47 km S of Jurm, Afghanistan",earthquake,6,5.6,0.089,35,reviewed,us,us
+2021-04-21T23:26:36.607Z,36.8844,68.3921,10,4.1,mb,,114,1.764,0.67,us,us7000dxxg,2021-07-03T16:50:00.040Z,"44 km WNW of Kunduz, Afghanistan",earthquake,5.3,1.7,0.198,7,reviewed,us,us
+2021-04-19T12:56:02.323Z,36.4941,71.329,218.31,4.4,mb,,77,2.697,0.87,us,us6000e2vi,2021-07-03T16:48:26.040Z,"27 km SW of Ashk?sham, Afghanistan",earthquake,8.4,9.4,0.219,6,reviewed,us,us
+2021-04-14T09:44:38.095Z,36.3109,70.5082,144.24,4.3,mb,,97,2.133,0.51,us,us6000e1fs,2021-06-19T21:25:34.040Z,"65 km ESE of Farkh?r, Afghanistan",earthquake,7.8,11.1,0.188,8,reviewed,us,us
+2021-04-14T07:24:48.118Z,36.5179,70.837,195.98,4.1,mb,,73,2.456,1.05,us,us6000e1f8,2021-06-19T21:25:34.040Z,"38 km S of Jurm, Afghanistan",earthquake,5.7,7.5,0.158,13,reviewed,us,us
+2021-04-13T23:41:17.827Z,34.5245,70.126,38.74,4.1,mb,,112,0.894,0.97,us,us6000e38y,2021-06-19T21:26:19.040Z,"18 km SSW of Mehtar L?m, Afghanistan",earthquake,6.4,7.4,0.145,13,reviewed,us,us
+2021-04-13T10:44:23.754Z,30.3274,70.5179,10,4.2,mb,,177,4.054,0.7,us,us6000e38b,2021-06-19T21:26:16.040Z,"33 km NNW of Dera Ghazi Khan, Pakistan",earthquake,7.8,1.8,0.136,16,reviewed,us,us
+2021-04-13T05:42:49.761Z,36.4947,70.8628,183.7,4.6,mb,,38,2.45,1.28,us,us6000e156,2021-06-19T21:25:19.040Z,"41 km S of Jurm, Afghanistan",earthquake,7.2,6.1,0.057,92,reviewed,us,us
+2021-04-13T04:28:07.122Z,36.1157,68.0527,38.87,4.4,mb,,99,1.767,0.51,us,us6000e14s,2021-06-19T21:25:18.040Z,"16 km SSE of A?bak, Afghanistan",earthquake,3.7,8,0.115,22,reviewed,us,us
+2021-04-10T21:49:38.394Z,28.3413,67.2682,10,4.3,mb,,176,6.363,0.82,us,us6000e0pc,2021-06-19T21:24:57.040Z,"73 km WNW of Chowki Jamali, Pakistan",earthquake,10.6,1.9,0.107,25,reviewed,us,us
+2021-04-10T15:18:24.540Z,28.062,66.6139,34.15,4.1,mb,,149,6.784,0.76,us,us6000e0mr,2021-06-19T21:24:54.040Z,"27 km N of Khuzdar, Pakistan",earthquake,9.9,6.6,0.107,30,reviewed,us,us
+2021-04-04T20:09:52.991Z,36.7677,75.7308,74.65,4.2,mb,,86,3.706,1.05,us,us6000dz05,2021-06-12T21:37:09.040Z,"105 km ENE of Barishal, Pakistan",earthquake,8.1,6.6,0.128,17,reviewed,us,us
+2021-04-04T06:16:28.552Z,35.9507,69.7657,96.12,4.5,mb,,75,1.525,0.98,us,us6000dyw4,2021-06-12T21:37:00.040Z,"58 km ESE of Nahr?n, Afghanistan",earthquake,5.2,10.1,0.112,23,reviewed,us,us
+2021-04-01T16:51:09.258Z,36.7131,70.9939,221.65,4.2,mb,,69,0.53,0.68,us,us6000dybi,2021-06-08T17:59:49.040Z,"22 km SE of Jurm, Afghanistan",earthquake,7.1,5.4,0.085,39,reviewed,us,us
+2021-03-31T12:24:14.987Z,36.5397,70.8651,188.36,4.1,mb,,109,0.629,0.76,us,us6000e00x,2021-06-08T18:00:13.040Z,"36 km S of Jurm, Afghanistan",earthquake,7.8,8.3,0.158,11,reviewed,us,us
+2021-03-28T12:47:11.500Z,27.7926,64.7002,10,4.4,mb,,130,6.902,0.68,us,us6000dx63,2021-06-08T17:58:54.040Z,"112 km SW of Kharan, Pakistan",earthquake,9.3,1.9,0.082,43,reviewed,us,us
+2021-03-26T19:00:43.837Z,36.3655,70.6382,131.32,4,mb,,107,2.238,0.57,us,us6000dy9b,2021-06-08T17:59:43.040Z,"58 km SSW of Jurm, Afghanistan",earthquake,4.8,17.5,0.365,3,reviewed,us,us
+2021-03-26T10:37:17.546Z,36.5762,70.8919,199,4.2,mb,,72,0.604,0.71,us,us6000dwm9,2021-06-08T17:58:32.040Z,"32 km S of Jurm, Afghanistan",earthquake,7.5,5.8,0.09,36,reviewed,us,us
+2021-03-23T19:36:10.206Z,36.721,71.5277,168.05,4.2,mb,,173,0.862,0.47,us,us6000dvw7,2021-06-02T15:22:26.040Z,"Afghanistan-Tajikistan-Pakistan region",earthquake,11.7,10.5,0.088,41,reviewed,us,us
+2021-03-23T18:56:46.351Z,36.5077,68.0699,41.21,4.2,mb,,85,2.103,0.76,us,us6000dvvu,2021-06-02T15:22:25.040Z,"27 km N of A?bak, Afghanistan",earthquake,6.4,8.7,0.137,19,reviewed,us,us
+2021-03-21T14:18:03.406Z,36.4722,71.2033,122.81,4.6,mb,,181,0.823,0.29,us,us6000dxfi,2021-06-02T15:23:13.040Z,"37 km SW of Ashk?sham, Afghanistan",earthquake,12.3,6,0.314,5,reviewed,us,us
+2021-03-20T07:43:06.792Z,36.9722,71.3458,95.88,4.5,mb,,64,0.634,0.55,us,us7000dl6e,2021-06-02T15:24:06.040Z,"36 km NNW of Ashk?sham, Afghanistan",earthquake,3.9,6.7,0.096,32,reviewed,us,us
+2021-03-10T23:19:30.244Z,36.4818,70.927,144.15,4.2,mb,,91,0.701,0.5,us,us7000dhzm,2021-05-21T19:49:14.040Z,"43 km S of Jurm, Afghanistan",earthquake,5.3,5.4,0.121,19,reviewed,us,us
+2021-03-09T21:06:48.613Z,36.4189,70.6937,211.82,4.7,mb,,38,2.307,0.93,us,us7000dhig,2021-05-21T19:48:52.040Z,"51 km SSW of Jurm, Afghanistan",earthquake,7.3,5.4,0.04,189,reviewed,us,us
+2021-03-09T01:52:04.330Z,36.2447,71.4029,101.53,4.2,mb,,75,2.57,0.73,us,us7000dha0,2021-05-21T19:48:39.040Z,"50 km SSW of Ashk?sham, Afghanistan",earthquake,5.6,8.5,0.153,12,reviewed,us,us
+2021-03-07T12:29:52.511Z,36.5574,71.5065,134.37,4,mb,,73,2.843,1,us,us7000dgvl,2021-05-21T19:48:06.040Z,"14 km S of Ashk?sham, Afghanistan",earthquake,8.9,9.6,0.212,6,reviewed,us,us
+2021-03-06T20:26:42.574Z,36.4149,71.1581,235.7,4.1,mb,,76,2.544,0.71,us,us7000dglv,2021-05-21T19:47:42.040Z,"44 km SW of Ashk?sham, Afghanistan",earthquake,8.1,6.4,0.13,16,reviewed,us,us
+2021-03-06T13:01:00.102Z,36.6641,69.3922,10,4.4,mb,,57,2.137,1.01,us,us7000dghu,2021-05-21T19:47:25.040Z,"15 km WSW of Taloqan, Afghanistan",earthquake,6,1.9,0.123,19,reviewed,us,us
+2021-03-05T14:10:53.344Z,36.0482,69.1101,128.5,3.8,mb,,82,1.505,0.53,us,us7000dfz2,2021-05-21T19:46:49.040Z,"2 km SW of Nahr?n, Afghanistan",earthquake,7.6,12.6,0.255,4,reviewed,us,us
+2021-03-02T15:20:45.260Z,36.6831,71.1596,210.93,4,mb,,102,2.746,0.39,us,us7000dg2a,2021-05-13T22:41:01.040Z,"33 km W of Ashk?sham, Afghanistan",earthquake,10,10,0.173,9,reviewed,us,us
+2021-03-02T11:03:30.764Z,36.1232,71.3559,90.64,4.3,mb,,84,1.18,0.63,us,us7000deud,2021-05-13T22:40:45.040Z,"64 km SSW of Ashk?sham, Afghanistan",earthquake,5.9,7.4,0.142,14,reviewed,us,us
+2021-02-26T21:35:19.754Z,36.4173,71.46,117.88,4.1,mb,,102,2.719,1.08,us,us7000de0q,2021-05-13T22:35:47.040Z,"30 km SSW of Ashk?sham, Afghanistan",earthquake,8.5,10,0.127,17,reviewed,us,us
+2021-02-25T08:36:40.357Z,36.6717,71.4686,173.55,4.2,mb,,129,2.819,0.59,us,us7000ddis,2021-05-04T14:17:14.040Z,"5 km WSW of Ashk?sham, Afghanistan",earthquake,8.7,9.1,0.073,52,reviewed,us,us
+2021-02-23T21:45:16.829Z,36.9713,75.4511,10,4.4,mb,,125,3.763,0.77,us,us7000ddyb,2021-05-04T14:16:42.040Z,"98 km NE of Barishal, Pakistan",earthquake,4.6,1.9,0.161,11,reviewed,us,us
+2021-02-20T08:09:34.511Z,29.2546,69.7957,10,4.4,mb,,184,5.292,0.55,us,us7000ddkh,2021-05-04T14:15:18.040Z,"54 km WNW of Rajanpur, Pakistan",earthquake,5.2,1.9,0.123,19,reviewed,us,us
+2021-02-18T18:18:43.335Z,34.0145,68.8554,10,3.7,mb,,230,0.547,0.94,us,us6000dipz,2021-05-19T09:45:18.892Z,"10 km WNW of Baraki Barak, Afghanistan",earthquake,5.3,2,0.225,6,reviewed,us,us
+2021-02-17T17:32:34.782Z,36.6766,70.7208,240.99,4.1,mb,,69,2.531,0.69,us,us6000difj,2021-04-23T21:04:51.040Z,"23 km SSW of Jurm, Afghanistan",earthquake,8.5,9.2,0.135,15,reviewed,us,us
+2021-02-17T10:58:55.374Z,36.5513,69.6537,149.77,4.1,mb,,61,2.066,0.6,us,us6000dicn,2021-04-23T21:04:50.040Z,"18 km W of Farkh?r, Afghanistan",earthquake,8.6,4.7,0.123,18,reviewed,us,us
+2021-02-13T04:34:32.933Z,25.4683,61.8035,10,4.3,mb,,182,5.098,0.72,us,us6000djcf,2021-04-23T21:04:27.040Z,"46 km N of Jiwani, Pakistan",earthquake,12.4,2,0.16,12,reviewed,us,us
+2021-02-10T19:03:22.466Z,36.3324,71.0446,121.31,4.1,mb,,95,2.422,0.97,us,us6000dgcb,2021-04-22T21:52:41.040Z,"58 km SW of Ashk?sham, Afghanistan",earthquake,8.6,11.6,0.174,9,reviewed,us,us
+2021-02-10T14:32:28.774Z,36.4815,71.24,252.23,4.1,mb,,75,2.638,0.59,us,us6000dj00,2021-04-22T21:52:29.040Z,"34 km SW of Ashk?sham, Afghanistan",earthquake,8.5,8.9,0.107,24,reviewed,us,us
+2021-02-09T01:16:16.570Z,31.0033,66.7118,10,4.3,mb,,133,4.037,0.64,us,us6000di1t,2021-04-22T21:51:46.040Z,"26 km ENE of Chaman, Pakistan",earthquake,10.2,2,0.16,11,reviewed,us,us
+2021-02-04T17:02:04.030Z,36.7848,76.829,93.66,4.5,mb,,82,4.274,0.93,us,us6000degv,2021-04-16T19:03:29.040Z,"181 km WSW of Zangguy, China",earthquake,7.5,6.1,0.076,50,reviewed,us,us
+2021-02-03T19:30:26.126Z,36.4495,70.4477,199.41,4,mb,,86,2.222,0.68,us,us6000de96,2021-04-16T19:03:17.040Z,"54 km ESE of Farkh?r, Afghanistan",earthquake,9.5,10,0.172,9,reviewed,us,us
+2021-02-03T13:18:54.354Z,36.3364,70.4753,170.03,4.3,mb,,113,2.139,0.93,us,us6000de6c,2021-04-16T19:03:14.040Z,"61 km ESE of Farkh?r, Afghanistan",earthquake,7.7,9.4,0.177,9,reviewed,us,us
+2021-02-02T17:34:06.344Z,35.9392,75.937,23.36,4,mb,,99,3.167,0.63,us,us6000ddyb,2021-04-16T19:03:03.040Z,"76 km NNE of Skardu, Pakistan",earthquake,6.5,6.3,0.119,21,reviewed,us,us
+2021-02-02T06:44:14.399Z,36.4604,70.8866,123.1,4.3,mb,,74,2.435,0.74,us,us6000ddu6,2021-04-16T19:03:00.040Z,"45 km S of Jurm, Afghanistan",earthquake,3.7,7.6,0.092,33,reviewed,us,us
+2021-02-02T03:45:51.153Z,36.6672,71.1138,253.75,4.2,mb,,70,2.71,0.77,us,us6000ddsy,2021-04-16T19:02:58.040Z,"33 km SE of Jurm, Afghanistan",earthquake,4.2,7,0.124,19,reviewed,us,us
+2021-02-02T01:16:44.701Z,36.4819,71.4502,94.49,4.2,mb,,71,2.758,0.77,us,us6000dfzc,2021-04-16T19:03:55.040Z,"23 km SSW of Ashk?sham, Afghanistan",earthquake,7.1,7.2,0.107,24,reviewed,us,us
+2021-01-24T11:54:14.391Z,36.4718,71.3102,97.56,4.4,mb,,71,2.67,1.14,us,us7000d2wb,2021-04-13T17:04:22.040Z,"30 km SW of Ashk?sham, Afghanistan",earthquake,7.9,10.2,0.139,15,reviewed,us,us
+2021-01-21T15:32:10.081Z,36.5019,70.6831,199.15,4.4,mb,,42,2.37,0.68,us,us7000d23j,2021-03-27T21:05:56.040Z,"42 km SSW of Jurm, Afghanistan",earthquake,7.4,7,0.068,64,reviewed,us,us
+2021-01-19T18:55:46.302Z,36.4976,69.8782,81.72,4,mb,,86,2.067,0.54,us,us7000d1fy,2021-03-27T21:05:32.040Z,"8 km SSE of Farkh?r, Afghanistan",earthquake,7.5,11.7,0.134,17,reviewed,us,us
+2021-01-19T11:02:40.469Z,36.3995,70.8393,136.77,4.2,mb,,175,2.364,0.72,us,us7000d1cr,2021-03-27T21:05:29.040Z,"51 km S of Jurm, Afghanistan",earthquake,12.4,10.8,0.141,14,reviewed,us,us
+2021-01-16T20:02:46.900Z,36.4494,70.6979,204,5.5,mww,,18,2.334,0.69,us,us7000d0pq,2025-12-22T18:48:33.644Z,"47 km SSW of Jurm, Afghanistan",earthquake,6.9,1.8,0.049,40,reviewed,us,us
+2021-01-12T07:44:24.095Z,35.9177,60.3935,10,4.1,mb,,171,2.152,0.81,us,us7000d21q,2021-03-20T21:24:38.040Z,"77 km NNW of Torbat-e J?m, Iran",earthquake,6.2,2,0.262,4,reviewed,us,us
+2021-01-12T04:47:17.405Z,36.5795,71.0029,208.23,4.4,mb,,72,2.586,0.55,us,us6000d7n0,2021-03-20T21:24:34.040Z,"35 km SSE of Jurm, Afghanistan",earthquake,8.1,2.3,0.076,50,reviewed,us,us
+2021-01-11T19:27:50.800Z,35.7828,60.147,10,4.3,mb,,85,2.212,0.74,us,us6000d7hm,2021-03-20T21:24:15.040Z,"73 km NW of Torbat-e J?m, Iran",earthquake,8.2,1.9,0.099,29,reviewed,us,us
+2021-01-11T14:02:03.048Z,33.3042,75.5872,10,5.1,mb,,66,1.968,0.47,us,us6000d7f5,2025-12-22T18:48:11.706Z,"16 km W of Kishtw?r, India",earthquake,6.2,1.5,0.051,127,reviewed,us,us
+2021-01-11T13:59:12.570Z,33.4274,75.7158,10,4.1,mb,,149,2.056,0.32,us,us6000d7f2,2021-03-20T21:24:09.040Z,"13 km NNW of Kishtw?r, India",earthquake,8,1.8,0.157,12,reviewed,us,us
+2021-01-10T21:01:36.536Z,36.4949,70.311,202.88,4.2,mb,,79,2.207,0.8,us,us6000d7as,2021-03-20T21:23:49.040Z,"41 km ESE of Farkh?r, Afghanistan",earthquake,8.3,7.2,0.115,21,reviewed,us,us
+2021-01-10T15:14:42.573Z,36.5003,70.8826,178.51,4.5,mb,,35,2.464,0.52,us,us6000d78u,2021-03-20T21:23:42.040Z,"40 km S of Jurm, Afghanistan",earthquake,8,5.8,0.06,82,reviewed,us,us
+2021-01-09T14:51:50.407Z,32.521,76.6552,22.64,4.5,mb,,152,3.058,0.72,us,us6000d71u,2021-03-20T21:23:19.040Z,"35 km W of Kyelang, India",earthquake,10,6.7,0.096,32,reviewed,us,us
+2021-01-01T01:50:22.753Z,36.324,69.9285,139.79,4.1,mb,,86,1.92,0.69,us,us6000d4pq,2021-03-13T22:58:26.040Z,"28 km SSE of Farkh?r, Afghanistan",earthquake,6.3,12.9,0.158,11,reviewed,us,us
+2020-12-30T05:33:43.546Z,34.741,72.9466,10,5,mb,,42,1.119,1.18,us,us6000d49f,2021-03-06T23:20:35.040Z,"7 km NNW of Shingli Bala, Pakistan",earthquake,6.4,1.8,0.071,63,reviewed,us,us
+2020-12-29T16:13:54.901Z,36.1283,71.1257,98.52,4,mb,,109,2.325,0.28,us,us6000d6qa,2021-03-06T23:20:20.040Z,"71 km SSW of Ashk?sham, Afghanistan",earthquake,5.2,10.1,0.156,11,reviewed,us,us
+2020-12-27T14:29:31.526Z,34.6475,73.1544,10,4.2,mb,,89,0.999,0.7,us,us6000d6er,2021-03-06T23:19:31.040Z,"12 km ESE of Battagram, Pakistan",earthquake,4.7,1.9,0.2,8,reviewed,us,us
+2020-12-27T12:32:47.199Z,36.4783,70.375,211.84,4.3,mb,,76,2.217,0.84,us,us6000d3fi,2021-03-06T23:19:29.040Z,"47 km ESE of Farkh?r, Afghanistan",earthquake,9.6,8,0.129,17,reviewed,us,us
+2020-12-22T01:01:33.840Z,36.1322,69.3533,26.1,4.9,mb,,40,1.608,0.79,us,us6000d1si,2021-02-27T23:23:22.040Z,"21 km ENE of Nahr?n, Afghanistan",earthquake,6.5,4.4,0.066,73,reviewed,us,us
+2020-12-20T18:45:08.075Z,35.6717,60.6578,10,4.3,mb,,197,1.826,1.2,us,us7000csqx,2021-02-27T23:26:36.040Z,"47 km N of Torbat-e J?m, Iran",earthquake,8.5,1.9,0.217,6,reviewed,us,us
+2020-12-20T00:39:54.292Z,36.6227,71.0771,205.93,4.2,mb,,71,2.657,0.81,us,us7000csjq,2021-02-27T23:26:19.040Z,"34 km SE of Jurm, Afghanistan",earthquake,7.3,7.5,0.11,23,reviewed,us,us
+2020-12-18T03:53:41.667Z,36.5468,71.0112,194.51,4.2,mb,,75,2.565,0.9,us,us7000cs03,2021-02-27T23:25:22.040Z,"38 km SSE of Jurm, Afghanistan",earthquake,7.4,8.6,0.146,13,reviewed,us,us
+2020-12-18T02:56:38.921Z,36.8588,66.1032,21.52,4.3,mb,,100,3.327,1.06,us,us6000d1wm,2021-02-27T23:23:38.040Z,"37 km NE of Shibirgh?n, Afghanistan",earthquake,5.2,5.5,0.16,11,reviewed,us,us
+2020-12-17T18:16:48.782Z,28.5188,77.2852,10,3.8,mb,,189,8.421,0.81,us,us7000cryp,2021-02-27T23:25:18.040Z,"5 km ENE of Deoli, India",earthquake,13.9,2,0.18,8,reviewed,us,us
+2020-12-16T13:56:31.088Z,36.8775,73.284,10,4.3,mb,,88,2.85,1.16,us,us7000cs7g,2021-02-27T23:25:52.040Z,"86 km E of Khand?d, Afghanistan",earthquake,7.5,1.9,0.138,15,reviewed,us,us
+2020-12-16T12:57:18.539Z,36.9414,73.0583,57.91,4.3,mb,,90,2.723,0.63,us,us7000crjm,2021-02-27T23:24:56.040Z,"65 km E of Khand?d, Afghanistan",earthquake,7,9.7,0.147,13,reviewed,us,us
+2020-12-09T21:57:34.387Z,33.866,74.9266,10,4.2,mb,,145,1.397,0.88,us,us7000cr0b,2021-02-20T16:11:58.040Z,"2 km ESE of Pulwama, India",earthquake,8.9,2,0.372,2,reviewed,us,us
+2020-12-03T08:09:34.952Z,36.5666,74.1378,58.65,4.4,mb,,101,2.995,0.98,us,us7000cmi1,2021-02-12T22:38:36.040Z,"northwestern Kashmir",earthquake,8,7.5,0.087,40,reviewed,us,us
+2020-11-30T12:32:37.685Z,36.343,70.5662,179.58,4,mb,,75,2.186,0.71,us,us7000cl59,2021-02-06T18:29:10.040Z,"62 km SSW of Jurm, Afghanistan",earthquake,7.3,8.1,0.113,22,reviewed,us,us
+2020-11-28T00:09:30.496Z,36.6785,71.4603,172.71,4.1,mb,,70,2.813,0.79,us,us7000ckih,2021-02-06T18:28:43.040Z,"6 km W of Ashk?sham, Afghanistan",earthquake,5.8,8.9,0.174,9,reviewed,us,us
+2020-11-27T23:03:13.873Z,36.2615,71.2146,156.81,3.8,mb,,105,2.468,0.57,us,us7000cki5,2021-02-06T18:28:42.040Z,"54 km SSW of Ashk?sham, Afghanistan",earthquake,8.1,23.6,0.293,3,reviewed,us,us
+2020-11-26T17:27:36.031Z,36.533,71.2193,226.53,4.4,mb,,19,2.664,0.57,us,us7000ck2t,2021-02-06T18:28:24.040Z,"32 km WSW of Ashk?sham, Afghanistan",earthquake,7.2,5.5,0.044,155,reviewed,us,us
+2020-11-26T10:01:46.813Z,36.3619,71.3054,124.31,4.4,mb,,72,2.59,0.89,us,us7000ck0b,2021-02-06T18:28:19.040Z,"41 km SSW of Ashk?sham, Afghanistan",earthquake,6.5,5.7,0.114,22,reviewed,us,us
+2020-11-22T16:23:39.821Z,36.0789,70.1693,142.1,4.2,mb,,79,1.789,0.53,us,us6000crh5,2021-02-03T17:50:58.040Z,"61 km SSE of Farkh?r, Afghanistan",earthquake,3.9,14.5,0.215,7,reviewed,us,us
+2020-11-21T15:34:52.529Z,36.2821,70.7421,125.42,4.4,mb,,78,2.223,1.15,us,us6000cr8r,2021-02-03T17:49:04.040Z,"65 km S of Jurm, Afghanistan",earthquake,8.1,9.9,0.12,20,reviewed,us,us
+2020-11-21T02:16:08.248Z,36.5321,70.7205,200.7,4.1,mb,,82,2.412,0.7,us,us6000cr49,2021-02-03T17:49:04.040Z,"38 km SSW of Jurm, Afghanistan",earthquake,7.5,8.7,0.15,12,reviewed,us,us
+2020-11-19T08:31:25.547Z,36.4939,69.8131,157.34,4.4,mb,,64,2.047,0.71,us,us6000cqas,2021-02-03T17:50:58.040Z,"9 km SSW of Farkh?r, Afghanistan",earthquake,7,6.3,0.076,51,reviewed,us,us
+2020-11-18T10:33:47.734Z,36.3003,69.8558,136.79,4.5,mb,,66,1.876,0.89,us,us6000cprw,2021-02-03T17:50:58.040Z,"30 km S of Farkh?r, Afghanistan",earthquake,7.7,8.4,0.087,39,reviewed,us,us
+2020-11-14T02:56:55.620Z,30.3659,67.435,12.04,5.5,mww,,41,4.379,0.96,us,us7000cet5,2025-12-22T17:59:21.526Z,"16 km SSW of Alik Ghund, Pakistan",earthquake,8.5,3.5,0.08,15,reviewed,us,us
+2020-11-13T18:10:25.569Z,36.6585,71.1473,213.73,4.4,mb,,70,2.721,0.93,us,us7000cek7,2021-01-27T17:29:05.040Z,"34 km W of Ashk?sham, Afghanistan",earthquake,8.6,9.7,0.155,16,reviewed,us,us
+2020-11-12T03:20:00.164Z,36.4834,70.7722,215.53,4.3,mb,,91,2.397,0.59,us,us7000cdmh,2021-01-27T17:28:44.040Z,"42 km S of Jurm, Afghanistan",earthquake,9.3,8.1,0.118,20,reviewed,us,us
+2020-11-12T02:06:11.667Z,35.4779,70.9652,105.1,4,mb,,107,1.833,0.79,us,us7000cdlw,2021-01-27T17:28:44.040Z,"7 km NNE of P?r?n, Afghanistan",earthquake,7,8,0.155,11,reviewed,us,us
+2020-11-11T14:49:20.054Z,36.444,71.2598,237.4,4.2,mb,,75,2.622,0.97,us,us7000cde9,2021-01-27T17:28:38.040Z,"36 km SW of Ashk?sham, Afghanistan",earthquake,6.8,6.3,0.093,32,reviewed,us,us
+2020-11-08T13:26:25.069Z,33.4944,75.735,10,4.4,mb,,145,2.065,0.6,us,us7000cc3t,2021-01-23T22:25:37.040Z,"eastern Kashmir",earthquake,7.9,1.9,0.112,23,reviewed,us,us
+2020-11-07T00:16:52.055Z,36.4224,71.149,231.73,4.3,mb,,76,2.545,1.09,us,us7000cbn8,2021-01-23T22:25:32.040Z,"44 km SW of Ashk?sham, Afghanistan",earthquake,3.9,8.9,0.148,13,reviewed,us,us
+2020-11-06T22:59:17.399Z,33.5339,75.7388,10,4.6,mb,,57,2.065,0.9,us,us7000cbmi,2021-01-23T22:25:32.040Z,"24 km N of Kishtw?r, India",earthquake,4.3,1.8,0.108,26,reviewed,us,us
+2020-11-04T02:39:45.625Z,36.5505,69.5582,169.23,4.2,mb,,96,2.048,0.72,us,us7000ca31,2021-01-23T22:25:26.040Z,"20 km S of Taloqan, Afghanistan",earthquake,6.3,11.3,0.176,9,reviewed,us,us
+2020-11-03T01:24:55.682Z,36.7666,71.4733,185.36,4.4,mb,,60,2.724,0.66,us,us7000cbfd,2021-01-18T23:02:05.040Z,"10 km NNW of Ashk?sham, Afghanistan",earthquake,7.8,8.1,0.126,18,reviewed,us,us
+2020-11-02T01:17:08.625Z,25.0887,66.5704,10,4.5,mb,,156,9.403,1.25,us,us7000c946,2021-01-18T23:01:59.040Z,"16 km WSW of Gadani, Pakistan",earthquake,10,1.9,0.081,44,reviewed,us,us
+2020-10-30T15:51:35.624Z,36.4625,71.1738,204.36,4.5,mb,,75,2.588,1.05,us,us7000c80k,2021-01-18T23:01:48.040Z,"40 km SW of Ashk?sham, Afghanistan",earthquake,9.3,11,0.191,8,reviewed,us,us
+2020-10-28T06:11:38.364Z,36.4255,71.1747,120.19,4.3,mb,,85,2.561,1.36,us,us7000c6mg,2021-01-18T23:01:34.040Z,"43 km SW of Ashk?sham, Afghanistan",earthquake,4.6,10.2,0.177,9,reviewed,us,us
+2020-10-26T14:16:57.919Z,30.4031,69.5683,10,4.4,mb,,97,4.149,0.62,us,us6000cdas,2021-01-09T20:05:29.040Z,"56 km N of Barkhan, Pakistan",earthquake,9.5,1.9,0.13,17,reviewed,us,us
+2020-10-25T22:44:42.501Z,36.6053,71.772,94.34,4.4,mb,,71,3.031,0.75,us,us6000cd3h,2021-01-09T20:05:26.040Z,"19 km SE of Ishqoshim, Tajikistan",earthquake,6.7,7.7,0.114,22,reviewed,us,us
+2020-10-24T12:10:55.386Z,35.2459,71.9924,68.28,4.4,mb,,105,1.909,0.74,us,us6000cckz,2021-01-09T20:05:23.040Z,"11 km ENE of Upper Dir, Pakistan",earthquake,3.8,10.7,0.12,20,reviewed,us,us
+2020-10-24T05:41:51.677Z,36.7325,71.2134,204.15,4.2,mb,,104,2.785,0.48,us,us7000c7is,2021-01-09T20:05:40.040Z,"29 km W of Ashk?sham, Afghanistan",earthquake,10.4,9.9,0.167,10,reviewed,us,us
+2020-10-23T06:24:26.911Z,36.4685,71.2824,116.92,4.4,mb,,73,2.652,0.61,us,us6000cbwm,2021-01-09T20:05:20.040Z,"32 km SW of Ashk?sham, Afghanistan",earthquake,7.6,8.1,0.139,15,reviewed,us,us
+2020-10-21T12:02:13.127Z,36.1095,70.6688,104.03,4.5,mb,,43,2.053,0.68,us,us6000calq,2021-01-09T20:05:16.040Z,"79 km NNW of P?r?n, Afghanistan",earthquake,6.8,7.3,0.07,61,reviewed,us,us
+2020-10-20T22:58:48.092Z,36.4691,70.2653,214.09,4.3,mb,,42,2.167,0.82,us,us6000cae3,2020-12-29T23:08:06.040Z,"38 km ESE of Farkh?r, Afghanistan",earthquake,7.9,7.3,0.074,51,reviewed,us,us
+2020-10-17T16:19:48.308Z,32.022,69.074,45.61,4.3,mb,,112,2.512,1.41,us,us6000c90n,2020-12-29T23:07:32.040Z,"56 km WSW of Wana, Pakistan",earthquake,8.3,6.8,0.097,33,reviewed,us,us
+2020-10-17T01:16:35.942Z,36.5082,70.9964,167.31,4.4,mb,,63,2.528,0.97,us,us6000c8w9,2020-12-29T23:07:29.040Z,"42 km SSE of Jurm, Afghanistan",earthquake,6.5,7.1,0.091,35,reviewed,us,us
+2020-10-16T10:10:53.197Z,36.6548,71.2366,219.45,4.9,mww,,32,2.764,0.76,us,us6000c8qv,2025-12-22T18:43:43.128Z,"26 km W of Ashk?sham, Afghanistan",earthquake,2.7,5.1,0.098,10,reviewed,us,us
+2020-10-16T08:13:29.666Z,29.5811,67.543,10,4.3,mb,,144,5.106,0.33,us,us6000c8q9,2020-12-29T23:07:27.040Z,"15 km NW of Dadhar, Pakistan",earthquake,11.5,2,0.142,14,reviewed,us,us
+2020-10-15T05:27:23.205Z,36.2505,71.5527,117.23,4.1,mb,,79,2.667,0.84,us,us6000cakk,2020-12-29T23:07:22.040Z,"48 km S of Ashk?sham, Afghanistan",earthquake,8.5,9.5,0.166,10,reviewed,us,us
+2020-10-14T04:22:37.454Z,36.4567,70.3689,206.62,4.2,mb,,61,2.196,0.9,us,us6000c9yr,2020-12-29T23:07:19.040Z,"47 km ESE of Farkh?r, Afghanistan",earthquake,7.7,9,0.167,10,reviewed,us,us
+2020-10-11T13:36:34.605Z,36.1993,70.9932,112.42,4.5,mb,,60,2.297,0.87,us,us6000c7jn,2022-08-09T00:52:29.820Z,"72 km SW of Ashk?sham, Afghanistan",earthquake,6.2,6.3,0.054,99,reviewed,us,us
+2020-10-11T06:02:51.900Z,30.2312,70.0859,10,4.2,mb,,135,4.352,1.02,us,us6000c7hh,2020-12-19T17:22:45.040Z,"57 km WNW of Dera Ghazi Khan, Pakistan",earthquake,9.8,1.9,0.127,17,reviewed,us,us
+2020-10-08T08:12:41.187Z,36.7205,71.234,100.29,4.5,mb,,72,2.794,0.81,us,us6000c814,2020-12-19T17:22:51.040Z,"27 km W of Ashk?sham, Afghanistan",earthquake,6,8.1,0.121,20,reviewed,us,us
+2020-10-08T03:52:10.644Z,35.0808,75.4717,51.43,4.1,mb,,105,2.314,0.64,us,us6000c80y,2020-12-19T17:22:51.040Z,"28 km SSW of Skardu, Pakistan",earthquake,7.4,5.3,0.213,6,reviewed,us,us
+2020-10-06T21:25:27.921Z,36.8522,71.6121,110.79,4.1,mb,,102,2.631,0.99,us,us6000c680,2022-08-09T00:45:58.991Z,"14 km N of Ishqoshim, Tajikistan",earthquake,9.7,9.6,0.123,18,reviewed,us,us
+2020-10-03T17:15:18.840Z,36.4226,71.1322,110.24,4.5,mb,,78,2.536,1.28,us,us6000c6r0,2020-12-12T22:28:47.040Z,"46 km SW of Ashk?sham, Afghanistan",earthquake,7.2,8.5,0.121,21,reviewed,us,us
+2020-10-02T21:15:20.673Z,36.4391,71.4174,105.28,4.2,mb,,77,2.709,1,us,us6000c50q,2022-08-09T00:42:24.777Z,"29 km SSW of Ashk?sham, Afghanistan",earthquake,5.7,11,0.159,11,reviewed,us,us
+2020-10-02T17:52:58.624Z,36.291,70.5295,154,3.8,mb,,117,2.126,0.63,us,us6000c4y4,2022-08-09T00:41:48.337Z,"67 km ESE of Farkh?r, Afghanistan",earthquake,6.9,19.6,0.294,4,reviewed,us,us
+2020-10-02T07:16:32.198Z,36.5567,70.87,185.38,4.3,mb,,72,2.502,1.01,us,us6000c4m6,2022-08-09T00:41:07.167Z,"34 km S of Jurm, Afghanistan",earthquake,6.2,8.4,0.122,19,reviewed,us,us
+2020-09-29T11:17:27.876Z,35.0666,69.0404,35,4.1,mb,,107,0.524,0.69,us,us6000c2hl,2020-12-05T21:03:06.040Z,"13 km WNW of Charikar, Afghanistan",earthquake,6.6,2,0.185,8,reviewed,us,us
+2020-09-28T05:12:34.992Z,33.229,75.8586,10,4.6,mb,,80,2.206,0.71,us,us6000c222,2022-08-09T00:36:55.725Z,"12 km SE of Kishtw?r, India",earthquake,6.4,1.6,0.093,35,reviewed,us,us
+2020-09-27T19:54:50.832Z,36.2641,71.0706,109.92,4.7,mb,,76,2.387,0.76,us,us6000c1zd,2022-08-09T00:35:40.209Z,"62 km SW of Ashk?sham, Afghanistan",earthquake,7.5,8.2,0.098,32,reviewed,us,us
+2020-09-27T18:17:54.551Z,26.1433,66.2516,10,4.6,mb,,121,8.709,1.29,us,us6000c1ys,2020-12-05T21:03:02.040Z,"11 km SSW of Bela, Pakistan",earthquake,9.7,1.9,0.095,33,reviewed,us,us
+2020-09-26T06:32:00.651Z,34.7214,74.4055,10,4.6,mb,,74,1.424,0.74,us,us6000c1ja,2022-08-09T00:33:15.577Z,"40 km NNW of Bandipura, India",earthquake,6.3,1.9,0.087,44,reviewed,us,us
+2020-09-26T04:04:46.848Z,35.9861,69.6564,112.61,4.5,mb,,65,1.526,1.17,us,us6000c1hq,2022-08-09T00:32:39.493Z,"47 km E of Nahr?n, Afghanistan",earthquake,6.5,7.2,0.069,62,reviewed,us,us
+2020-09-24T00:16:18.331Z,36.5451,70.9353,174.34,4.3,mb,,74,2.525,0.64,us,us6000c0cj,2022-08-09T00:28:54.088Z,"36 km SSE of Jurm, Afghanistan",earthquake,7.1,9.7,0.099,29,reviewed,us,us
+2020-09-24T00:03:09.453Z,36.4905,70.2904,210.84,4.2,mb,,76,2.195,0.58,us,us6000c35p,2020-12-05T21:03:08.040Z,"39 km ESE of Farkh?r, Afghanistan",earthquake,8.1,12.6,0.176,9,reviewed,us,us
+2020-09-22T16:10:29.177Z,34.0837,74.7947,10,4.4,mb,,134,1.341,0.29,us,us6000bzub,2021-05-30T11:35:26.998Z,"1 km WSW of Srinagar, India",earthquake,5.9,2,0.309,3,reviewed,us,us
+2020-09-22T03:46:51.500Z,35.7041,77.8313,62.17,4.1,mb,,110,4.281,0.97,us,us6000bzjp,2020-11-28T21:32:03.040Z,"127 km NE of Thang, India",earthquake,5.2,11,0.233,5,reviewed,us,us
+2020-09-18T08:37:46.300Z,36.2659,70.0553,166.78,4.5,mb,,128,1.909,0.83,us,us7000bpqu,2022-08-09T00:24:37.948Z,"38 km SSE of Farkh?r, Afghanistan",earthquake,10.4,10.9,0.163,11,reviewed,us,us
+2020-09-17T16:42:36.178Z,29.7909,68.311,24.34,4.8,mb,,49,4.776,0.6,us,us7000bphd,2020-11-28T21:31:48.040Z,"47 km SSW of Duki, Pakistan",earthquake,8.6,5.4,0.054,111,reviewed,us,us
+2020-09-14T04:59:50.549Z,36.4551,71.1768,235.4,4,mb,,76,2.584,0.94,us,us7000bmwl,2022-08-09T00:21:03.948Z,"40 km SW of Ashk?sham, Afghanistan",earthquake,6.2,8.4,0.119,19,reviewed,us,us
+2020-09-10T20:23:33.551Z,33.076,73.6571,10,4.3,mb,,96,0.658,1.2,us,us7000blew,2020-11-21T20:10:35.040Z,"11 km SW of New Mirpur, Pakistan",earthquake,5.8,1.9,0.1,28,reviewed,us,us
+2020-09-06T12:59:33.781Z,36.5822,70.3742,207.18,4.3,mb,,115,2.307,0.31,us,us7000bixh,2020-11-17T19:44:46.040Z,"46 km E of Farkh?r, Afghanistan",earthquake,10.6,12.4,0.216,6,reviewed,us,us
+2020-09-03T07:07:41.747Z,36.5204,70.3147,216.99,4.1,mb,,79,2.23,0.94,us,us7000bk8r,2020-11-17T19:44:25.040Z,"41 km E of Farkh?r, Afghanistan",earthquake,6.4,12.1,0.165,10,reviewed,us,us
+2020-09-01T02:56:49.557Z,36.3703,71.0837,127.7,4.4,mb,,74,2.471,0.96,us,us7000bfjf,2022-08-09T00:10:34.446Z,"53 km SW of Ashk?sham, Afghanistan",earthquake,6.6,6.7,0.123,19,reviewed,us,us
+2020-08-30T22:21:55.005Z,36.5568,71.0973,227.6,4.1,mb,,80,2.617,0.82,us,us7000bf3z,2020-11-07T18:48:38.040Z,"41 km WSW of Ashk?sham, Afghanistan",earthquake,8.8,7.8,0.174,9,reviewed,us,us
+2020-08-30T09:45:33.534Z,36.5609,70.9513,195.75,4.2,mb,,72,2.546,1,us,us7000bezv,2022-08-09T00:09:53.075Z,"35 km SSE of Jurm, Afghanistan",earthquake,7.9,7,0.1,28,reviewed,us,us
+2020-08-30T05:44:51.450Z,33.9671,69.4762,10,4,mb,,175,0.675,0.63,us,us7000beyh,2022-08-09T00:09:15.091Z,"27 km SW of ?uk?mat? Azrah, Afghanistan",earthquake,7.1,1.9,0.139,14,reviewed,us,us
+2020-08-29T02:59:18.339Z,36.6713,71.2391,214.63,4.4,mb,,81,2.778,0.74,us,us7000bh2i,2020-11-07T18:48:49.040Z,"26 km W of Ashk?sham, Afghanistan",earthquake,10,11.4,0.219,6,reviewed,us,us
+2020-08-28T07:58:49.503Z,33.2812,72.6123,10,4.5,mb,,81,0.66,0.69,us,us7000be7y,2020-11-07T18:48:31.040Z,"32 km E of Pindi Gheb, Pakistan",earthquake,6.5,1.9,0.099,30,reviewed,us,us
+2020-08-27T03:18:07.651Z,36.4593,71.1368,100.59,4.4,mb,,98,2.565,0.93,us,us7000bdiv,2020-11-07T18:48:29.040Z,"43 km SW of Ashk?sham, Afghanistan",earthquake,7.3,10.7,0.155,12,reviewed,us,us
+2020-08-26T20:22:03.976Z,36.5037,71.349,228.89,4.2,mb,,97,2.715,0.73,us,us7000bddn,2020-11-07T18:48:28.040Z,"25 km SW of Ashk?sham, Afghanistan",earthquake,7.6,9.3,0.146,13,reviewed,us,us
+2020-08-26T08:00:45.899Z,36.4659,71.416,120.8,4.5,mb,,44,2.727,0.93,us,us7000bd3f,2022-08-09T00:05:44.812Z,"26 km SSW of Ashk?sham, Afghanistan",earthquake,7.4,6,0.053,102,reviewed,us,us
+2020-08-23T03:34:28.001Z,36.4992,70.4215,198.14,4.2,mb,,68,2.254,0.89,us,us6000bjai,2020-10-31T19:06:18.040Z,"51 km E of Farkh?r, Afghanistan",earthquake,8.1,7,0.11,23,reviewed,us,us
+2020-08-20T09:38:37.536Z,36.5158,71.0531,163,4.2,mb,,79,2.563,0.69,us,us6000bhl3,2020-10-31T19:06:10.040Z,"43 km SSE of Jurm, Afghanistan",earthquake,6.6,9.5,0.263,5,reviewed,us,us
+2020-08-19T02:19:21.230Z,36.5594,71.2735,129.73,4,mb,,100,2.713,0.98,us,us6000bgxv,2020-10-31T19:06:07.040Z,"27 km WSW of Ashk?sham, Afghanistan",earthquake,7.8,10.3,0.144,13,reviewed,us,us
+2020-08-18T11:13:06.347Z,36.9061,71.0288,103.43,4.5,mb,,111,2.644,0.7,us,us6000bghj,2020-10-24T20:09:02.040Z,"17 km ENE of Jurm, Afghanistan",earthquake,9.9,9.9,0.22,6,reviewed,us,us
+2020-08-16T13:39:01.465Z,28.0836,65.938,13.39,4.2,mb,,131,8.393,0.92,us,us6000bfm0,2020-10-24T20:08:56.040Z,"55 km SW of Surab, Pakistan",earthquake,9.8,4.7,0.098,29,reviewed,us,us
+2020-08-12T23:08:58.291Z,27.9727,65.9738,10,4.2,mb,,135,7.054,0.46,us,us6000bdqi,2020-10-24T20:08:46.040Z,"64 km SSW of Surab, Pakistan",earthquake,6.2,1.9,0.087,37,reviewed,us,us
+2020-08-12T22:40:45.802Z,28.0443,65.9578,13.98,5.6,mww,,37,6.993,0.74,us,us6000bdq8,2025-12-22T18:40:24.156Z,"57 km SSW of Surab, Pakistan",earthquake,7.1,2.1,0.083,14,reviewed,us,us
+2020-08-04T17:59:18.872Z,36.0648,69.1574,46.44,4.4,mb,,39,1.523,0.83,us,us6000b9as,2020-10-10T17:11:15.040Z,"2 km E of Nahr?n, Afghanistan",earthquake,3.2,6.8,0.072,66,reviewed,us,us
+2020-08-03T11:24:11.900Z,36.397,70.8982,155.82,4.1,mb,,76,1.284,0.71,us,us6000b8p9,2022-08-08T23:50:35.441Z,"52 km S of Jurm, Afghanistan",earthquake,4.1,7.8,0.112,22,reviewed,us,us
+2020-08-01T06:31:40.399Z,35.3465,69.604,10,4.5,mb,,95,0.926,0.91,us,us6000b7v0,2020-10-10T17:11:07.040Z,"8 km ENE of B?z?rak, Afghanistan",earthquake,5.7,1.9,0.131,17,reviewed,us,us
+2020-07-28T10:07:35.274Z,36.5537,70.8783,202.77,4.1,mb,,78,1.158,0.92,us,us6000b58u,2022-08-08T23:45:29.919Z,"34 km S of Jurm, Afghanistan",earthquake,4.9,8.3,0.184,8,reviewed,us,us
+2020-07-28T09:41:07.130Z,36.7295,71.2798,192.84,4.4,mb,,76,0.854,0.95,us,us6000b583,2020-10-03T17:32:28.040Z,"Afghanistan-Tajikistan-Pakistan region",earthquake,6.7,6.4,0.12,20,reviewed,us,us
+2020-07-24T10:39:16.194Z,35.5442,69.1392,112.9,4.2,mb,,139,1.004,1.02,us,us6000b3b5,2020-10-03T17:32:19.040Z,"42 km NW of B?z?rak, Afghanistan",earthquake,7.3,10.3,0.186,8,reviewed,us,us
+2020-07-22T19:32:05.190Z,36.317,70.7941,95.59,4,mb,,87,1.395,1.09,us,us6000b25f,2020-10-03T17:32:15.040Z,"60 km S of Jurm, Afghanistan",earthquake,4.9,10.6,0.211,6,reviewed,us,us
+2020-07-20T08:03:51.779Z,36.2538,69.5406,172.29,4.2,mb,,64,1.73,0.58,us,us7000argx,2020-09-26T16:58:40.040Z,"42 km ENE of Nahr?n, Afghanistan",earthquake,7,3.6,0.104,26,reviewed,us,us
+2020-07-20T05:01:42.659Z,29.3621,68.8105,10,4.1,mb,,140,5.167,0.62,us,us7000arfw,2020-09-26T16:58:40.040Z,"49 km NW of Dera Bugti, Pakistan",earthquake,12.8,1.8,0.135,15,reviewed,us,us
+2020-07-19T22:21:28.971Z,36.5686,70.7276,235.06,4.1,mb,,71,1.215,0.7,us,us7000arct,2020-09-26T16:58:39.040Z,"34 km SSW of Jurm, Afghanistan",earthquake,7.6,6.4,0.09,34,reviewed,us,us
+2020-07-18T21:14:47.316Z,35.3767,70.7366,82.48,4.6,mb,,40,1.621,0.61,us,us7000aqzx,2020-09-26T16:58:37.040Z,"17 km WSW of P?r?n, Afghanistan",earthquake,5.1,6.1,0.06,82,reviewed,us,us
+2020-07-17T20:51:22.063Z,36.7537,71.4318,178.73,4.3,mb,,69,0.796,0.89,us,us7000aqmk,2020-09-26T16:58:35.040Z,"11 km NW of Ashk?sham, Afghanistan",earthquake,6.1,5.6,0.054,102,reviewed,us,us
+2020-07-15T04:45:38.115Z,36.1278,70.1706,104.98,4.2,mb,,101,1.832,1.01,us,us7000anrz,2020-09-26T16:58:30.040Z,"56 km SSE of Farkh?r, Afghanistan",earthquake,4.6,12.4,0.235,5,reviewed,us,us
+2020-07-14T07:34:26.768Z,36.4387,71.2625,114.53,4.9,mwr,,38,1.134,0.87,us,us7000an8j,2020-09-19T20:58:20.040Z,"36 km SW of Ashk?sham, Afghanistan",earthquake,4.5,5.3,0.093,11,reviewed,us,us
+2020-07-12T02:49:27.290Z,36.3844,71.0224,117.16,4.6,mb,,77,1.252,1.06,us,us7000am4q,2020-09-19T20:58:10.040Z,"55 km SSE of Jurm, Afghanistan",earthquake,5,6.8,0.08,47,reviewed,us,us
+2020-07-11T04:57:35.569Z,36.4824,70.4689,208.23,4,mb,,89,1.415,1.38,us,us7000alt3,2020-09-19T20:58:07.040Z,"53 km SW of Jurm, Afghanistan",earthquake,8.5,7.5,0.15,13,reviewed,us,us
+2020-07-11T04:20:06.089Z,36.6604,70.6713,268.39,4.3,mb,,75,1.174,0.75,us,us7000alsu,2020-09-19T20:58:07.040Z,"26 km SSW of Jurm, Afghanistan",earthquake,7.5,7.7,0.161,11,reviewed,us,us
+2020-07-07T20:42:19.337Z,33.042,73.6132,10,4.5,mb,,132,0.672,0.92,us,us7000ajnr,2020-09-11T22:14:27.040Z,"16 km NW of Jhelum, Pakistan",earthquake,5.8,1.9,0.087,45,reviewed,us,us
+2020-07-06T19:24:27.542Z,33.0557,73.6156,10,4.1,mb,,145,0.66,1.14,us,us7000aizr,2020-09-11T22:14:21.040Z,"16 km SW of New Mirpur, Pakistan",earthquake,6.5,1.6,0.144,13,reviewed,us,us
+2020-07-06T16:06:23.560Z,34.5903,69.0436,9.82,4.4,mb,,89,0.049,0.77,us,us7000aiuv,2020-09-11T22:14:21.040Z,"8 km E of Paghm?n, Afghanistan",earthquake,5.6,4.9,0.124,19,reviewed,us,us
+2020-07-06T15:27:29.242Z,36.7373,71.2923,219.73,4.4,mb,,69,0.844,0.45,us,us7000alfh,2020-09-11T22:14:21.040Z,"22 km WNW of Ashk?sham, Afghanistan",earthquake,8.3,6.9,0.169,10,reviewed,us,us
+2020-07-03T14:29:44.890Z,36.2368,70.6201,146,4,mb,,86,1.536,1.09,us,us7000aheb,2020-09-11T22:14:00.040Z,"72 km SSW of Jurm, Afghanistan",earthquake,7.8,13.4,0.26,4,reviewed,us,us
+2020-07-03T13:30:49.114Z,28.142,76.5366,30.38,4.3,mb,,169,6.166,0.74,us,us7000ahde,2020-09-11T22:14:00.040Z,"9 km NNW of B?wal, India",earthquake,10.2,5.6,0.116,21,reviewed,us,us
+2020-07-02T23:21:02.885Z,24.0499,65.5577,10,4.4,mb,,101,8.566,0.7,us,us7000ah0s,2020-09-11T22:13:56.040Z,"158 km SE of Ormara, Pakistan",earthquake,7.7,1.9,0.076,50,reviewed,us,us
+2020-07-02T07:40:37.191Z,32.998,75.9509,10,4.6,mb,,145,2.338,0.82,us,us7000ak4u,2020-09-11T22:13:52.040Z,"21 km E of Bhadarw?h, India",earthquake,10.2,1.9,0.122,20,reviewed,us,us
+2020-07-02T04:23:18.491Z,36.4792,71.0585,156.08,4.2,mb,,74,1.154,0.65,us,us7000agek,2020-09-11T22:13:51.040Z,"47 km SSE of Jurm, Afghanistan",earthquake,5.8,6.5,0.141,14,reviewed,us,us
+2020-07-01T21:37:15.153Z,36.6899,70.9786,217.92,4.1,mb,,72,0.999,0.97,us,us7000ag84,2020-09-11T22:13:49.040Z,"23 km SSE of Jurm, Afghanistan",earthquake,6.5,7.5,0.117,20,reviewed,us,us
+2020-06-30T18:02:28.856Z,33.1193,75.8744,43.89,4.7,mb,,30,5.588,0.98,us,us7000afay,2020-12-17T18:28:05.658Z,"21 km NE of Bhadarw?h, India",earthquake,7.1,6.3,0.043,172,reviewed,us,us
+2020-06-30T03:26:58.130Z,33.195,75.926,46.75,4.2,mb,,131,2.268,0.84,us,us7000aeua,2020-09-05T17:35:35.040Z,"19 km SE of Kishtw?r, India",earthquake,7.9,3.9,0.113,22,reviewed,us,us
+2020-06-29T07:25:59.403Z,36.7252,71.1137,224.36,4.2,mb,,69,0.914,0.79,us,us7000ae50,2020-09-05T17:35:32.040Z,"29 km ESE of Jurm, Afghanistan",earthquake,3.2,6.5,0.089,35,reviewed,us,us
+2020-06-28T13:29:06.441Z,36.3344,71.2153,92.24,4,mb,,97,1.245,0.49,us,us7000adqt,2020-09-05T17:35:30.040Z,"48 km SW of Ashk?sham, Afghanistan",earthquake,6.3,8.6,0.156,12,reviewed,us,us
+2020-06-27T04:33:53.276Z,36.5848,69.9916,56.6,4.5,mb,,65,1.634,1.15,us,us7000acv8,2020-09-05T17:35:25.040Z,"12 km E of Farkh?r, Afghanistan",earthquake,4.5,7.6,0.074,53,reviewed,us,us
+2020-06-26T14:45:10.807Z,36.1755,74.9315,52.11,4.5,mb,,80,2.865,0.91,us,us7000ac8p,2020-09-05T17:35:23.040Z,"26 km SE of Barishal, Pakistan",earthquake,7.4,4.4,0.059,87,reviewed,us,us
+2020-06-24T13:49:23.892Z,33.4991,71.4493,10,4.3,mb,,99,2.252,1.02,us,us7000afqt,2020-09-05T17:35:39.040Z,"9 km S of Kohat, Pakistan",earthquake,6,1.9,0.111,23,reviewed,us,us
+2020-06-23T15:49:23.771Z,36.6022,71.0934,91.19,4.2,mb,,183,1.031,0.95,us,us7000af1q,2020-08-30T00:01:25.040Z,"37 km SE of Jurm, Afghanistan",earthquake,8.8,10.1,0.186,8,reviewed,us,us
+2020-06-18T05:25:46.085Z,36.5095,70.182,220.62,4.1,mb,,84,1.561,0.41,us,us6000adyg,2020-08-30T00:00:44.040Z,"29 km ESE of Farkh?r, Afghanistan",earthquake,8,6.6,0.197,7,reviewed,us,us
+2020-06-18T04:14:46.000Z,36.0132,71.054,111.47,4.3,mb,,95,1.59,0.49,us,us6000adxl,2020-08-30T00:00:43.040Z,"66 km N of P?r?n, Afghanistan",earthquake,6.1,6.4,0.097,30,reviewed,us,us
+2020-06-17T06:58:17.560Z,25.0244,63.2549,10,4.6,mb,,97,6.398,0.9,us,us6000adbh,2020-08-30T00:00:40.040Z,"34 km SW of Pasni, Pakistan",earthquake,7.6,1.9,0.069,63,reviewed,us,us
+2020-06-16T09:21:37.394Z,36.6712,71.0335,229.31,5,mb,,51,0.992,0.8,us,us6000acq5,2020-08-22T19:14:56.040Z,"27 km SE of Jurm, Afghanistan",earthquake,7.3,5.5,0.031,325,reviewed,us,us
+2020-06-14T14:43:08.390Z,23.3821,70.3548,10,5.1,mb,,40,11.178,0.74,us,us6000abp7,2025-12-22T18:36:23.212Z,"9 km N of Bhach?u, India",earthquake,8.9,1.8,0.036,255,reviewed,us,us
+2020-06-12T23:32:35.370Z,32.8562,73.7592,10,4.1,mb,,268,4.275,0.42,us,us6000ab0k,2020-08-22T19:14:48.040Z,"5 km S of Sarai Alamgir, Pakistan",earthquake,8.1,2,0.184,8,reviewed,us,us
+2020-06-10T13:55:56.413Z,36.4654,71.1033,171.82,4.2,mb,,97,1.152,0.77,us,us6000a9ax,2020-08-22T19:14:42.040Z,"45 km WSW of Ashk?sham, Afghanistan",earthquake,8.2,6.9,0.08,43,reviewed,us,us
+2020-06-06T10:49:18.929Z,36.5977,71.3505,221.72,4.1,mb,,81,2.284,0.5,us,us6000a74r,2020-08-18T17:58:57.040Z,"18 km WSW of Ashk?sham, Afghanistan",earthquake,6.9,8,0.107,24,reviewed,us,us
+2020-06-02T15:29:51.678Z,36.0602,70.6592,130.25,4.3,mb,,176,2.011,0.27,us,us6000a4fs,2020-08-15T20:20:05.040Z,"74 km NNW of P?r?n, Afghanistan",earthquake,10.6,6.9,0.238,5,reviewed,us,us
+2020-05-30T02:34:41.679Z,36.6698,71.1192,218.65,4,mb,,97,2.104,0.73,us,us6000a2c7,2020-08-15T20:19:50.040Z,"33 km SE of Jurm, Afghanistan",earthquake,7.1,7.4,0.134,15,reviewed,us,us
+2020-05-29T22:54:05.067Z,25.0038,64.3475,10,4.6,mb,,137,7.389,0.72,us,us6000a298,2020-08-15T20:19:50.040Z,"37 km SW of Ormara, Pakistan",earthquake,8.6,1.9,0.048,130,reviewed,us,us
+2020-05-29T15:38:41.657Z,29.1724,77.0219,10,4.2,mb,,185,8.64,1.09,us,us6000a1wn,2020-08-15T20:19:48.040Z,"Uttar Pradesh, India",earthquake,10.2,2,0.152,12,reviewed,us,us
+2020-05-28T07:12:54.476Z,36.4888,70.7438,141.02,4.3,mb,,97,2.064,0.77,us,us6000a0uh,2020-08-15T20:19:41.040Z,"42 km S of Jurm, Afghanistan",earthquake,7.2,7.2,0.111,23,reviewed,us,us
+2020-05-27T05:31:38.205Z,34.2918,71.0348,10,4.2,mb,,168,1.665,1.25,us,us60009ztl,2020-08-15T20:19:35.040Z,"13 km WSW of Shinpokh, Pakistan",earthquake,8.9,2,0.175,9,reviewed,us,us
+2020-05-24T22:30:51.478Z,34.2803,70.1664,28.53,4.5,mb,,86,0.964,0.82,us,us70009ppe,2020-08-08T18:17:56.040Z,"30 km WSW of Jal?l?b?d, Afghanistan",earthquake,3.9,5.1,0.111,24,reviewed,us,us
+2020-05-24T19:15:36.840Z,35.9955,70.9331,90.3,4.5,mb,,85,2.12,0.75,us,us70009pkj,2020-08-08T18:17:56.040Z,"63 km N of P?r?n, Afghanistan",earthquake,3.3,6.7,0.06,82,reviewed,us,us
+2020-05-22T06:59:13.957Z,36.5797,70.9567,206.09,4.3,mb,,100,2.089,0.47,us,us70009n3l,2020-08-08T18:17:48.040Z,"33 km SSE of Jurm, Afghanistan",earthquake,9.4,9.2,0.119,20,reviewed,us,us
+2020-05-19T12:03:33.080Z,36.4831,69.578,71.2,4.4,mb,,69,1.986,1.13,us,us70009kr7,2020-08-02T00:28:12.040Z,"26 km WSW of Farkh?r, Afghanistan",earthquake,7.2,8.6,0.126,18,reviewed,us,us
+2020-05-18T08:26:07.753Z,34.4604,68.9654,10,4.3,mb,,74,0.102,0.54,us,us70009k2j,2020-08-02T00:28:56.040Z,"11 km NE of Maydanshakhr, Afghanistan",earthquake,4.9,1.9,0.147,13,reviewed,us,us
+2020-05-16T11:15:57.040Z,36.5507,70.7726,152.62,4.1,mb,,98,2.025,0.4,us,us70009i16,2020-08-02T00:30:16.040Z,"35 km S of Jurm, Afghanistan",earthquake,4.6,13.3,0.37,2,reviewed,us,us
+2020-05-16T00:20:21.148Z,36.3245,71.3863,92.15,4.2,mb,,109,2.506,1.09,us,us70009hi8,2020-08-02T00:30:46.040Z,"41 km SSW of Ashk?sham, Afghanistan",earthquake,6.3,12.6,0.113,22,reviewed,us,us
+2020-05-15T18:38:20.334Z,36.5179,70.4193,207.47,4.4,mb,,52,1.909,0.66,us,us70009h33,2020-08-02T00:31:06.040Z,"50 km E of Farkh?r, Afghanistan",earthquake,6.6,6.4,0.074,52,reviewed,us,us
+2020-05-15T12:52:45.818Z,25.9932,62.2797,10,4.7,mb,,166,5.589,0.64,us,us70009gmw,2020-08-02T00:31:34.040Z,"76 km W of Turbat, Pakistan",earthquake,10.1,1.9,0.08,47,reviewed,us,us
+2020-05-12T14:16:17.558Z,36.5209,70.94,150.28,4.1,mb,,94,2.128,0.44,us,us70009kv2,2020-07-29T22:14:39.040Z,"39 km SSE of Jurm, Afghanistan",earthquake,9.5,9.8,0.157,11,reviewed,us,us
+2020-05-10T17:50:03.182Z,36.5713,70.898,206.39,4.5,mb,,69,2.067,0.88,us,us70009dr9,2020-07-29T22:14:28.040Z,"33 km S of Jurm, Afghanistan",earthquake,5.4,7.1,0.042,170,reviewed,us,us
+2020-05-10T15:09:47.147Z,36.6098,70.811,159.56,4.1,mb,,96,1.995,0.74,us,us70009dq8,2020-07-29T22:14:28.040Z,"28 km S of Jurm, Afghanistan",earthquake,10.2,10.8,0.37,3,reviewed,us,us
+2020-05-10T08:15:27.178Z,28.7268,77.3516,10,3.7,mb,,203,9.149,0.52,us,us70009ebf,2020-07-29T22:14:27.040Z,"6 km ESE of Loni, India",earthquake,8.9,2,0.253,4,reviewed,us,us
+2020-05-07T19:43:08.597Z,36.5067,70.7139,195.78,4.4,mb,,37,2.036,1.16,us,us70009bwr,2020-07-29T22:14:16.040Z,"41 km SSW of Jurm, Afghanistan",earthquake,6.7,6.1,0.052,109,reviewed,us,us
+2020-05-07T11:17:39.153Z,36.5667,70.1433,207.69,4.2,mb,,82,1.774,0.59,us,us70009bn0,2020-07-29T22:14:14.040Z,"25 km E of Farkh?r, Afghanistan",earthquake,8.7,7.5,0.153,12,reviewed,us,us
+2020-05-05T10:01:29.018Z,36.4702,71.073,103.22,4.4,mb,,104,2.233,0.69,us,us70009abx,2020-07-18T21:57:36.040Z,"47 km WSW of Ashk?sham, Afghanistan",earthquake,8,10.4,0.149,13,reviewed,us,us
+2020-05-01T16:48:38.322Z,36.7068,71.0901,249.28,4.3,mb,,63,2.061,0.69,us,us700098a0,2020-07-18T21:57:09.040Z,"28 km SE of Jurm, Afghanistan",earthquake,6.9,5.9,0.113,22,reviewed,us,us
+2020-04-29T02:05:46.768Z,36.1877,70.0102,118.41,4.2,mb,,74,1.823,0.75,us,us60009efn,2020-07-18T21:57:02.040Z,"44 km SSE of Farkh?r, Afghanistan",earthquake,6.5,8.2,0.112,22,reviewed,us,us
+2020-04-28T11:15:35.077Z,36.5341,70.5821,199.81,4.7,mb,,62,1.957,0.81,us,us60009dul,2025-12-22T18:33:07.962Z,"43 km SSW of Jurm, Afghanistan",earthquake,6.5,6.4,0.037,215,reviewed,us,us
+2020-04-25T14:38:27.755Z,29.9853,69.5743,35,4.1,mb,,152,4.564,0.93,us,us60009c7r,2020-07-11T22:19:04.040Z,"10 km NNE of Barkhan, Pakistan",earthquake,11.1,2,0.157,11,reviewed,us,us
+2020-04-25T14:29:13.743Z,30.063,69.5508,41.46,4.1,mb,,152,4.485,0.69,us,us60009c7n,2020-07-11T22:19:04.040Z,"18 km N of Barkhan, Pakistan",earthquake,8.6,13.5,0.166,10,reviewed,us,us
+2020-04-23T18:54:14.489Z,36.4895,70.9746,147.33,4,mb,,94,2.17,0.72,us,us60009epj,2020-07-11T22:19:20.040Z,"43 km SSE of Jurm, Afghanistan",earthquake,7.9,11.8,0.196,7,reviewed,us,us
+2020-04-21T12:12:16.952Z,36.3646,70.544,168.81,4.6,mb,,112,2.193,0.6,us,us700090zj,2020-07-09T14:31:40.040Z,"61 km SSW of Jurm, Afghanistan",earthquake,6.1,16.6,0.315,3,reviewed,us,us
+2020-04-21T01:17:28.268Z,35.7311,74.5266,35,4.3,mb,,104,2.32,0.85,us,us60009dbz,2020-07-09T14:31:38.040Z,"28 km SE of Gilgit, Pakistan",earthquake,8.8,2,0.168,10,reviewed,us,us
+2020-04-20T16:13:12.450Z,36.5138,70.7016,193.16,4.1,mb,,78,2.388,0.72,us,us700090i9,2020-07-09T14:31:36.040Z,"40 km SSW of Jurm, Afghanistan",earthquake,8,6.8,0.081,42,reviewed,us,us
+2020-04-17T18:25:44.485Z,36.35,71.258,122.86,4.1,mb,,59,2.42,0.75,us,us70008ysq,2020-07-09T14:31:22.040Z,"44 km SSW of Ashk?sham, Afghanistan",earthquake,4.5,7.2,0.085,44,reviewed,us,us
+2020-04-17T12:43:57.458Z,36.9163,71.156,98.8,4.2,mb,,65,1.951,0.83,us,us70008ygd,2020-07-09T14:31:20.040Z,"29 km E of Jurm, Afghanistan",earthquake,4.6,8.1,0.136,15,reviewed,us,us
+2020-04-17T00:30:06.208Z,36.3494,70.6608,159.32,4.7,mb,,76,2.149,0.8,us,us70008y1j,2020-07-09T14:31:15.040Z,"59 km SSW of Jurm, Afghanistan",earthquake,6.8,10.2,0.225,6,reviewed,us,us
+2020-04-16T00:49:53.526Z,36.553,71.5259,97.3,4.2,mb,,67,2.851,0.85,us,us70008x8a,2020-07-09T14:31:09.040Z,"14 km S of Ashk?sham, Afghanistan",earthquake,6.7,8.2,0.091,34,reviewed,us,us
+2020-04-14T21:31:42.569Z,36.7115,71.3759,178.5,4.1,mb,,69,2.787,1.23,us,us70008wax,2020-06-30T14:03:10.040Z,"14 km WNW of Ashk?sham, Afghanistan",earthquake,7.5,6.4,0.101,27,reviewed,us,us
+2020-04-12T12:15:02.191Z,28.8336,77.3589,10,3.8,mb,,185,5.942,0.75,us,us70008utq,2020-12-17T19:10:55.070Z,"Haryana-Delhi-Uttar Pradesh region, India",earthquake,12.6,2,0.154,11,reviewed,us,us
+2020-04-12T00:32:54.726Z,29.3551,70.0699,10,4,mb,,202,5.079,0.72,us,us70008ufr,2020-06-30T14:03:00.040Z,"37 km SW of Dajal, Pakistan",earthquake,12,2,0.156,11,reviewed,us,us
+2020-04-10T13:51:17.590Z,36.0472,70.0336,114.27,4,mb,,78,1.707,1.11,us,us70008t8i,2020-06-30T14:02:51.040Z,"60 km SSE of Farkh?r, Afghanistan",earthquake,4.3,8.1,0.156,11,reviewed,us,us
+2020-04-09T19:51:37.074Z,36.5384,71.2798,228.21,4.5,mb,,45,2.701,0.95,us,us70008spr,2020-06-30T14:02:50.040Z,"27 km SW of Ashk?sham, Afghanistan",earthquake,7.3,5.3,0.04,179,reviewed,us,us
+2020-04-06T11:39:07.877Z,36.4031,71.2765,112.48,4.2,mb,,72,2.388,0.89,us,us70008pva,2020-06-21T00:55:11.040Z,"38 km SW of Ashk?sham, Afghanistan",earthquake,6.9,7.3,0.093,32,reviewed,us,us
+2020-04-05T20:21:05.163Z,36.6776,71.0024,243.72,4.5,mb,,70,2.037,0.8,us,us70008pga,2020-06-21T00:55:06.040Z,"25 km SE of Jurm, Afghanistan",earthquake,8.4,8.3,0.145,14,reviewed,us,us
+2020-04-04T08:29:22.470Z,34.9652,71.3367,78.77,4,mb,,129,1.935,0.34,us,us70008nha,2020-06-21T00:54:57.040Z,"7 km SSW of ?sm?r, Afghanistan",earthquake,4.5,17.5,0.232,5,reviewed,us,us
+2020-04-02T23:20:30.358Z,36.038,70.4391,122.36,4.2,mb,,83,1.88,0.6,us,us70008m4u,2020-06-21T00:54:46.040Z,"79 km SE of Farkh?r, Afghanistan",earthquake,6,8.4,0.159,11,reviewed,us,us
+2020-03-30T15:42:33.456Z,36.6765,71.0957,214.05,4.9,mww,,43,2.087,0.75,us,us70008in9,2025-12-22T18:31:57.192Z,"31 km SE of Jurm, Afghanistan",earthquake,6.9,6.4,0.098,10,reviewed,us,us
+2020-03-30T01:49:33.657Z,36.0281,69.8646,98.43,4.2,mb,,62,2.073,0.65,us,us70008ih4,2020-06-13T18:44:56.040Z,"60 km S of Farkh?r, Afghanistan",earthquake,8.1,7.1,0.098,29,reviewed,us,us
+2020-03-29T18:17:45.513Z,32.9731,76.4202,10,4.3,mb,,153,2.724,0.65,us,us70008idc,2020-06-13T18:44:49.040Z,"53 km NNE of Chamba, India",earthquake,9.7,1.9,0.133,16,reviewed,us,us
+2020-03-28T07:38:53.482Z,36.7514,71.349,176.53,4.4,mb,,69,2.176,0.64,us,us70008hr4,2020-06-13T18:44:56.040Z,"18 km WNW of Ashk?sham, Afghanistan",earthquake,7.6,8.4,0.096,31,reviewed,us,us
+2020-03-27T11:46:58.989Z,32.697,76.144,10,4.5,mb,,114,2.592,0.75,us,us70008h7l,2020-06-13T18:44:49.040Z,"15 km N of Chamba, India",earthquake,3.7,1.9,0.083,42,reviewed,us,us
+2020-03-26T04:22:21.491Z,36.4352,71.2398,101.7,4.1,mb,,76,2.604,0.72,us,us70008g7i,2020-06-13T18:44:56.040Z,"38 km SW of Ashk?sham, Afghanistan",earthquake,7.9,7.2,0.139,14,reviewed,us,us
+2020-03-23T00:08:29.194Z,36.5182,70.8672,213.06,4.1,mb,,95,2.471,0.75,us,us70008eba,2020-06-06T20:54:08.040Z,"38 km S of Jurm, Afghanistan",earthquake,8.1,7.9,0.075,49,reviewed,us,us
+2020-03-17T00:38:36.468Z,36.5698,70.957,208.92,4,mb,,74,2.097,0.76,us,us60008gwi,2020-05-30T22:17:16.040Z,"34 km SSE of Jurm, Afghanistan",earthquake,6.6,15.2,0.232,5,reviewed,us,us
+2020-03-16T14:45:24.419Z,36.4089,70.6925,124.5,4.2,mb,,75,2.11,0.7,us,us60008gj8,2020-05-30T22:17:13.040Z,"52 km SSW of Jurm, Afghanistan",earthquake,7.8,8.8,0.147,13,reviewed,us,us
+2020-03-15T09:21:04.447Z,36.4229,71.1691,81.39,4.2,mb,,76,2.318,1.06,us,us60008fzt,2020-05-30T22:17:10.040Z,"43 km SW of Ashk?sham, Afghanistan",earthquake,7.5,10.7,0.136,15,reviewed,us,us
+2020-03-07T22:58:16.951Z,36.8761,75.7791,10,4.5,mb,,68,3.817,0.63,us,us60008btq,2020-05-23T22:03:32.040Z,"114 km ENE of Barishal, Pakistan",earthquake,7,1.9,0.079,47,reviewed,us,us
+2020-03-07T00:45:01.365Z,36.4064,71.1384,115.46,4.6,mb,,106,2.316,0.77,us,us60008bg2,2020-05-23T22:03:05.040Z,"46 km SW of Ashk?sham, Afghanistan",earthquake,7,5.1,0.109,25,reviewed,us,us
+2020-03-05T19:59:21.536Z,27.7651,66.078,28.45,4.6,mb,,97,7.216,0.9,us,us60008aiz,2020-05-23T22:03:06.040Z,"52 km W of Khuzdar, Pakistan",earthquake,9.1,5.6,0.06,82,reviewed,us,us
+2020-03-05T16:05:56.508Z,29.3811,67.7,16.31,4.3,mb,,71,5.269,0.68,us,us60008aax,2020-05-23T22:03:06.040Z,"11 km SSE of Dadhar, Pakistan",earthquake,8.4,2.9,0.079,53,reviewed,us,us
+2020-03-04T04:23:06.314Z,36.6066,70.9126,202.43,4,mb,,77,2.046,1.34,us,us6000896g,2020-05-23T22:03:05.040Z,"29 km SSE of Jurm, Afghanistan",earthquake,5.9,18.3,0.196,7,reviewed,us,us
+2020-03-01T06:01:40.069Z,36.5731,70.9479,203.07,4.2,mb,,72,2.465,0.64,us,us6000879e,2020-05-19T22:14:15.040Z,"33 km SSE of Jurm, Afghanistan",earthquake,5.7,8.6,0.132,17,reviewed,us,us
+2020-02-29T07:22:41.832Z,36.5664,71.2484,123.52,4,mb,,84,2.539,0.75,us,us600086tf,2020-05-19T22:14:11.040Z,"28 km WSW of Ashk?sham, Afghanistan",earthquake,4.5,10.4,0.232,5,reviewed,us,us
+2020-02-28T13:24:23.862Z,36.2073,70.4918,100.57,4.4,mb,,102,2.041,0.78,us,us60008632,2020-05-19T22:14:07.040Z,"69 km SE of Farkh?r, Afghanistan",earthquake,6.9,10.5,0.112,23,reviewed,us,us
+2020-02-28T11:07:11.020Z,32.9646,76.3114,10,4.2,mb,,116,2.638,0.95,us,us60008612,2020-05-19T22:14:07.040Z,"48 km NNE of Chamba, India",earthquake,7.7,1.6,0.132,16,reviewed,us,us
+2020-02-28T05:50:18.394Z,35.2945,71.8197,58.81,4.5,mb,,84,2.03,0.92,us,us600085v8,2020-05-19T22:14:05.040Z,"10 km NNW of Upper Dir, Pakistan",earthquake,6.2,6.4,0.088,38,reviewed,us,us
+2020-02-27T15:01:22.129Z,36.1754,69.8896,106.8,4,mb,,72,1.771,0.7,us,us6000859g,2020-05-19T22:14:02.040Z,"44 km S of Farkh?r, Afghanistan",earthquake,5.2,8.3,0.139,18,reviewed,us,us
+2020-02-26T15:04:08.953Z,32.9752,76.2474,10,5,mb,,37,2.583,0.85,us,us600084lt,2025-12-22T18:30:04.841Z,"47 km NNE of Chamba, India",earthquake,4.7,1.7,0.041,189,reviewed,us,us
+2020-02-23T03:14:18.368Z,36.5085,70.8037,185.65,4,mb,,73,2.389,0.99,us,us70007v0s,2020-05-09T21:41:13.040Z,"39 km S of Jurm, Afghanistan",earthquake,4.5,8.2,0.149,12,reviewed,us,us
+2020-02-18T23:11:58.225Z,35.6198,74.5363,10,4.3,mb,,96,2.225,1,us,us70007vxz,2020-05-02T22:10:37.040Z,"38 km SSE of Gilgit, Pakistan",earthquake,7.7,1.9,0.153,12,reviewed,us,us
+2020-02-17T07:16:25.977Z,35.6065,74.5291,10,4.4,mb,,69,2.21,0.79,us,us70007u9h,2020-05-02T22:10:32.040Z,"39 km SSE of Gilgit, Pakistan",earthquake,8.7,1.9,0.123,19,reviewed,us,us
+2020-02-16T23:34:28.851Z,36.2175,70.1489,128.78,4,mb,,75,1.901,0.69,us,us70007rjb,2020-05-02T22:10:01.040Z,"47 km SSE of Farkh?r, Afghanistan",earthquake,7.7,13.5,0.195,7,reviewed,us,us
+2020-02-14T13:50:04.506Z,36.4722,71.241,237.99,4.1,mb,,114,2.632,0.62,us,us70007tqg,2020-05-02T22:10:29.040Z,"35 km SW of Ashk?sham, Afghanistan",earthquake,10,11.4,0.234,5,reviewed,us,us
+2020-02-12T00:50:08.991Z,36.4044,68.6468,10,4.3,mb,,74,1.887,0.8,us,us70007nje,2020-05-02T22:09:39.040Z,"30 km N of Baghl?n, Afghanistan",earthquake,7.2,1.9,0.102,27,reviewed,us,us
+2020-02-04T20:32:55.267Z,36.5831,71.2477,128.66,4.9,mb,,57,0.763,0.88,us,us70007iiq,2020-04-18T22:10:26.040Z,"27 km WSW of Ashk?sham, Afghanistan",earthquake,6,5.7,0.04,207,reviewed,us,us
+2020-02-04T05:05:34.413Z,34.547,70.5826,10,4.4,mb,,143,1.27,1.12,us,us60007p4i,2020-04-18T22:10:23.040Z,"17 km NE of Jal?l?b?d, Afghanistan",earthquake,5.9,1.3,0.114,22,reviewed,us,us
+2020-02-03T05:26:29.902Z,36.525,71.1486,107.6,4.4,mb,,73,1.083,0.84,us,us60007n5s,2020-04-18T22:10:18.040Z,"38 km WSW of Ashk?sham, Afghanistan",earthquake,6.7,7.7,0.107,25,reviewed,us,us
+2020-01-30T04:14:53.540Z,36.6417,69.574,275.89,4.2,mb,,76,2.14,0.67,us,us60007jrr,2020-04-18T22:09:55.040Z,"11 km SSE of Taloqan, Afghanistan",earthquake,7.7,8.5,0.215,6,reviewed,us,us
+2020-01-29T12:05:19.569Z,36.5504,70.8987,173.47,4.2,mb,,109,2.511,0.69,us,us60007j1j,2020-04-18T22:09:52.040Z,"35 km S of Jurm, Afghanistan",earthquake,6.6,9.5,0.176,9,reviewed,us,us
+2020-01-28T00:43:37.381Z,36.8002,71.5836,109.62,4,mb,,100,2.684,0.77,us,us60007hu5,2020-04-11T18:20:59.040Z,"8 km NNW of Ishqoshim, Tajikistan",earthquake,9.1,10.1,0.099,27,reviewed,us,us
+2020-01-27T20:57:53.201Z,30.9589,69.8631,10,4.3,mb,,131,3.638,0.83,us,us60007hjw,2020-04-11T18:20:57.040Z,"57 km SE of Zhob, Pakistan",earthquake,8.8,1.9,0.094,32,reviewed,us,us
+2020-01-27T14:26:29.446Z,35.6993,75.2078,10,4.5,mb,,201,2.594,0.49,us,us60007h9c,2020-04-11T18:20:56.040Z,"58 km NW of Skardu, Pakistan",earthquake,9.8,1.9,0.242,5,reviewed,us,us
+2020-01-24T20:42:11.783Z,36.313,69.7769,145.12,4.2,mb,,62,1.819,0.77,us,us60007f1n,2020-04-11T18:20:45.040Z,"29 km SSW of Farkh?r, Afghanistan",earthquake,6.1,7.6,0.093,36,reviewed,us,us
+2020-01-24T19:30:56.776Z,36.698,71.1214,213.52,4.3,mb,,55,2.085,0.73,us,us60007ezg,2020-04-11T18:20:45.040Z,"31 km SE of Jurm, Afghanistan",earthquake,6.5,5.6,0.061,81,reviewed,us,us
+2020-01-18T16:38:10.363Z,26.2392,66.4387,10,4.8,mb,,227,8.573,0.93,us,us60007a4g,2020-04-08T19:39:36.040Z,"12 km E of Bela, Pakistan",earthquake,6.5,2,0.101,30,reviewed,us,us
+2020-01-17T19:08:21.690Z,36.5423,70.7624,186.5,4.3,mb,,55,1.219,1.01,us,us600079dz,2020-04-08T19:39:33.040Z,"36 km S of Jurm, Afghanistan",earthquake,6.3,6.2,0.081,46,reviewed,us,us
+2020-01-17T18:24:02.985Z,36.5577,70.8358,195.44,4.1,mb,,72,1.173,0.96,us,us600079cu,2020-04-08T19:39:33.040Z,"34 km S of Jurm, Afghanistan",earthquake,6.4,4.7,0.094,35,reviewed,us,us
+2020-01-17T03:53:52.561Z,34.0601,60.3145,10,4.1,mb,,130,1.631,1.16,us,us700071gz,2020-04-08T19:40:16.040Z,"86 km SSW of T?yb?d, Iran",earthquake,9.6,1.9,0.135,15,reviewed,us,us
+2020-01-12T05:23:56.526Z,35.0149,74.474,10,5.1,mb,,68,1.687,0.67,us,us70006ymh,2025-12-22T18:26:16.874Z,"68 km NNW of Bandipura, India",earthquake,4.4,1.4,0.036,244,reviewed,us,us
+2020-01-12T02:18:44.119Z,27.5265,67.4928,10,4,mb,,149,7.117,0.62,us,us70006yl2,2020-04-02T21:28:18.040Z,"31 km WNW of Warah, Pakistan",earthquake,10.8,1.9,0.129,16,reviewed,us,us
+2020-01-07T15:09:03.481Z,35.6192,70.1051,103.51,4,mb,,93,1.384,0.43,us,us70006vru,2020-03-21T17:13:41.040Z,"63 km ENE of B?z?rak, Afghanistan",earthquake,7.9,12.4,0.232,7,reviewed,us,us
+2020-01-05T18:03:00.488Z,36.4993,70.7939,210.67,4.2,mb,,73,1.24,0.96,us,us70006v1b,2020-03-21T17:13:37.040Z,"40 km S of Jurm, Afghanistan",earthquake,6.4,7.3,0.216,6,reviewed,us,us
+2020-01-04T22:34:22.995Z,31.9136,66.8822,10,4,mb,,147,3.185,0.89,us,us70006ut9,2020-03-21T17:13:35.040Z,"21 km S of Qal?t, Afghanistan",earthquake,5.6,2,0.183,8,reviewed,us,us
+2020-01-04T08:24:38.167Z,25.499,63.1389,10,4.9,mb,,97,6.304,0.68,us,us70006ulm,2020-03-21T17:13:35.040Z,"southwestern Pakistan",earthquake,10,1.9,0.079,51,reviewed,us,us
+2020-01-02T10:03:06.225Z,34.1629,60.408,10,4.3,mb,,116,1.536,1.43,us,us70006th1,2020-03-21T17:13:33.040Z,"72 km SSW of T?yb?d, Iran",earthquake,8.7,1.9,0.104,26,reviewed,us,us
+2020-01-02T04:29:06.582Z,34.1326,60.2681,10,5.5,mww,,45,1.655,0.91,us,us70006tev,2025-12-22T18:25:06.967Z,"81 km SW of T?yb?d, Iran",earthquake,6.6,1.7,0.089,12,reviewed,us,us

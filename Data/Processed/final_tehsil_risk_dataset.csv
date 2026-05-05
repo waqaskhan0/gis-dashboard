@@ -1,0 +1,99 @@
+province,district,tehsil,avg_rainfall,max_rainfall,avg_temperature,max_temperature,max_magnitude,avg_magnitude,earthquake_count,flood_score,heatwave_score,earthquake_score,overall_risk_score,overall_risk_level,recommendation
+AzadKashmir,AzadKashmir,Bagh,4.0724429945054945,160.15,12.592140698587126,27.47,0.0,0.0,0.0,90,20,20,43.333333333333336,Medium,Continue monitoring and prepare resources if conditions worsen.
+AzadKashmir,AzadKashmir,Kotli,4.520077168367347,171.06,18.740544299450548,33.39,0.0,0.0,0.0,90,20,20,43.333333333333336,Medium,Continue monitoring and prepare resources if conditions worsen.
+AzadKashmir,AzadKashmir,Neelum,3.20112609563056,89.04,3.2470447409733127,23.37,5.1,5.1,1.0,90,20,75,61.666666666666664,High,"Prepare response teams, monitor vulnerable areas, notify local administration."
+Balochistan,Kalat,Awaran,0.8092626481150944,64.3,24.32981791789424,37.85,4.2,4.066666666666666,3.0,70,50,50,56.666666666666664,Medium,Continue monitoring and prepare resources if conditions worsen.
+Balochistan,Kalat,DisputedArea1,1.2247892303391323,101.54,25.19551551041913,37.41,0.0,0.0,0.0,90,50,20,53.333333333333336,Medium,Continue monitoring and prepare resources if conditions worsen.
+Balochistan,Kalat,Kalat,1.3045858637448657,121.25,15.93734764306144,32.84,4.6,4.275,4.0,90,20,50,53.333333333333336,Medium,Continue monitoring and prepare resources if conditions worsen.
+Balochistan,Kalat,Kharan,0.9694667196097165,269.19,21.133294152660312,39.84,5.6,4.720000000000001,5.0,90,50,75,71.66666666666667,High,"Prepare response teams, monitor vulnerable areas, notify local administration."
+Balochistan,Kalat,Khuzdar,1.5052184300184022,247.06,20.86153766892878,36.65,5.2,4.3999999999999995,12.0,90,50,75,71.66666666666667,High,"Prepare response teams, monitor vulnerable areas, notify local administration."
+Balochistan,Kalat,Lasbela,1.42765758800886,137.03,24.71524723930668,36.35,4.8,4.699999999999999,2.0,90,50,50,63.333333333333336,High,"Prepare response teams, monitor vulnerable areas, notify local administration."
+Balochistan,Kalat,Mastung,1.5356130405797725,466.31,14.571681248790348,31.06,4.3,4.3,1.0,90,20,50,53.333333333333336,Medium,Continue monitoring and prepare resources if conditions worsen.
+Balochistan,Makran,Gwadar,0.5343130040214189,51.79,25.88240232038021,37.39,4.9,4.633333333333334,3.0,70,50,50,56.666666666666664,Medium,Continue monitoring and prepare resources if conditions worsen.
+Balochistan,Makran,Kech,0.4414660992953557,41.46,25.020082620087024,38.93,4.7,4.7,1.0,40,50,50,46.666666666666664,Medium,Continue monitoring and prepare resources if conditions worsen.
+Balochistan,Makran,Panjgur,0.6103448005726452,48.36,21.509382641540732,36.13,0.0,0.0,0.0,40,50,20,36.666666666666664,Low,Normal monitoring.
+Balochistan,Nasirabad,Bolan,1.7592296438069432,312.42,24.40781540540347,40.81,4.3,4.3,2.0,90,75,50,71.66666666666667,High,"Prepare response teams, monitor vulnerable areas, notify local administration."
+Balochistan,Nasirabad,Jafarabad,2.4005626008042835,517.62,26.98032974559687,40.76,0.0,0.0,0.0,90,75,20,61.666666666666664,High,"Prepare response teams, monitor vulnerable areas, notify local administration."
+Balochistan,Nasirabad,JhalMagsi,2.0844096632330484,300.3,25.594465903959055,40.68,0.0,0.0,0.0,90,75,20,61.666666666666664,High,"Prepare response teams, monitor vulnerable areas, notify local administration."
+Balochistan,Nasirabad,Nasirabad,2.359429281090729,457.02,26.577730306875118,42.0,0.0,0.0,0.0,90,75,20,61.666666666666664,High,"Prepare response teams, monitor vulnerable areas, notify local administration."
+Balochistan,Quetta,Chagai,0.9528091080478556,323.49,20.71988113875687,40.38,0.0,0.0,0.0,90,75,20,61.666666666666664,High,"Prepare response teams, monitor vulnerable areas, notify local administration."
+Balochistan,Quetta,Pishin,1.9319679405416013,563.67,12.589440844126113,31.16,4.7,4.125,4.0,90,20,50,53.333333333333336,Medium,Continue monitoring and prepare resources if conditions worsen.
+Balochistan,Quetta,QillaAbdullah,2.0086563154107795,563.62,13.49626617281528,30.62,4.3,4.25,2.0,90,20,50,53.333333333333336,Medium,Continue monitoring and prepare resources if conditions worsen.
+Balochistan,Sibi,DeraBugti,2.02434658932066,356.79,24.011972505967613,38.43,4.6,4.55,2.0,90,50,50,63.333333333333336,High,"Prepare response teams, monitor vulnerable areas, notify local administration."
+Balochistan,Sibi,Kholu,1.8564984086363736,153.1,20.336441302337583,37.42,4.1,4.1,2.0,90,50,50,63.333333333333336,High,"Prepare response teams, monitor vulnerable areas, notify local administration."
+Balochistan,Sibi,Sibi,1.6898247600410026,285.82,20.803362307620624,39.87,5.9,4.65,8.0,90,50,75,71.66666666666667,High,"Prepare response teams, monitor vulnerable areas, notify local administration."
+Balochistan,Sibi,Ziarat,1.7979833038984823,440.72,12.516070954343276,28.61,5.5,5.5,1.0,90,20,75,61.666666666666664,High,"Prepare response teams, monitor vulnerable areas, notify local administration."
+Balochistan,Zhob,Loralai,1.7778454848417238,229.31,16.583066072447814,35.66,4.7,4.550000000000001,2.0,90,50,50,63.333333333333336,High,"Prepare response teams, monitor vulnerable areas, notify local administration."
+Balochistan,Zhob,Musakhel,1.7904988880167452,344.09,19.08039632391418,35.41,4.3,4.3,2.0,90,50,50,63.333333333333336,High,"Prepare response teams, monitor vulnerable areas, notify local administration."
+Balochistan,Zhob,QillaSaifullah,1.8295665799973835,329.01,13.643249983647305,30.74,0.0,0.0,0.0,90,20,20,43.333333333333336,Medium,Continue monitoring and prepare resources if conditions worsen.
+Balochistan,Zhob,Zhob,1.8198144010007848,473.13,13.852572610053636,31.85,4.5,4.5,1.0,90,20,50,53.333333333333336,Medium,Continue monitoring and prepare resources if conditions worsen.
+FederallyAdministeredTribalAr,F.A.T.A.,Khyber,2.8998235544217685,115.61,17.801307005494504,34.12,0.0,0.0,0.0,90,20,20,43.333333333333336,Medium,Continue monitoring and prepare resources if conditions worsen.
+FederallyAdministeredTribalAr,F.A.T.A.,Kurram,2.3151831420068025,246.98,13.546484677524855,32.46,0.0,0.0,0.0,90,20,20,43.333333333333336,Medium,Continue monitoring and prepare resources if conditions worsen.
+FederallyAdministeredTribalAr,F.A.T.A.,LarghaShirani,1.6873272991889063,393.36,18.219467245552067,34.12,4.2,4.2,1.0,90,20,50,53.333333333333336,Medium,Continue monitoring and prepare resources if conditions worsen.
+FederallyAdministeredTribalAr,F.A.T.A.,Mohmand,2.842463549843014,126.68,17.51513360151753,33.76,0.0,0.0,0.0,90,20,20,43.333333333333336,Medium,Continue monitoring and prepare resources if conditions worsen.
+FederallyAdministeredTribalAr,F.A.T.A.,N.Waziristan,2.1748515338827836,174.05,15.657329048927263,31.02,4.8,4.4,4.0,90,20,50,53.333333333333336,Medium,Continue monitoring and prepare resources if conditions worsen.
+FederallyAdministeredTribalAr,F.A.T.A.,S.Waziristan,1.87849057675955,404.57,16.528057451105443,36.52,4.5,4.5,2.0,90,50,50,63.333333333333336,High,"Prepare response teams, monitor vulnerable areas, notify local administration."
+Gilgit-Baltistan,NorthernAreas,Chilas,1.4444557005494505,25.33,3.936086423992674,23.6,5.2,4.4799999999999995,5.0,40,20,75,45.0,Medium,Continue monitoring and prepare resources if conditions worsen.
+Gilgit-Baltistan,NorthernAreas,Gilgit,0.8270256042320775,55.67,-3.485731310913789,19.71,4.5,4.4,4.0,70,20,50,46.666666666666664,Medium,Continue monitoring and prepare resources if conditions worsen.
+Gilgit-Baltistan,NorthernAreas,Kupwara(GilgitWazarat),1.756247628859236,35.16,-2.308362024136578,19.16,5.1,4.514285714285714,7.0,40,20,75,45.0,Medium,Continue monitoring and prepare resources if conditions worsen.
+Khyber-Pakhtunkhwa,Bannu,Bannu,2.2279550791470433,115.33,20.476788281658816,36.95,0.0,0.0,0.0,90,50,20,53.333333333333336,Medium,Continue monitoring and prepare resources if conditions worsen.
+Khyber-Pakhtunkhwa,Bannu,LakkiMarwat,1.870698505363684,98.96,21.761130527210884,38.69,0.0,0.0,0.0,90,50,20,53.333333333333336,Medium,Continue monitoring and prepare resources if conditions worsen.
+Khyber-Pakhtunkhwa,DeraIsmailKhan,DeraIsmailKhan,1.5486765600470958,188.69,23.942322695905286,41.03,0.0,0.0,0.0,90,75,20,61.666666666666664,High,"Prepare response teams, monitor vulnerable areas, notify local administration."
+Khyber-Pakhtunkhwa,Hazara,Haripur,5.346992739403453,265.28,17.356231292517005,33.04,0.0,0.0,0.0,90,20,20,43.333333333333336,Medium,Continue monitoring and prepare resources if conditions worsen.
+Khyber-Pakhtunkhwa,Hazara,Kohistan,2.3599915511076226,199.92,4.118897806558521,22.78,0.0,0.0,0.0,90,20,20,43.333333333333336,Medium,Continue monitoring and prepare resources if conditions worsen.
+Khyber-Pakhtunkhwa,Hazara,Mansehra,3.4597925497121924,206.74,6.335134509092098,29.5,4.5,4.34,5.0,90,20,50,53.333333333333336,Medium,Continue monitoring and prepare resources if conditions worsen.
+Khyber-Pakhtunkhwa,Kohat,Karak,2.643773302590267,128.17,21.307152750523286,38.24,0.0,0.0,0.0,90,50,20,53.333333333333336,Medium,Continue monitoring and prepare resources if conditions worsen.
+Khyber-Pakhtunkhwa,Kohat,Kohat,3.714295386904762,350.27,19.884514570251177,38.24,4.7,4.5,2.0,90,50,50,63.333333333333336,High,"Prepare response teams, monitor vulnerable areas, notify local administration."
+Khyber-Pakhtunkhwa,Malakand,Chitral,1.2826755723443224,90.58,-2.651799800497122,20.96,4.4,4.266666666666667,3.0,90,20,50,53.333333333333336,Medium,Continue monitoring and prepare resources if conditions worsen.
+Khyber-Pakhtunkhwa,Malakand,Dir,3.0050701694139192,185.16,12.021466231684983,27.78,4.5,4.366666666666667,3.0,90,20,50,53.333333333333336,Medium,Continue monitoring and prepare resources if conditions worsen.
+Khyber-Pakhtunkhwa,Malakand,MalakandP.A.,3.5236003237833593,207.89,18.923808428178965,35.32,0.0,0.0,0.0,90,50,20,53.333333333333336,Medium,Continue monitoring and prepare resources if conditions worsen.
+Khyber-Pakhtunkhwa,Malakand,Swat,2.55839652014652,163.96,4.322918694400837,24.83,0.0,0.0,0.0,90,20,20,43.333333333333336,Medium,Continue monitoring and prepare resources if conditions worsen.
+Khyber-Pakhtunkhwa,Mardan,Buner,4.195084527080063,122.58,17.52780535387232,32.52,0.0,0.0,0.0,90,20,20,43.333333333333336,Medium,Continue monitoring and prepare resources if conditions worsen.
+Khyber-Pakhtunkhwa,Mardan,Swabi,5.272644001831502,269.1,21.110740122972267,37.51,0.0,0.0,0.0,90,50,20,53.333333333333336,Medium,Continue monitoring and prepare resources if conditions worsen.
+Khyber-Pakhtunkhwa,Peshawar,Nowshera,4.03408195970696,257.9,20.292723492281528,37.62,0.0,0.0,0.0,90,50,20,53.333333333333336,Medium,Continue monitoring and prepare resources if conditions worsen.
+Punjab,Bahawalpur,Bahawalnagar,1.4297718472004186,453.17,25.44719755690738,40.78,0.0,0.0,0.0,90,75,20,61.666666666666664,High,"Prepare response teams, monitor vulnerable areas, notify local administration."
+Punjab,Bahawalpur,RahimyarKhan,1.1607616287821767,126.77,26.746866271693083,39.94,0.0,0.0,0.0,90,50,20,53.333333333333336,Medium,Continue monitoring and prepare resources if conditions worsen.
+Punjab,DeraGhaziKhan,DeraGhaziKha,1.6162521532915062,270.33,24.072661813239083,40.62,4.5,4.3,6.0,90,75,50,71.66666666666667,High,"Prepare response teams, monitor vulnerable areas, notify local administration."
+Punjab,DeraGhaziKhan,Layyah,1.2917582090528519,88.42,24.827404500261643,41.31,0.0,0.0,0.0,90,75,20,61.666666666666664,High,"Prepare response teams, monitor vulnerable areas, notify local administration."
+Punjab,DeraGhaziKhan,Muzaffargarh,1.0794066506410256,65.79,25.468285133765043,41.21,4.8,4.8,1.0,70,75,50,65.0,High,"Prepare response teams, monitor vulnerable areas, notify local administration."
+Punjab,DeraGhaziKhan,RajanPur,1.465646448463474,86.96,25.427329014429798,39.42,5.2,4.4,5.0,90,50,75,71.66666666666667,High,"Prepare response teams, monitor vulnerable areas, notify local administration."
+Punjab,Faisalabad,Faisalabad,1.740837838500785,246.61,24.336787292320775,40.98,0.0,0.0,0.0,90,75,20,61.666666666666664,High,"Prepare response teams, monitor vulnerable areas, notify local administration."
+Punjab,Faisalabad,Jhang,1.5837336145996859,119.17,24.435155849358974,41.17,4.4,4.4,1.0,90,75,50,71.66666666666667,High,"Prepare response teams, monitor vulnerable areas, notify local administration."
+Punjab,Faisalabad,TobaTekSingh,1.5639297651753008,231.78,24.793126929618005,40.78,0.0,0.0,0.0,90,75,20,61.666666666666664,High,"Prepare response teams, monitor vulnerable areas, notify local administration."
+Punjab,Gujranwala,Gujarat,3.359436273547881,87.0,22.493897632129773,39.66,0.0,0.0,0.0,90,50,20,53.333333333333336,Medium,Continue monitoring and prepare resources if conditions worsen.
+Punjab,Gujranwala,Gujranwala1,2.730523122710623,71.95,22.84278208398744,40.41,0.0,0.0,0.0,70,75,20,55.0,Medium,Continue monitoring and prepare resources if conditions worsen.
+Punjab,Gujranwala,Hafizabad,2.5858675104657247,67.9,23.00818454016222,40.69,0.0,0.0,0.0,70,75,20,55.0,Medium,Continue monitoring and prepare resources if conditions worsen.
+Punjab,Gujranwala,Sialkot,3.3323151327838825,83.8,22.747929683411826,39.72,0.0,0.0,0.0,90,50,20,53.333333333333336,Medium,Continue monitoring and prepare resources if conditions worsen.
+Punjab,Lahore,Kasur,1.8319982420852956,175.01,24.164305558281004,40.85,0.0,0.0,0.0,90,75,20,61.666666666666664,High,"Prepare response teams, monitor vulnerable areas, notify local administration."
+Punjab,Lahore,Lahore,2.227138997906855,63.5,23.49568159667713,40.56,0.0,0.0,0.0,70,75,20,55.0,Medium,Continue monitoring and prepare resources if conditions worsen.
+Punjab,Lahore,NankanaSahib,2.076854902537938,73.98,23.696069482600734,40.69,0.0,0.0,0.0,70,75,20,55.0,Medium,Continue monitoring and prepare resources if conditions worsen.
+Punjab,Lahore,Okara1,1.5992841117216117,280.65,24.75947136643119,41.03,0.0,0.0,0.0,90,75,20,61.666666666666664,High,"Prepare response teams, monitor vulnerable areas, notify local administration."
+Punjab,Multan,Khanewal,1.205430386577708,193.79,25.243329375981162,40.84,0.0,0.0,0.0,90,75,20,61.666666666666664,High,"Prepare response teams, monitor vulnerable areas, notify local administration."
+Punjab,Multan,Sahiwal,1.5016238389586603,409.54,25.155527431645737,40.75,0.0,0.0,0.0,90,75,20,61.666666666666664,High,"Prepare response teams, monitor vulnerable areas, notify local administration."
+Punjab,Multan,Vehari,1.2290079065279957,417.5,25.539150019623232,40.9,4.3,4.3,1.0,90,75,50,71.66666666666667,High,"Prepare response teams, monitor vulnerable areas, notify local administration."
+Punjab,Rawalpindi,Attok,5.267478888670853,467.12,20.12843740188383,37.75,4.7,4.475,4.0,90,50,50,63.333333333333336,High,"Prepare response teams, monitor vulnerable areas, notify local administration."
+Punjab,Rawalpindi,Chakwal,4.041416181536717,367.99,20.750714994331066,39.17,0.0,0.0,0.0,90,50,20,53.333333333333336,Medium,Continue monitoring and prepare resources if conditions worsen.
+Punjab,Rawalpindi,Jhelum,4.1936476975405546,150.05,21.98411576072737,38.2,4.5,4.3,4.0,90,50,50,63.333333333333336,High,"Prepare response teams, monitor vulnerable areas, notify local administration."
+Punjab,Rawalpindi,Rawalpindi,5.755426788984824,450.57,20.119391826923078,36.26,4.1,3.8499999999999996,2.0,90,50,50,63.333333333333336,High,"Prepare response teams, monitor vulnerable areas, notify local administration."
+Punjab,Sargodha,Bhakkar,1.5751430370225012,115.79,24.111202680751788,41.23,0.0,0.0,0.0,90,75,20,61.666666666666664,High,"Prepare response teams, monitor vulnerable areas, notify local administration."
+Punjab,Sargodha,Khushab,2.43135737724577,189.22,22.42740234715681,40.55,0.0,0.0,0.0,90,75,20,61.666666666666664,High,"Prepare response teams, monitor vulnerable areas, notify local administration."
+Punjab,Sargodha,Mianwali,2.072681253270539,94.82,22.830172259288332,40.37,0.0,0.0,0.0,90,75,20,61.666666666666664,High,"Prepare response teams, monitor vulnerable areas, notify local administration."
+Punjab,Sargodha,Sargodha,2.538588653410082,159.18,23.123754251700678,41.06,3.4,3.4,1.0,90,75,20,61.666666666666664,High,"Prepare response teams, monitor vulnerable areas, notify local administration."
+Sindh,Hyderabad,Badin,1.7211886894905486,331.83,26.732097110814824,37.46,0.0,0.0,0.0,90,50,20,53.333333333333336,Medium,Continue monitoring and prepare resources if conditions worsen.
+Sindh,Hyderabad,Dadu,1.9100868260897614,369.51,26.525264617965206,40.26,4.4,4.35,2.0,90,75,50,71.66666666666667,High,"Prepare response teams, monitor vulnerable areas, notify local administration."
+Sindh,Hyderabad,Jamshoro,1.5366592051783834,454.21,25.348964497537686,38.86,4.2,4.033333333333333,3.0,90,50,50,63.333333333333336,High,"Prepare response teams, monitor vulnerable areas, notify local administration."
+Sindh,Hyderabad,TandoM.Khan,1.5723478957441777,427.72,26.801222683383152,38.41,0.0,0.0,0.0,90,50,20,53.333333333333336,Medium,Continue monitoring and prepare resources if conditions worsen.
+Sindh,Hyderabad,Thatta,1.8720170677333103,351.01,26.147600623284088,35.83,4.9,4.9,1.0,90,50,50,63.333333333333336,High,"Prepare response teams, monitor vulnerable areas, notify local administration."
+Sindh,Karachi,Karachiwest,1.5985937721769425,112.86,25.474377400486013,33.14,0.0,0.0,0.0,90,20,20,43.333333333333336,Medium,Continue monitoring and prepare resources if conditions worsen.
+Sindh,Larkana,Jakobabad,1.98797462420163,306.55,26.900614696458142,42.01,0.0,0.0,0.0,90,75,20,61.666666666666664,High,"Prepare response teams, monitor vulnerable areas, notify local administration."
+Sindh,Larkana,Larkana,1.7921800767725427,252.88,26.75500945140965,41.25,4.0,4.0,1.0,90,75,50,71.66666666666667,High,"Prepare response teams, monitor vulnerable areas, notify local administration."
+Sindh,Larkana,Shikarpur,2.2800617083503583,436.61,27.0999843444227,40.93,0.0,0.0,0.0,90,75,20,61.666666666666664,High,"Prepare response teams, monitor vulnerable areas, notify local administration."
+Sindh,MirpurKhas,Mirphurkhas,1.362767591019548,186.81,26.921422103825726,38.36,0.0,0.0,0.0,90,50,20,53.333333333333336,Medium,Continue monitoring and prepare resources if conditions worsen.
+Sindh,MirpurKhas,Mithi,1.649440589091274,265.84,26.6450266660932,37.94,0.0,0.0,0.0,90,50,20,53.333333333333336,Medium,Continue monitoring and prepare resources if conditions worsen.
+Sindh,MirpurKhas,Sanghar,1.3006918274158978,260.13,26.94788542898719,39.12,0.0,0.0,0.0,90,50,20,53.333333333333336,Medium,Continue monitoring and prepare resources if conditions worsen.
+Sindh,MirpurKhas,Umerkot,1.5786329541300188,215.01,26.858124502698868,37.71,0.0,0.0,0.0,90,50,20,53.333333333333336,Medium,Continue monitoring and prepare resources if conditions worsen.
+Sindh,Sukkur,Ghotki,1.3933728844540978,202.42,26.97795785036881,40.32,0.0,0.0,0.0,90,75,20,61.666666666666664,High,"Prepare response teams, monitor vulnerable areas, notify local administration."
+Sindh,Sukkur,Khairpur,1.3690597901120405,348.2,26.880705141824905,40.52,0.0,0.0,0.0,90,75,20,61.666666666666664,High,"Prepare response teams, monitor vulnerable areas, notify local administration."
+Sindh,Sukkur,NaushahroFiroz,1.5310175480097201,326.64,27.139472430700415,40.71,0.0,0.0,0.0,90,75,20,61.666666666666664,High,"Prepare response teams, monitor vulnerable areas, notify local administration."
+Sindh,Sukkur,NawabShah,1.444657265435152,242.58,26.95339393238855,40.07,0.0,0.0,0.0,90,75,20,61.666666666666664,High,"Prepare response teams, monitor vulnerable areas, notify local administration."
+Sindh,Sukkur,Sukkur,1.1486002021461903,86.3,26.886661630932664,39.52,0.0,0.0,0.0,90,50,20,53.333333333333336,Medium,Continue monitoring and prepare resources if conditions worsen.
