@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Environment files and local settings
+.env
+.env.*
+*.local
+
+# Logs
+*.log
+logs/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Raw and generated GIS/data files
+Data/Raw Weather/
+Data/Processed/*.csv
+Data/Processed/*.parquet
+Data/Processed/*.gpkg
+Data/Processed/*.shp
+Data/Processed/*.shx
+Data/Processed/*.dbf
+Data/Processed/*.prj
+Data/Processed/*.cpg
+Data/Processed/*.geojson
+
+# Keep the dashboard-ready map file used by app.py
+!Data/Processed/final_tehsil_risk_map.geojson
